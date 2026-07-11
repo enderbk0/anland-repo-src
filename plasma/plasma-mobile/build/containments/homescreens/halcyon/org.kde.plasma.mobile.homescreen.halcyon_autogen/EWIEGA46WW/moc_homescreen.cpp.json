@@ -1,0 +1,67 @@
+{
+    "classes": [
+        {
+            "className": "HomeScreen",
+            "lineNumber": 11,
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 14,
+                    "name": "settings",
+                    "override": false,
+                    "read": "settings",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "HalcyonSettings*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 15,
+                    "name": "pinnedModel",
+                    "override": false,
+                    "read": "pinnedModel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "PinnedModel*",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "HomeScreen",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "showingDesktop",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 25,
+                    "name": "showingDesktopChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "Plasma::Containment"
+                }
+            ]
+        }
+    ],
+    "inputFile": "homescreen.h",
+    "outputRevision": 69
+}

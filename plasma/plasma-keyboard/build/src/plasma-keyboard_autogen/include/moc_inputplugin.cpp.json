@@ -1,0 +1,152 @@
+{
+    "classes": [
+        {
+            "className": "InputPlugin",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 29,
+                    "name": "ContentHint",
+                    "values": [
+                        "content_hint_none",
+                        "content_hint_default",
+                        "content_hint_password",
+                        "content_hint_auto_completion",
+                        "content_hint_auto_correction",
+                        "content_hint_auto_capitalization",
+                        "content_hint_lowercase",
+                        "content_hint_uppercase",
+                        "content_hint_titlecase",
+                        "content_hint_hidden_text",
+                        "content_hint_sensitive_data",
+                        "content_hint_latin",
+                        "content_hint_multiline"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 46,
+                    "name": "ContentPurpose",
+                    "values": [
+                        "content_purpose_normal",
+                        "content_purpose_alpha",
+                        "content_purpose_digits",
+                        "content_purpose_number",
+                        "content_purpose_phone",
+                        "content_purpose_url",
+                        "content_purpose_email",
+                        "content_purpose_name",
+                        "content_purpose_password",
+                        "content_purpose_date",
+                        "content_purpose_time",
+                        "content_purpose_datetime",
+                        "content_purpose_terminal"
+                    ]
+                }
+            ],
+            "lineNumber": 21,
+            "object": true,
+            "qualifiedClassName": "InputPlugin",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 93,
+                    "name": "contextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 94,
+                    "name": "surroundingTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 95,
+                    "name": "cursorChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 96,
+                    "name": "contentTypeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 97,
+                    "name": "receivedCommit",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 98,
+                    "name": "resetRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 99,
+                    "name": "deactivate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "language",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 100,
+                    "name": "preferredLanguageChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "keyEvent",
+                            "type": "QKeyEvent*"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 106,
+                    "name": "keyPressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "keyEvent",
+                            "type": "QKeyEvent*"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 107,
+                    "name": "keyReleased",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "inputplugin.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,185 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "HomeScreen",
+            "lineNumber": 32,
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 37,
+                    "name": "FolioSettings",
+                    "override": false,
+                    "read": "folioSettings",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FolioSettings*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 38,
+                    "name": "HomeScreenState",
+                    "override": false,
+                    "read": "homeScreenState",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "HomeScreenState*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 39,
+                    "name": "WidgetsManager",
+                    "override": false,
+                    "read": "widgetsManager",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "WidgetsManager*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 40,
+                    "name": "ApplicationListModel",
+                    "override": false,
+                    "read": "applicationListModel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ApplicationListModel*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 41,
+                    "name": "ApplicationListSearchModel",
+                    "override": false,
+                    "read": "applicationListSearchModel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ApplicationListSearchModel*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 42,
+                    "name": "FavouritesModel",
+                    "override": false,
+                    "read": "favouritesModel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FavouritesModel*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 43,
+                    "name": "PageListModel",
+                    "override": false,
+                    "read": "pageListModel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "PageListModel*",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "HomeScreen",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "showingDesktop",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 60,
+                    "name": "showingDesktopChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "applet",
+                            "type": "Plasma::Applet*"
+                        },
+                        {
+                            "name": "geometryHint",
+                            "type": "QRectF"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 63,
+                    "name": "onAppletAdded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "applet",
+                            "type": "Plasma::Applet*"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 64,
+                    "name": "onAppletAboutToBeRemoved",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "Plasma::Containment"
+                }
+            ]
+        }
+    ],
+    "inputFile": "homescreen.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,39 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "Direction",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 18,
+                    "name": "Type",
+                    "values": [
+                        "None",
+                        "Up",
+                        "Down",
+                        "Left",
+                        "Right"
+                    ]
+                }
+            ],
+            "lineNumber": 12,
+            "object": true,
+            "qualifiedClassName": "Direction",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "direction.h",
+    "outputRevision": 69
+}

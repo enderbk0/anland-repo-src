@@ -1,0 +1,170 @@
+[
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/allocator/Allocator.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/allocator/Allocator.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/allocator/Allocator.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/allocator/Allocator.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/allocator/DRMDumb.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/allocator/DRMDumb.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/allocator/DRMDumb.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/allocator/DRMDumb.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/allocator/GBM.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/allocator/GBM.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/allocator/GBM.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/allocator/GBM.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/allocator/Swapchain.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/allocator/Swapchain.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/allocator/Swapchain.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/allocator/Swapchain.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/Backend.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Backend.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Backend.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/Backend.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/FrameScheduler.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/FrameScheduler.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/FrameScheduler.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/FrameScheduler.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/Headless.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Headless.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Headless.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/Headless.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/Logger.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Logger.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Logger.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/Logger.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/Null.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Null.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Null.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/Null.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/Session.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Session.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Session.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/Session.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/Wayland.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Wayland.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/Wayland.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/Wayland.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/drm/DRM.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/DRM.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/DRM.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/drm/DRM.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/drm/Math.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/Math.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/Math.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/drm/Math.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/drm/Props.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/Props.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/Props.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/drm/Props.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/drm/Renderer.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/Renderer.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/Renderer.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/drm/Renderer.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/drm/impl/Atomic.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/impl/Atomic.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/impl/Atomic.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/drm/impl/Atomic.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/backend/drm/impl/Legacy.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/impl/Legacy.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/backend/drm/impl/Legacy.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/backend/drm/impl/Legacy.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/buffer/Buffer.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/buffer/Buffer.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/buffer/Buffer.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/buffer/Buffer.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/input/Input.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/input/Input.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/input/Input.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/input/Input.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/misc/Attachment.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/misc/Attachment.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/misc/Attachment.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/misc/Attachment.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/output/Output.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/output/Output.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/output/Output.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/output/Output.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/utils/FormatUtils.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/utils/FormatUtils.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/utils/FormatUtils.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/utils/FormatUtils.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/src/utils/Shared.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/src/utils/Shared.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/src/utils/Shared.cpp",
+  "output": "CMakeFiles/aquamarine.dir/src/utils/Shared.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/protocols/wayland.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/protocols/wayland.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/protocols/wayland.cpp",
+  "output": "CMakeFiles/aquamarine.dir/protocols/wayland.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/protocols/xdg-shell.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/protocols/xdg-shell.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/protocols/xdg-shell.cpp",
+  "output": "CMakeFiles/aquamarine.dir/protocols/xdg-shell.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -Daquamarine_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./src/include -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./protocols -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/build -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -fPIC -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/aquamarine.dir/protocols/linux-dmabuf-v1.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/protocols/linux-dmabuf-v1.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/protocols/linux-dmabuf-v1.cpp",
+  "output": "CMakeFiles/aquamarine.dir/protocols/linux-dmabuf-v1.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/simpleWindow.dir/tests/SimpleWindow.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/tests/SimpleWindow.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/tests/SimpleWindow.cpp",
+  "output": "CMakeFiles/simpleWindow.dir/tests/SimpleWindow.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DAQUAMARINE_VERSION=\\\"0.12.1\\\" -I/data/data/com.termux/files/home/hyprland-deps/aquamarine/./include -isystem /data/data/com.termux/files/usr/include/pixman-1 -isystem /data/data/com.termux/files/usr/include/libdrm -O3 -DNDEBUG -std=gnu++23 -Wall -Wextra -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wpedantic -O3 -o CMakeFiles/attachments.dir/tests/Attachments.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/aquamarine/tests/Attachments.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/aquamarine/tests/Attachments.cpp",
+  "output": "CMakeFiles/attachments.dir/tests/Attachments.cpp.o"
+}
+]

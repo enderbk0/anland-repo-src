@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/org/kde/plasma/quicksetting/powermenu">
+    <file alias="qmldir">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/powermenu/qmldir</file>
+  </qresource>
+</RCC>
+

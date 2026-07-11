@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="/qt/qml/org/kde/plasma/keyboard/">
+    <file alias="main.qml">/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/src/qml/main.qml</file>
+    <file alias="LanguagePopup.qml">/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/src/qml/LanguagePopup.qml</file>
+    <file alias="LanguagePopupDelegate.qml">/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/src/qml/LanguagePopupDelegate.qml</file>
+    <file alias="DiacriticsOverlay.qml">/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/src/qml/DiacriticsOverlay.qml</file>
+    <file alias="OverlayWindow.qml">/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/src/qml/OverlayWindow.qml</file>
+  </qresource>
+</RCC>
+

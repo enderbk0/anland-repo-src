@@ -1,0 +1,102 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "InputListenerItem",
+            "lineNumber": 22,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 27,
+                    "name": "engine",
+                    "override": false,
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVirtualKeyboardInputEngine*",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setEngine"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 28,
+                    "member": "m_keyboardNavigationActive",
+                    "name": "keyboardNavigationActive",
+                    "override": false,
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 35,
+                    "name": "overlayController",
+                    "override": false,
+                    "read": "overlayController",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "OverlayController*",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "InputListenerItem",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "key",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 54,
+                    "name": "keyNavigationPressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "key",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 55,
+                    "name": "keyNavigationReleased",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "inputlisteneritem.h",
+    "outputRevision": 69
+}

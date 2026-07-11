@@ -1,0 +1,7 @@
+module plasma.applet.org.kde.plasma.mobile.panel
+typeinfo org.kde.plasma.mobile.panel.qmltypes
+prefer :/qt/qml/plasma/applet/org/kde/plasma/mobile/panel/
+LockscreenOverlay 254.0 LockscreenOverlay.qml
+StatusBarWrapper 254.0 StatusBarWrapper.qml
+StatusPanel 254.0 StatusPanel.qml
+

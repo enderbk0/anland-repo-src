@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -O3 -DNDEBUG -Xlinker --dependency-file=CMakeFiles/hyprlang_test.dir/link.d CMakeFiles/hyprlang_test.dir/tests/parse/main.cpp.o -o hyprlang_test  -Wl,-rpath,/data/data/com.termux/files/home/hyprland-deps/hyprlang/build libhyprlang.so.0.6.8 /data/data/com.termux/files/usr/lib/libhyprutils.so

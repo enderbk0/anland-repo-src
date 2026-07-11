@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/data/data/com.termux/files/home/hyprland/build/cmake_install.cmake",
+		"/data/data/com.termux/files/home/hyprland/build/subprojects/udis86/cmake_install.cmake",
+		"/data/data/com.termux/files/home/hyprland/build/subprojects/udis86/libudis86/cmake_install.cmake",
+		"/data/data/com.termux/files/home/hyprland/build/subprojects/udis86/udcli/cmake_install.cmake",
+		"/data/data/com.termux/files/home/hyprland/build/hyprctl/cmake_install.cmake",
+		"/data/data/com.termux/files/home/hyprland/build/start/cmake_install.cmake",
+		"/data/data/com.termux/files/home/hyprland/build/_deps/glaze-build/cmake_install.cmake",
+		"/data/data/com.termux/files/home/hyprland/build/hyprpm/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

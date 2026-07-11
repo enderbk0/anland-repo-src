@@ -1,0 +1,43 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Singleton",
+                    "value": "true"
+                }
+            ],
+            "className": "VibrationManager",
+            "lineNumber": 18,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "durationMs",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 28,
+                    "name": "vibrate",
+                    "returnType": "QCoro::QmlTask"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "VibrationManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "vibrationmanager.h",
+    "outputRevision": 69
+}

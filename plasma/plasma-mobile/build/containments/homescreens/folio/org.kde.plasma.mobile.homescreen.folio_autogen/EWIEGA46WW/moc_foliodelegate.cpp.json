@@ -1,0 +1,194 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": ""
+                }
+            ],
+            "className": "FolioDelegate",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 32,
+                    "name": "Type",
+                    "values": [
+                        "None",
+                        "Application",
+                        "Folder",
+                        "Widget"
+                    ]
+                }
+            ],
+            "lineNumber": 18,
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 24,
+                    "name": "type",
+                    "override": false,
+                    "read": "type",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FolioDelegate::Type",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 25,
+                    "name": "application",
+                    "override": false,
+                    "read": "applicationRaw",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FolioApplication*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 26,
+                    "name": "folder",
+                    "override": false,
+                    "read": "folderRaw",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FolioApplicationFolder*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 27,
+                    "name": "widget",
+                    "override": false,
+                    "read": "widgetRaw",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FolioWidget*",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "FolioDelegate",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "std::enable_shared_from_this<FolioDelegate>"
+                }
+            ]
+        },
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": ""
+                }
+            ],
+            "className": "FolioPageDelegate",
+            "lineNumber": 67,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 73,
+                    "name": "row",
+                    "notify": "rowChanged",
+                    "override": false,
+                    "read": "row",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 74,
+                    "name": "column",
+                    "notify": "columnChanged",
+                    "override": false,
+                    "read": "column",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "FolioPageDelegate",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 102,
+                    "name": "rowChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 103,
+                    "name": "columnChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "FolioDelegate"
+                }
+            ]
+        }
+    ],
+    "inputFile": "foliodelegate.h",
+    "outputRevision": 69
+}

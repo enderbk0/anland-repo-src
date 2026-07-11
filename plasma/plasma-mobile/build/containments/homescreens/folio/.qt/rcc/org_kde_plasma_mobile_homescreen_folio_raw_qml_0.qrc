@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="/qt/qml/plasma/applet/org/kde/plasma/mobile/homescreen/folio/">
+    <file alias="AppDrawer.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/AppDrawer.qml</file>
+    <file alias="AppDrawerGrid.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/AppDrawerGrid.qml</file>
+    <file alias="AppDrawerHeader.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/AppDrawerHeader.qml</file>
+    <file alias="DelegateDragItem.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/DelegateDragItem.qml</file>
+    <file alias="DelegateDropArea.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/DelegateDropArea.qml</file>
+    <file alias="FavouritesBar.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/FavouritesBar.qml</file>
+    <file alias="FolderView.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/FolderView.qml</file>
+    <file alias="FolderViewTitle.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/FolderViewTitle.qml</file>
+    <file alias="FolioHomeScreen.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/FolioHomeScreen.qml</file>
+    <file alias="HomeScreenPage.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/HomeScreenPage.qml</file>
+    <file alias="HomeScreenPages.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/HomeScreenPages.qml</file>
+    <file alias="main.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/main.qml</file>
+    <file alias="PlaceholderDelegate.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/PlaceholderDelegate.qml</file>
+    <file alias="WidgetDragItem.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/WidgetDragItem.qml</file>
+    <file alias="config.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/config.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "PrefixQueryTrigger",
+            "lineNumber": 19,
+            "object": true,
+            "qualifiedClassName": "PrefixQueryTrigger",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "OverlayTrigger"
+                }
+            ]
+        }
+    ],
+    "inputFile": "prefixquerytrigger.h",
+    "outputRevision": 69
+}

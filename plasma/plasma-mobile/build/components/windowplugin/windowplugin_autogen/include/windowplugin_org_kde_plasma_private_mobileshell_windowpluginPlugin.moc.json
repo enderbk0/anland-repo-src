@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "org_kde_plasma_private_mobileshell_windowpluginPlugin",
+            "lineNumber": 11,
+            "object": true,
+            "qualifiedClassName": "org_kde_plasma_private_mobileshell_windowpluginPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQmlEngineExtensionPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "windowplugin_org_kde_plasma_private_mobileshell_windowpluginPlugin.cpp",
+    "outputRevision": 69
+}

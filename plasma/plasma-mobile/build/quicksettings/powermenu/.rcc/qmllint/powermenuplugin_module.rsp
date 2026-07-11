@@ -1,0 +1,12 @@
+-I
+/data/data/com.termux/files/usr/lib/qt6/qml
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/powermenu
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/powermenu
+-I
+/data/data/com.termux/files/usr/lib/qt6/qml
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/powermenu/.qt/rcc/qmake_org_kde_plasma_quicksetting_powermenu.qrc
+--module
+org.kde.plasma.quicksetting.powermenu

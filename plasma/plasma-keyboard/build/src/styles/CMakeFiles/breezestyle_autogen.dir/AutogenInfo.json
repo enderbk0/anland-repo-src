@@ -1,0 +1,131 @@
+{
+	"BUILD_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/breezestyle_autogen",
+	"CMAKE_BINARY_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/src/styles",
+	"CMAKE_EXECUTABLE" : "/data/data/com.termux/files/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/src/styles/CMakeLists.txt",
+		"/data/data/com.termux/files/usr/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in",
+		"/data/data/com.termux/files/usr/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/data/data/com.termux/files/usr/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in",
+		"/data/data/com.termux/files/usr/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
+		"/data/data/com.termux/files/usr/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/data/data/com.termux/files/usr/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
+		"/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/breezestyle_QtQuick_VirtualKeyboard_Styles_BreezePlugin_in.cpp"
+	],
+	"CMAKE_SOURCE_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-keyboard",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/breezestyle_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "breezestyle_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/breezestyle_autogen/include",
+	"MOC_COMPILATION_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/breezestyle_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KF_DEPRECATED_WARNINGS_SINCE=0x70000",
+		"KF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x61b00",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x70000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x60b00",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_OPENGL_LIB",
+		"QT_PLUGIN",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"_LARGEFILE64_SOURCE",
+		"breezestyle_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles",
+		"/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/src/styles",
+		"/data/data/com.termux/files/usr/include/qt6/QtQml",
+		"/data/data/com.termux/files/usr/include/qt6",
+		"/data/data/com.termux/files/usr/include/qt6/QtCore",
+		"/data/data/com.termux/files/usr/lib/qt6/mkspecs/linux-clang",
+		"/data/data/com.termux/files/usr/include/qt6/QtQmlIntegration",
+		"/data/data/com.termux/files/usr/include/qt6/QtNetwork",
+		"/data/data/com.termux/files/usr/include/qt6/QtQuick",
+		"/data/data/com.termux/files/usr/include/qt6/QtGui",
+		"/data/data/com.termux/files/usr/include/qt6/QtOpenGL",
+		"/data/data/com.termux/files/usr/include",
+		"/data/data/com.termux/files/usr/include/c++/v1",
+		"/data/data/com.termux/files/usr/lib/clang/21/include",
+		"/data/data/com.termux/files/usr/include/aarch64-linux-android"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_CLASS",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [ "-Muri=QtQuick.VirtualKeyboard.Styles.Breeze", "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/data/data/com.termux/files/usr/bin/c++",
+		"-std=gnu++20",
+		"-w",
+		"-dM",
+		"-E",
+		"/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/breezestyle_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/.qt/rcc/qrc_breezestyle_raw_qml_0.cpp",
+		"/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/.qt/rcc/qrc_qmake_QtQuick_VirtualKeyboard_Styles_Breeze.cpp",
+		"/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/.rcc/qmlcache/breezestyle_qmlcache_loader.cpp",
+		"/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/.rcc/qmlcache/breezestyle_style_qml.cpp",
+		"/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/breezestyle_qmltyperegistrations.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/CMakeFiles/breezestyle_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/data/data/com.termux/files/usr/lib/qt6/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 11,
+	"SETTINGS_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/CMakeFiles/breezestyle_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/breezestyle_QtQuick_VirtualKeyboard_Styles_BreezePlugin.cpp",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

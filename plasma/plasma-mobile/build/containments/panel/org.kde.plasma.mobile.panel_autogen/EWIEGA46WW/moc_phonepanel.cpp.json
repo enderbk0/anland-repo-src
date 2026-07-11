@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "PhonePanel",
+            "lineNumber": 12,
+            "object": true,
+            "qualifiedClassName": "PhonePanel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "Plasma::Containment"
+                }
+            ]
+        }
+    ],
+    "inputFile": "phonepanel.h",
+    "outputRevision": 69
+}

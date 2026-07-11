@@ -1,0 +1,11 @@
+prefix=/data/data/com.termux/files/home/hyprland-deps/libinput/build
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/data/data/com.termux/files/home/hyprland-deps/libinput
+
+Name: Libinput
+Description: Input device library
+Version: 1.30.4
+Requires.private: libudev
+Libs: -L${prefix} -linput
+Cflags: -I${prefix} -I${srcdir} -I${prefix}/include -I${srcdir}/include -I${prefix} -I${srcdir}

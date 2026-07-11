@@ -1,0 +1,8 @@
+module org.kde.plasma.quicksetting.nightcolor
+linktarget nightcolorplugin
+optional plugin qml_org_kde_plasma_quicksetting_nightcolor_nightcolorplugin
+classname org_kde_plasma_quicksetting_nightcolorPlugin
+typeinfo nightcolorplugin.qmltypes
+prefer :/org/kde/plasma/quicksetting/nightcolor/
+depends QtQuick
+

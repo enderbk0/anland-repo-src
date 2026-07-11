@@ -1,0 +1,4 @@
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/nightcolor/nightcolorplugin_autogen/include/../EJRQKI7XPS/moc_nightcolorsettings.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/nightcolor/nightcolorplugin_autogen/include/../EWIEGA46WW/moc_enum.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/nightcolor/nightcolorplugin_autogen/include/../EWIEGA46WW/moc_nightcolorutil.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/nightcolor/nightcolorplugin_autogen/include/nightcolorplugin_org_kde_plasma_quicksetting_nightcolorPlugin.moc.json

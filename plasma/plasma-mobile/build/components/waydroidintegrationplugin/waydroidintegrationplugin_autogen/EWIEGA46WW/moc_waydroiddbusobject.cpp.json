@@ -1,0 +1,457 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Singleton",
+                    "value": "true"
+                },
+                {
+                    "name": "D-Bus Interface",
+                    "value": "org.kde.plasmashell.Waydroid"
+                }
+            ],
+            "className": "WaydroidDBusObject",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 41,
+                    "name": "Status",
+                    "values": [
+                        "NotSupported",
+                        "NotInitialized",
+                        "Initializing",
+                        "Initialized",
+                        "Resetting"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 54,
+                    "name": "SessionStatus",
+                    "values": [
+                        "SessionStopped",
+                        "SessionStarting",
+                        "SessionRunning"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 65,
+                    "name": "SystemType",
+                    "values": [
+                        "Vanilla",
+                        "Foss",
+                        "Gapps",
+                        "UnknownSystemType"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 79,
+                    "name": "RomType",
+                    "values": [
+                        "Lineage",
+                        "Bliss"
+                    ]
+                }
+            ],
+            "lineNumber": 27,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 36,
+                    "lineNumber": 86,
+                    "name": "registerObject",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "WaydroidDBusObject",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 89,
+                    "name": "statusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "downloaded",
+                            "type": "double"
+                        },
+                        {
+                            "name": "total",
+                            "type": "double"
+                        },
+                        {
+                            "name": "speed",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 91,
+                    "name": "downloadStatusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 92,
+                    "name": "sessionStatusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 93,
+                    "name": "systemTypeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 94,
+                    "name": "ipAddressChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 95,
+                    "name": "androidIdChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 96,
+                    "name": "multiWindowsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 97,
+                    "name": "suspendChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "lineNumber": 98,
+                    "name": "ueventChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QDBusObjectPath"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 100,
+                    "name": "applicationAdded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QDBusObjectPath"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 101,
+                    "name": "applicationRemoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "lineNumber": 104,
+                    "name": "actionFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 105,
+                    "name": "actionFailed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 13,
+                    "lineNumber": 108,
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 14,
+                    "isConst": true,
+                    "lineNumber": 111,
+                    "name": "status",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "index": 15,
+                    "isConst": true,
+                    "lineNumber": 112,
+                    "name": "sessionStatus",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "index": 16,
+                    "isConst": true,
+                    "lineNumber": 113,
+                    "name": "systemType",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "index": 17,
+                    "isConst": true,
+                    "lineNumber": 114,
+                    "name": "ipAddress",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 18,
+                    "isConst": true,
+                    "lineNumber": 115,
+                    "name": "androidId",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 19,
+                    "isConst": true,
+                    "lineNumber": 116,
+                    "name": "multiWindows",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "multiWindows",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 20,
+                    "lineNumber": 117,
+                    "name": "setMultiWindows",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 21,
+                    "isConst": true,
+                    "lineNumber": 118,
+                    "name": "suspend",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "suspend",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 22,
+                    "lineNumber": 119,
+                    "name": "setSuspend",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 23,
+                    "isConst": true,
+                    "lineNumber": 120,
+                    "name": "uevent",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "uevent",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 24,
+                    "lineNumber": 121,
+                    "name": "setUevent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 25,
+                    "isConst": true,
+                    "lineNumber": 122,
+                    "name": "applications",
+                    "returnType": "QList<QDBusObjectPath>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "systemType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "romType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "forced",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 26,
+                    "lineNumber": 124,
+                    "name": "initialize",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "systemType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "romType",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 27,
+                    "isCloned": true,
+                    "lineNumber": 124,
+                    "name": "initialize",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 28,
+                    "lineNumber": 125,
+                    "name": "startSession",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 29,
+                    "lineNumber": 126,
+                    "name": "stopSession",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 30,
+                    "lineNumber": 127,
+                    "name": "resetWaydroid",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "apkFile",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 31,
+                    "lineNumber": 128,
+                    "name": "installApk",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "appId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 32,
+                    "lineNumber": 129,
+                    "name": "deleteApplication",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 33,
+                    "lineNumber": 130,
+                    "name": "refreshSessionInfo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 34,
+                    "lineNumber": 131,
+                    "name": "refreshAndroidId",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 35,
+                    "lineNumber": 132,
+                    "name": "refreshApplications",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "waydroiddbusobject.h",
+    "outputRevision": 69
+}

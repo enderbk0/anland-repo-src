@@ -1,0 +1,7 @@
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/taskpanel/.qt/rcc/qmake_plasma_applet_org_kde_plasma_mobile_taskpanel.qrc
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/taskpanel/.qt/rcc/org_kde_plasma_mobile_taskpanel_raw_qml_0.qrc
+/qt/qml/plasma/applet/org/kde/plasma/mobile/taskpanel/main.qml
+/qt/qml/plasma/applet/org/kde/plasma/mobile/taskpanel/NavigationPanelComponent.qml
+/qt/qml/plasma/applet/org/kde/plasma/mobile/taskpanel/GesturePanelComponent.qml

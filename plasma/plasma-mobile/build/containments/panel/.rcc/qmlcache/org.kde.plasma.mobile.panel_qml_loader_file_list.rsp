@@ -1,0 +1,8 @@
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/panel/.qt/rcc/qmake_plasma_applet_org_kde_plasma_mobile_panel.qrc
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/panel/.qt/rcc/org_kde_plasma_mobile_panel_raw_qml_0.qrc
+/qt/qml/plasma/applet/org/kde/plasma/mobile/panel/main.qml
+/qt/qml/plasma/applet/org/kde/plasma/mobile/panel/LockscreenOverlay.qml
+/qt/qml/plasma/applet/org/kde/plasma/mobile/panel/StatusBarWrapper.qml
+/qt/qml/plasma/applet/org/kde/plasma/mobile/panel/StatusPanel.qml

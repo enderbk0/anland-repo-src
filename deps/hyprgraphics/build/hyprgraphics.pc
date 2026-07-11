@@ -1,0 +1,12 @@
+prefix=/data/data/com.termux/files/usr
+includedir=/data/data/com.termux/files/usr/include
+libdir=/data/data/com.termux/files/usr/lib
+
+Name: hyprgraphics
+URL: https://github.com/hyprwm/hyprgraphics
+Description: Hyprland graphics utilities library used across the ecosystem
+Version: 0.5.1
+Requires: cairo hyprutils pangocairo glesv2
+Requires.private: libdrm pixman-1 libpng libjpeg libwebp librsvg-2.0 libmagic libjxl libjxl_cms libjxl_threads libheif
+Cflags: -I${includedir}
+Libs: -L${libdir} -lhyprgraphics

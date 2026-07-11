@@ -1,0 +1,28 @@
+{
+    "classes": [
+        {
+            "className": "TaskPanel",
+            "lineNumber": 11,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "isConst": true,
+                    "lineNumber": 17,
+                    "name": "triggerTaskSwitcher",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "TaskPanel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "Plasma::Containment"
+                }
+            ]
+        }
+    ],
+    "inputFile": "taskpanel.h",
+    "outputRevision": 69
+}

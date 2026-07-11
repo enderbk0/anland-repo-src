@@ -1,0 +1,377 @@
+/*
+    SPDX-FileCopyrightText: 2009 Ben Cooksley <bcooksley@kde.org>
+    SPDX-FileCopyrightText: 2007 Will Stephenson <wstephenson@kde.org>
+    SPDX-FileCopyrightText: 2019 Nicolas Fella <nicolas.fella@gmx.de>
+    SPDX-FileCopyrightText: 2025 Devin Lin <devin@kde.org>
+
+    SPDX-License-Identifier: GPL-2.0-or-later
+*/
+
+#include "modulesmodel.h"
+
+#include <QDebug>
+#include <QGuiApplication>
+#include <QQuickItem>
+#include <QSet>
+#include <QStandardPaths>
+
+#include <KAuthorized>
+#include <KCModuleData>
+#include <KCategorizedSortFilterProxyModel>
+#include <KConfigGroup>
+#include <KDesktopFile>
+#include <KFileUtils>
+#include <KJsonUtils>
+#include <KPluginFactory>
+#include <KRuntimePlatform>
+
+using namespace Qt::Literals::StringLiterals;
+
+ModulesModel::ModulesModel(QObject *parent)
+    : QAbstractListModel(parent)
+{
+    qDebug() << "Current platform is " << KRuntimePlatform::runtimePlatform();
+    initModules();
+}
+
+void ModulesModel::initModules()
+{
+    m_rootModule = std::make_unique<MenuItem>(true, nullptr);
+
+    // Filter to whether the kcm belongs to the current platform (unless m_ignorePlatforms = true),
+    // also respect kiosk / KAuthorize restrictions and filter out "forbidden" allowed modules
+    auto filter = [this](const KPluginMetaData &data) {
+
+        if (!KAuthorized::authorizeControlModule(data.pluginId())) {
+            return false;
+        }
+
+        // Filter out KCMs that don't support the current Qt platform (e.g. X11-only or Wayland-only)
+        const auto supportedPlatforms = data.value(QStringLiteral("X-KDE-OnlyShowOnQtPlatforms"), QStringList());
+        if (!supportedPlatforms.isEmpty()) {
+            const auto platformMatches = [](const QString &platform) {
+                return qGuiApp->platformName().startsWith(platform);
+            };
+            if (std::none_of(supportedPlatforms.begin(), supportedPlatforms.end(), platformMatches)) {
+                return false;
+            }
+        }
+
+        if (m_ignorePlatforms) {
+            return true;
+        }
+
+        // Check if KCM is self-reported to be relevant
+        if (auto factory = KPluginFactory::loadFactory(data).plugin) {
+            auto moduleData = factory->create<KCModuleData>();
+            if (moduleData && !moduleData->isRelevant()) {
+                return false;
+            }
+        }
+
+        // Check platform
+
+        auto kRuntimePlatforms = KRuntimePlatform::runtimePlatform();
+        auto kDesktopPlatform = QStringLiteral("desktop");
+
+        // HACK: currently on desktop no form factors are specified
+        if (kRuntimePlatforms.empty()) {
+            kRuntimePlatforms.append(kDesktopPlatform);
+        }
+
+        // Filter out if the form factor does not match the current runtime platform.
+        // If the KCM defines "all" or has no defined form factor, don't filter.
+        for (const auto &formFactor : data.formFactors()) {
+            if (formFactor == QStringLiteral("all")) {
+                return true;
+            }
+            if (kRuntimePlatforms.contains(formFactor)) {
+                return true;
+            }
+        }
+
+        // Filter out KCM if form factors is empty (unless we are on desktop, for compatibility purposes)
+        return kRuntimePlatforms.contains(kDesktopPlatform) && data.formFactors().empty();
+    };
+
+    QList<KPluginMetaData> kcms = KPluginMetaData::findPlugins(u"kcms"_s, filter);
+    kcms << KPluginMetaData::findPlugins(u"plasma/kcms"_s, filter);
+    kcms << KPluginMetaData::findPlugins(u"plasma/kcms/systemsettings"_s, filter);
+
+    const QStringList dirs = QStandardPaths::locateAll(QStandardPaths::AppDataLocation, QStringLiteral("categories"), QStandardPaths::LocateDirectory);
+    QStringList categories = KFileUtils::findAllUniqueFiles(dirs, QStringList(QStringLiteral("*.desktop")));
+
+    initMenuList(m_rootModule.get(), kcms, categories);
+    connectSignals(m_rootModule.get());
+}
+
+void ModulesModel::initMenuList(MenuItem *parent, const QList<KPluginMetaData> &kcms, const QStringList &categories)
+{
+    // look for any categories inside this level, and recurse into them
+    for (const QString &category : std::as_const(categories)) {
+        const KDesktopFile file(category);
+        const KConfigGroup entry = file.desktopGroup();
+        QString parentCategory = entry.readEntry("X-KDE-System-Settings-Parent-Category");
+        QString parentCategory2 = entry.readEntry("X-KDE-System-Settings-Parent-Category-V2");
+
+        if (parentCategory == parent->category() ||
+            // V2 entries must not be empty if they want to become a proper category.
+            (!parentCategory2.isEmpty() && parentCategory2 == parent->category())) {
+            auto menuItem = new MenuItem(true, parent);
+            menuItem->setCategoryConfig(file);
+            if (entry.readEntry("X-KDE-System-Settings-Category") == QLatin1String("lost-and-found")) {
+                // Skip lost and found for now
+                continue;
+            }
+            initMenuList(menuItem, kcms, categories);
+        }
+    }
+
+    // scan for any modules at this level and add them
+    for (const auto &metaData : std::as_const(kcms)) {
+        QString category = metaData.value(QStringLiteral("X-KDE-System-Settings-Parent-Category"));
+        QString categoryv2 = metaData.value(QStringLiteral("X-KDE-System-Settings-Parent-Category-V2"));
+        const QString parentCategoryKcm = parent->systemsettingsCategoryModule();
+        bool isCategoryOwner = false;
+
+        if (!parentCategoryKcm.isEmpty() && parentCategoryKcm == metaData.pluginId()) {
+            parent->setMetaData(metaData);
+            isCategoryOwner = true;
+        }
+
+        if (!parent->category().isEmpty() && (category == parent->category() || categoryv2 == parent->category())) {
+            if (!metaData.isHidden()) {
+                // Add the module info to the menu
+                auto infoItem = new MenuItem(false, parent);
+                infoItem->setMetaData(metaData);
+                infoItem->setCategoryOwner(isCategoryOwner);
+            }
+        }
+    }
+
+    parent->sortChildrenByWeight();
+}
+
+QVariant ModulesModel::data(const QModelIndex &index, int role) const
+{
+    if (!index.isValid()) {
+        return {};
+    }
+
+    auto mi = static_cast<MenuItem *>(index.internalPointer());
+
+    switch (role) {
+    case MenuItemRole:
+        return QVariant::fromValue(mi);
+    case NameRole:
+        return mi->name();
+    case DescriptionRole:
+        return mi->description();
+    case IconNameRole:
+        return mi->iconName();
+    case IdRole:
+        return mi->id();
+    case UserFilterRole:
+        // We join by ZERO WIDTH SPACE to avoid awkward word merging in search terms
+        // e.g. ['keys', 'slow'] should match 'keys' and 'slow' but not 'ssl'.
+        // https://bugs.kde.org/show_bug.cgi?id=487855
+        return mi->keywords().join(u"\u200B"_s);
+        break;
+    case UserSortRole:
+        // Category owners are always before everything else, regardless of weight
+        if (mi->isCategoryOwner()) {
+            return QStringLiteral("%1").arg(QString::number(mi->weight()), 5, QLatin1Char('0'));
+        } else {
+            return QStringLiteral("1%1").arg(QString::number(mi->weight()), 5, QLatin1Char('0'));
+        }
+        break;
+    case KCategorizedSortFilterProxyModel::CategorySortRole:
+        if (mi->parent()) {
+            return QStringLiteral("%1%2").arg(QString::number(mi->parent()->weight()), 5, QLatin1Char('0')).arg(mi->parent()->name());
+        }
+        break;
+    case KCategorizedSortFilterProxyModel::CategoryDisplayRole: {
+        MenuItem *candidate = mi->parent();
+        // The model has an invisible single root item.
+        // So to get the "root category" we don't go up all the way
+        // To the actual root, but to the list of the first childs.
+        // That's why we check for candidate->parent()->parent()
+        while (candidate && candidate->parent() && candidate->parent()->parent()) {
+            candidate = candidate->parent();
+        }
+        if (candidate) {
+            // Children of this special root category don't have an user visible category
+            if (!candidate->isSystemsettingsRootCategory()) {
+                return candidate->name();
+            }
+        }
+        break;
+    }
+    case IsCategoryRole:
+        return mi->menu();
+    case IsKCMRole:
+        return mi->isLibrary();
+    case IsRelevantRole:
+        return !mi->moduleData() || mi->moduleData()->isRelevant();
+    }
+
+    return {};
+}
+
+int ModulesModel::columnCount(const QModelIndex & /*parent*/) const
+{
+    return 1;
+}
+
+int ModulesModel::rowCount(const QModelIndex &parent) const
+{
+    MenuItem *mi;
+    if (parent.isValid()) {
+        mi = static_cast<MenuItem *>(parent.internalPointer());
+    } else {
+        mi = m_rootModule.get();
+    }
+    return childrenList(mi).count();
+}
+
+QHash<int, QByteArray> ModulesModel::roleNames() const
+{
+    QHash<int, QByteArray> names = QAbstractItemModel::roleNames();
+    names[NameRole] = "name";
+    names[DescriptionRole] = "description";
+    names[IconNameRole] = "iconName";
+    names[IdRole] = "pluginId";
+    names[IsCategoryRole] = "isCategory";
+    names[IsKCMRole] = "isKCM";
+    names[IsRelevantRole] = "isRelevant";
+    return names;
+}
+
+Qt::ItemFlags ModulesModel::flags(const QModelIndex &index) const
+{
+    if (!index.isValid()) {
+        return Qt::NoItemFlags;
+    }
+
+    return Qt::ItemIsEnabled | Qt::ItemIsSelectable;
+}
+
+QModelIndex ModulesModel::index(int row, int column, const QModelIndex &parent) const
+{
+    if (!hasIndex(row, column, parent)) {
+        return {};
+    }
+
+    MenuItem *parentItem;
+    if (!parent.isValid()) {
+        parentItem = m_rootModule.get();
+    } else {
+        parentItem = static_cast<MenuItem *>(parent.internalPointer());
+    }
+
+    MenuItem *childItem = childrenList(parentItem).value(row);
+    if (childItem) {
+        return createIndex(row, column, childItem);
+    } else {
+        return {};
+    }
+}
+
+QModelIndex ModulesModel::parent(const QModelIndex &index) const
+{
+    auto childItem = static_cast<MenuItem *>(index.internalPointer());
+    if (!childItem) {
+        return {};
+    }
+
+    MenuItem *parent = parentItem(childItem);
+    MenuItem *grandParent = parentItem(parent);
+
+    int childRow = 0;
+    if (grandParent) {
+        childRow = childrenList(grandParent).indexOf(parent);
+    }
+
+    if (parent == m_rootModule.get()) {
+        return {};
+    }
+    return createIndex(childRow, 0, parent);
+}
+
+QList<MenuItem *> ModulesModel::childrenList(MenuItem *parent) const
+{
+    QList<MenuItem *> result;
+    for (MenuItem *child : std::as_const(parent->children())) {
+        if (m_exceptions.contains(child)) {
+            result.append(child->children());
+        } else {
+            result.append(child);
+        }
+    }
+    return result;
+}
+
+MenuItem *ModulesModel::parentItem(MenuItem *child) const
+{
+    MenuItem *parent = child->parent();
+    if (m_exceptions.contains(parent)) {
+        parent = parentItem(parent);
+    }
+    return parent;
+}
+
+void ModulesModel::addException(MenuItem *exception)
+{
+    if (exception == m_rootModule.get()) {
+        return;
+    }
+    m_exceptions.append(exception);
+}
+
+void ModulesModel::removeException(MenuItem *exception)
+{
+    m_exceptions.removeAll(exception);
+}
+
+void ModulesModel::reset()
+{
+    beginResetModel();
+    initModules();
+
+    // Have top level KCMs be shown, not just categories (which are their parent)
+    for (MenuItem *child : m_rootModule->children()) {
+        addException(child);
+    }
+    endResetModel();
+}
+
+bool ModulesModel::ignorePlatforms() const
+{
+    return m_ignorePlatforms;
+}
+
+void ModulesModel::setIgnorePlatforms(bool ignorePlatforms)
+{
+    m_ignorePlatforms = ignorePlatforms;
+}
+
+MenuItem *ModulesModel::rootItem() const
+{
+    return m_rootModule.get();
+}
+
+void ModulesModel::connectSignals(MenuItem *item)
+{
+    if (item->menu()) {
+        const auto children = item->children();
+        for (auto *child : children) {
+            connectSignals(child);
+        }
+    } else {
+        if (auto *moduleData = item->moduleData()) {
+            connect(moduleData, &KCModuleData::relevantChanged, this, [this] {
+                reset();
+            });
+        }
+    }
+}

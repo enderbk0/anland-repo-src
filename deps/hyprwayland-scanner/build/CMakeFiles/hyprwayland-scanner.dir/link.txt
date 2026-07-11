@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -O3 -DNDEBUG -Xlinker --dependency-file=CMakeFiles/hyprwayland-scanner.dir/link.d "CMakeFiles/hyprwayland-scanner.dir/src/main.cpp.o" -o hyprwayland-scanner  -lrt -lpthread /data/data/com.termux/files/usr/lib/libpugixml.so

@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "ColorCorrect",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 14,
+                    "name": "NightColorMode",
+                    "values": [
+                        "Constant",
+                        "DarkLight"
+                    ]
+                }
+            ],
+            "lineNumber": 11,
+            "namespace": true,
+            "qualifiedClassName": "ColorCorrect"
+        }
+    ],
+    "inputFile": "enum.h",
+    "outputRevision": 69
+}

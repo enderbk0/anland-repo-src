@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/org/kde/plasma/private/mobileshell/raiselockscreenplugin">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/raiselockscreenplugin</file>
+
+  </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/wallpaperimageplugin/.qt/rcc/qmake_org_kde_plasma_private_mobileshell_wallpaperimageplugin.qrc
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/wallpaperimageplugin/.qt/rcc/wallpaperimageplugin_raw_qml_0.qrc
+/org/kde/plasma/private/mobileshell/wallpaperimageplugin/WallpaperPluginConfigLoader.qml

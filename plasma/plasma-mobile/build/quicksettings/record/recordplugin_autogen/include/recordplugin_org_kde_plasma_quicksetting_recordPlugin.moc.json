@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "org_kde_plasma_quicksetting_recordPlugin",
+            "lineNumber": 11,
+            "object": true,
+            "qualifiedClassName": "org_kde_plasma_quicksetting_recordPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQmlEngineExtensionPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "recordplugin_org_kde_plasma_quicksetting_recordPlugin.cpp",
+    "outputRevision": 69
+}

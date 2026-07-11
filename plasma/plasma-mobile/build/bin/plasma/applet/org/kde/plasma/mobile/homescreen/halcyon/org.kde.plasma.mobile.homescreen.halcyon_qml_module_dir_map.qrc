@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/plasma/applet/org/kde/plasma/mobile/homescreen/halcyon">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/bin/plasma/applet/org/kde/plasma/mobile/homescreen/halcyon</file>
+
+  </qresource>
+</RCC>

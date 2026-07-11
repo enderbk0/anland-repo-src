@@ -1,0 +1,46 @@
+[
+    {
+        "classes": [
+            {
+                "className": "PhonePanel",
+                "lineNumber": 12,
+                "object": true,
+                "qualifiedClassName": "PhonePanel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "Plasma::Containment"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "phonepanel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "PhonePanelFactory",
+                "interfaces": [
+                    [
+                        {
+                            "className": "KPluginFactory",
+                            "id": "\"org.kde.KPluginFactory\""
+                        }
+                    ]
+                ],
+                "lineNumber": 10,
+                "object": true,
+                "qualifiedClassName": "PhonePanelFactory",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "KPluginFactory"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "phonepanel.cpp",
+        "outputRevision": 69
+    }
+]

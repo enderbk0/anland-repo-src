@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/plasma/applet/org/kde/plasma/mobile/panel/">
+    <file alias="main.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/panel/qml/main.qml</file>
+    <file alias="LockscreenOverlay.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/panel/qml/LockscreenOverlay.qml</file>
+    <file alias="StatusBarWrapper.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/panel/qml/StatusBarWrapper.qml</file>
+    <file alias="StatusPanel.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/panel/qml/StatusPanel.qml</file>
+  </qresource>
+</RCC>
+

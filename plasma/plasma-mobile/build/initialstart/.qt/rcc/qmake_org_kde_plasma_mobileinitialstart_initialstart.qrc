@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/org/kde/plasma/mobileinitialstart/initialstart">
+    <file alias="qmldir">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart/org/kde/plasma/mobileinitialstart/initialstart/qmldir</file>
+  </qresource>
+</RCC>
+

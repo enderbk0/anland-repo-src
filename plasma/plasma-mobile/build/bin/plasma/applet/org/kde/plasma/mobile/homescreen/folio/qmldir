@@ -1,0 +1,41 @@
+module plasma.applet.org.kde.plasma.mobile.homescreen.folio
+typeinfo org.kde.plasma.mobile.homescreen.folio.qmltypes
+prefer :/qt/qml/plasma/applet/org/kde/plasma/mobile/homescreen/folio/
+AppDrawer 254.0 AppDrawer.qml
+AppDrawerGrid 254.0 AppDrawerGrid.qml
+AppDrawerHeader 254.0 AppDrawerHeader.qml
+DelegateDragItem 254.0 DelegateDragItem.qml
+DelegateDropArea 254.0 DelegateDropArea.qml
+FavouritesBar 254.0 FavouritesBar.qml
+FolderView 254.0 FolderView.qml
+FolderViewTitle 254.0 FolderViewTitle.qml
+FolioHomeScreen 254.0 FolioHomeScreen.qml
+HomeScreenPage 254.0 HomeScreenPage.qml
+HomeScreenPages 254.0 HomeScreenPages.qml
+PlaceholderDelegate 254.0 PlaceholderDelegate.qml
+WidgetDragItem 254.0 WidgetDragItem.qml
+AbstractDelegate 254.0 delegate/AbstractDelegate.qml
+AppDelegate 254.0 delegate/AppDelegate.qml
+AppFolderDelegate 254.0 delegate/AppFolderDelegate.qml
+DelegateAppIcon 254.0 delegate/DelegateAppIcon.qml
+DelegateFolderIcon 254.0 delegate/DelegateFolderIcon.qml
+DelegateIconLoader 254.0 delegate/DelegateIconLoader.qml
+DelegateLabel 254.0 delegate/DelegateLabel.qml
+DelegateShadow 254.0 delegate/DelegateShadow.qml
+KeyboardHighlight 254.0 delegate/KeyboardHighlight.qml
+WidgetDelegate 254.0 delegate/WidgetDelegate.qml
+WidgetDelegateConfig 254.0 delegate/WidgetDelegateConfig.qml
+ConfirmDeleteFolderDialogLoader 254.0 private/ConfirmDeleteFolderDialogLoader.qml
+ContextMenuLoader 254.0 private/ContextMenuLoader.qml
+DarkenEffect 254.0 private/DarkenEffect.qml
+Orientation 254.0 private/Orientation.qml
+WidgetHandlePosition 254.0 private/WidgetHandlePosition.qml
+WidgetResizeHandle 254.0 private/WidgetResizeHandle.qml
+WidgetResizeHandleFrame 254.0 private/WidgetResizeHandleFrame.qml
+AppletListDelegate 254.0 settings/AppletListDelegate.qml
+AppletListViewer 254.0 settings/AppletListViewer.qml
+SettingsButton 254.0 settings/SettingsButton.qml
+SettingsComponent 254.0 settings/SettingsComponent.qml
+ConfigGeneral 254.0 settings/ConfigGeneral.qml
+depends QtQuick
+

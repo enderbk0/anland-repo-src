@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/org/kde/plasma/private/mobileshell/windowplugin">
+    <file alias="qmldir">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/windowplugin/qmldir</file>
+  </qresource>
+</RCC>
+

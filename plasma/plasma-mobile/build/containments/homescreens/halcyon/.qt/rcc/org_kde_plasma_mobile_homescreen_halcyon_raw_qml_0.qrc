@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/qt/qml/plasma/applet/org/kde/plasma/mobile/homescreen/halcyon/">
+    <file alias="Clock.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/Clock.qml</file>
+    <file alias="FavoritesAppDelegate.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/FavoritesAppDelegate.qml</file>
+    <file alias="FavoritesGrid.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/FavoritesGrid.qml</file>
+    <file alias="FavoritesView.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/FavoritesView.qml</file>
+    <file alias="FolderGrid.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/FolderGrid.qml</file>
+    <file alias="GridAppDelegate.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/GridAppDelegate.qml</file>
+    <file alias="GridAppList.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/GridAppList.qml</file>
+    <file alias="HomeScreen.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/HomeScreen.qml</file>
+    <file alias="main.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/main.qml</file>
+    <file alias="SearchWidget.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/SearchWidget.qml</file>
+    <file alias="config.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/config.qml</file>
+  </qresource>
+</RCC>
+

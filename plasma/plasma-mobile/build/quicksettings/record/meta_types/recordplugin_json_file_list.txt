@@ -1,0 +1,2 @@
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/record/recordplugin_autogen/include/../EWIEGA46WW/moc_recordutil.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/record/recordplugin_autogen/include/recordplugin_org_kde_plasma_quicksetting_recordPlugin.moc.json

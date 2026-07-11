@@ -1,0 +1,14 @@
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart/org/kde/plasma/mobileinitialstart/initialstart
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart
+-I
+/data/data/com.termux/files/usr/lib/qt6/qml
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart/.qt/rcc/qmake_org_kde_plasma_mobileinitialstart_initialstart.qrc
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart/.qt/rcc/plasma-mobile-initial-start_raw_qml_0.qrc
+--module
+org.kde.plasma.mobileinitialstart.initialstart

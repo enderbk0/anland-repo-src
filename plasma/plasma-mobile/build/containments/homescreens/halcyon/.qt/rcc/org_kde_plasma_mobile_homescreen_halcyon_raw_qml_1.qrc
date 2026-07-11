@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/plasma/applet/org/kde/plasma/mobile/homescreen/halcyon/">
+    <file alias="settings/SettingsScreen.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/settings/SettingsScreen.qml</file>
+    <file alias="settings/ConfigGeneral.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/halcyon/qml/settings/ConfigGeneral.qml</file>
+  </qresource>
+</RCC>
+

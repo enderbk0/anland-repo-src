@@ -1,0 +1,146 @@
+[
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/animation/AnimatedVariable.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/animation/AnimatedVariable.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/animation/AnimatedVariable.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/animation/AnimatedVariable.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/animation/AnimationConfig.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/animation/AnimationConfig.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/animation/AnimationConfig.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/animation/AnimationConfig.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/animation/AnimationManager.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/animation/AnimationManager.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/animation/AnimationManager.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/animation/AnimationManager.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/animation/BezierCurve.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/animation/BezierCurve.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/animation/BezierCurve.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/animation/BezierCurve.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/animation/Spring.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/animation/Spring.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/animation/Spring.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/animation/Spring.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/cli/ArgumentParser.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/cli/ArgumentParser.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/cli/ArgumentParser.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/cli/ArgumentParser.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/cli/Logger.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/cli/Logger.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/cli/Logger.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/cli/Logger.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/i18n/I18nEngine.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/i18n/I18nEngine.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/i18n/I18nEngine.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/i18n/I18nEngine.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/i18n/I18nLocale.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/i18n/I18nLocale.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/i18n/I18nLocale.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/i18n/I18nLocale.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/math/Box.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/math/Box.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/math/Box.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/math/Box.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/math/Mat3x3.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/math/Mat3x3.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/math/Mat3x3.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/math/Mat3x3.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/math/Region.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/math/Region.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/math/Region.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/math/Region.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/math/Vector2D.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/math/Vector2D.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/math/Vector2D.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/math/Vector2D.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/os/File.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/os/File.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/os/File.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/os/File.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/os/FileDescriptor.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/os/FileDescriptor.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/os/FileDescriptor.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/os/FileDescriptor.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/os/Process.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/os/Process.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/os/Process.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/os/Process.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/path/Path.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/path/Path.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/path/Path.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/path/Path.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/signal/Listener.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/signal/Listener.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/signal/Listener.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/signal/Listener.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/signal/Signal.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/signal/Signal.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/signal/Signal.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/signal/Signal.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/string/ConstVarList.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/string/ConstVarList.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/string/ConstVarList.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/string/ConstVarList.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/string/String.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/string/String.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/string/String.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/string/String.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/string/VarList.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/string/VarList.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/string/VarList.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/string/VarList.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/string/VarList2.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/string/VarList2.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/string/VarList2.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/string/VarList2.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRUTILS_VERSION=\\\"0.13.1\\\" -Dhyprutils_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprutils/./src -isystem /data/data/com.termux/files/usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++26 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-narrowing -Wno-pointer-arith -O3 -o CMakeFiles/hyprutils.dir/src/utils/ScopeGuard.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprutils/src/utils/ScopeGuard.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprutils/src/utils/ScopeGuard.cpp",
+  "output": "CMakeFiles/hyprutils.dir/src/utils/ScopeGuard.cpp.o"
+}
+]

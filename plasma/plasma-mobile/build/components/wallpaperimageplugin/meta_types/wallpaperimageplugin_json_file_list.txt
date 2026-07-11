@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/wallpaperimageplugin/wallpaperimageplugin_autogen/include/../EWIEGA46WW/moc_wallpaperplugin.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/wallpaperimageplugin/wallpaperimageplugin_autogen/include/wallpaperimageplugin_org_kde_plasma_private_mobileshell_wallpaperimagepluginPlugin.moc.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/wallpaperimageplugin/wallpaperimageplugin_autogen/include/wallpaperplugin.moc.json

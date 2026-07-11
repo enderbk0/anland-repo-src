@@ -1,0 +1,1 @@
+/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/breezestyle_autogen/include/breezestyle_QtQuick_VirtualKeyboard_Styles_BreezePlugin.moc.json

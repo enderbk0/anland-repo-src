@@ -1,0 +1,9 @@
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate/mobileshellstateplugin_autogen/include/../EWIEGA46WW/moc_lockscreendbusclient.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate/mobileshellstateplugin_autogen/include/../EWIEGA46WW/moc_panelsettingsdbusclient.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate/mobileshellstateplugin_autogen/include/../EWIEGA46WW/moc_panelsettingsdbusobjectmanager.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate/mobileshellstateplugin_autogen/include/../EWIEGA46WW/moc_shelldbusclient.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate/mobileshellstateplugin_autogen/include/../EWIEGA46WW/moc_shelldbusobject.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate/mobileshellstateplugin_autogen/include/../EWIEGA46WW/moc_startupfeedbackmodel.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate/mobileshellstateplugin_autogen/include/../EWIEGA46WW/moc_volumeosdlistener.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate/mobileshellstateplugin_autogen/include/../EWIEGA46WW/moc_windowlistener.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate/mobileshellstateplugin_autogen/include/mobileshellstateplugin_org_kde_plasma_private_mobileshell_statePlugin.moc.json

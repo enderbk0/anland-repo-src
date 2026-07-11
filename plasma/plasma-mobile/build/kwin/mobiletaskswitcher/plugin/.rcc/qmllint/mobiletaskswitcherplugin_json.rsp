@@ -1,0 +1,13 @@
+--bare
+-I
+/data/data/com.termux/files/usr/lib/qt6/qml
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kwin/mobiletaskswitcher/plugin
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kwin/mobiletaskswitcher/plugin
+-I
+/data/data/com.termux/files/usr/lib/qt6/qml
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kwin/mobiletaskswitcher/plugin/.qt/rcc/qmake_org_kde_plasma_private_mobileshell_taskswitcherplugin.qrc
+--json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/mobiletaskswitcherplugin_qmllint.json

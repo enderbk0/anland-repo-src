@@ -1,0 +1,179 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Element",
+                    "value": "DelegateTouchArea"
+                }
+            ],
+            "className": "DelegateTouchArea",
+            "lineNumber": 16,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "lineNumber": 21,
+                    "name": "pressed",
+                    "notify": "pressedChanged",
+                    "override": false,
+                    "read": "pressed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 1,
+                    "lineNumber": 22,
+                    "name": "hovered",
+                    "notify": "hoveredChanged",
+                    "override": false,
+                    "read": "hovered",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 2,
+                    "lineNumber": 23,
+                    "name": "cursorShape",
+                    "notify": "cursorShapeChanged",
+                    "override": false,
+                    "read": "cursorShape",
+                    "required": false,
+                    "reset": "unsetCursor",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::CursorShape",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCursorShape"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 3,
+                    "lineNumber": 24,
+                    "name": "pressPosition",
+                    "notify": "pressPositionChanged",
+                    "override": false,
+                    "read": "pressPosition",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointF",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "DelegateTouchArea",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 39,
+                    "name": "clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 40,
+                    "name": "rightMousePress",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 41,
+                    "name": "pressAndHold",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 42,
+                    "name": "pressAndHoldReleased",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pressed",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 43,
+                    "name": "pressedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "hovered",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 44,
+                    "name": "hoveredChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 45,
+                    "name": "cursorShapeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 46,
+                    "name": "pressPositionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 8,
+                    "lineNumber": 59,
+                    "name": "startPressAndHold",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "delegatetoucharea.h",
+    "outputRevision": 69
+}

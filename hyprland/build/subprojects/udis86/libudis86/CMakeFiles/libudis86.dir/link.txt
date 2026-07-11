@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/llvm-ar qc liblibudis86.a CMakeFiles/libudis86.dir/decode.c.o CMakeFiles/libudis86.dir/itab.c.o "CMakeFiles/libudis86.dir/syn-att.c.o" "CMakeFiles/libudis86.dir/syn-intel.c.o" CMakeFiles/libudis86.dir/syn.c.o CMakeFiles/libudis86.dir/udis86.c.o
+/data/data/com.termux/files/usr/bin/llvm-ranlib liblibudis86.a

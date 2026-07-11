@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/shellsettingsplugin/shellsettingsplugin_autogen/include/../EWIEGA46WW/moc_kwinsettings.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/shellsettingsplugin/shellsettingsplugin_autogen/include/../EWIEGA46WW/moc_mobileshellsettings.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/shellsettingsplugin/shellsettingsplugin_autogen/include/shellsettingsplugin_org_kde_plasma_private_mobileshell_shellsettingspluginPlugin.moc.json

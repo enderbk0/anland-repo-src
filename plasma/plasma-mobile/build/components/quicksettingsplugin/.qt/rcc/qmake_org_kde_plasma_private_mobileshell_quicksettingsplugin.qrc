@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/org/kde/plasma/private/mobileshell/quicksettingsplugin">
+    <file alias="qmldir">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/quicksettingsplugin/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/org/kde/plasma/quicksetting/nightcolor">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/nightcolor</file>
+
+  </qresource>
+</RCC>

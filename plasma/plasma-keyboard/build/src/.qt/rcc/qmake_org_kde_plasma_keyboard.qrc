@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/org/kde/plasma/keyboard">
+    <file alias="qmldir">/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/bin/org/kde/plasma/keyboard/qmldir</file>
+  </qresource>
+</RCC>
+

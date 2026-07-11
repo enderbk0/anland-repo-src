@@ -1,0 +1,46 @@
+{
+    "classes": [
+        {
+            "className": "WidgetsManager",
+            "lineNumber": 14,
+            "object": true,
+            "qualifiedClassName": "WidgetsManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "applet",
+                            "type": "Plasma::Applet*"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 26,
+                    "name": "widgetAdded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "applet",
+                            "type": "Plasma::Applet*"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 27,
+                    "name": "widgetRemoved",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "widgetsmanager.h",
+    "outputRevision": 69
+}

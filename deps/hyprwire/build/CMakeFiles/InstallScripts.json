@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/data/data/com.termux/files/home/hyprland-deps/hyprwire/build/cmake_install.cmake",
+		"/data/data/com.termux/files/home/hyprland-deps/hyprwire/build/scanner/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

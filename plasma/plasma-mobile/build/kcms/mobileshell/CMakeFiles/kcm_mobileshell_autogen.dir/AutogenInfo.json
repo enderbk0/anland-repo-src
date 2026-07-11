@@ -1,0 +1,118 @@
+{
+	"BUILD_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/mobileshell/kcm_mobileshell_autogen",
+	"CMAKE_BINARY_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/mobileshell",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/kcms/mobileshell",
+	"CMAKE_EXECUTABLE" : "/data/data/com.termux/files/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/kcms/mobileshell/CMakeLists.txt",
+		"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/mobileshell/kcm_mobileshell.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/mobileshell/kcm_mobileshell_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "kcm_mobileshell_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/mobileshell/kcm_mobileshell_autogen/include",
+	"MOC_COMPILATION_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/mobileshell/kcm_mobileshell_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KCOREADDONS_LIB",
+		"KPLUGINFACTORY_PLUGIN_CLASS_INTERNAL_NAME=kcm_mobileshell_factory",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QML_LIB",
+		"QT_WIDGETS_LIB",
+		"_LARGEFILE64_SOURCE",
+		"kcm_mobileshell_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/mobileshell",
+		"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/kcms/mobileshell",
+		"/data/data/com.termux/files/usr/include/qt6/QtCore",
+		"/data/data/com.termux/files/usr/include/qt6",
+		"/data/data/com.termux/files/usr/lib/qt6/mkspecs/linux-clang",
+		"/data/data/com.termux/files/usr/include/KF6/KCoreAddons",
+		"/data/data/com.termux/files/usr/include/KF6/KCMUtils",
+		"/data/data/com.termux/files/usr/include/qt6/QtWidgets",
+		"/data/data/com.termux/files/usr/include/qt6/QtGui",
+		"/data/data/com.termux/files/usr/include/KF6/KConfigWidgets",
+		"/data/data/com.termux/files/usr/include/KF6/KWidgetsAddons",
+		"/data/data/com.termux/files/usr/include/KF6/KConfig",
+		"/data/data/com.termux/files/usr/include/KF6/KConfigGui",
+		"/data/data/com.termux/files/usr/include/KF6/KConfigCore",
+		"/data/data/com.termux/files/usr/include/KF6/KColorScheme",
+		"/data/data/com.termux/files/usr/include/KF6/KCMUtilsQuick",
+		"/data/data/com.termux/files/usr/include/qt6/QtQml",
+		"/data/data/com.termux/files/usr/include/qt6/QtQmlIntegration",
+		"/data/data/com.termux/files/usr/include/qt6/QtNetwork",
+		"/data/data/com.termux/files/usr/include/KF6/KCMUtilsCore",
+		"/data/data/com.termux/files/usr/include/KF6/KI18n",
+		"/data/data/com.termux/files/usr/include",
+		"/data/data/com.termux/files/usr/include/c++/v1",
+		"/data/data/com.termux/files/usr/lib/clang/21/include",
+		"/data/data/com.termux/files/usr/include/aarch64-linux-android"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_CLASS",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/data/data/com.termux/files/usr/bin/c++",
+		"-std=gnu++20",
+		"-w",
+		"-dM",
+		"-E",
+		"/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/mobileshell/kcm_mobileshell_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/mobileshell/qrc_kcm_mobileshell.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/mobileshell/CMakeFiles/kcm_mobileshell_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/data/data/com.termux/files/usr/lib/qt6/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 11,
+	"SETTINGS_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/mobileshell/CMakeFiles/kcm_mobileshell_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/kcms/mobileshell/kcm.cpp",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Xlinker --dependency-file=CMakeFiles/hyprlang.dir/link.d -Wl,-soname,libhyprlang.so.2 -o libhyprlang.so.0.6.8 CMakeFiles/hyprlang.dir/src/common.cpp.o CMakeFiles/hyprlang.dir/src/config.cpp.o  /data/data/com.termux/files/usr/lib/libhyprutils.so

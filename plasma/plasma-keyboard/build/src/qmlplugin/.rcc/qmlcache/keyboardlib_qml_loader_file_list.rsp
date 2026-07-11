@@ -1,0 +1,7 @@
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/qmlplugin/.qt/rcc/qmake_org_kde_plasma_keyboard_lib.qrc
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/qmlplugin/.qt/rcc/keyboardlib_raw_qml_0.qrc
+/qt/qml/org/kde/plasma/keyboard/lib/BreezeKeyPanel.qml
+/qt/qml/org/kde/plasma/keyboard/lib/BreezeConstants.qml
+/qt/qml/org/kde/plasma/keyboard/lib/BreezePopup.qml

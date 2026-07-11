@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "HomeScreenFactory",
+            "interfaces": [
+                [
+                    {
+                        "className": "KPluginFactory",
+                        "id": "\"org.kde.KPluginFactory\""
+                    }
+                ]
+            ],
+            "lineNumber": 12,
+            "object": true,
+            "qualifiedClassName": "HomeScreenFactory",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "KPluginFactory"
+                }
+            ]
+        }
+    ],
+    "inputFile": "homescreen.cpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,97 @@
+// SPDX-FileCopyrightText: 2023 by Devin Lin <devin@kde.org>
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#include "prepareutil.h"
+
+#include <kscreen/configmonitor.h>
+#include <kscreen/getconfigoperation.h>
+#include <kscreen/output.h>
+#include <kscreen/setconfigoperation.h>
+
+#include <QDBusPendingCallWatcher>
+#include <QDBusPendingReply>
+#include <QProcess>
+
+PrepareUtil::PrepareUtil(QObject *parent)
+    : QObject{parent}
+{
+    initKScreen([]() { });
+}
+
+void PrepareUtil::initKScreen(std::function<void()> callback)
+{
+    connect(new KScreen::GetConfigOperation(), &KScreen::GetConfigOperation::finished, this, [this, callback](auto *op) {
+        m_config = qobject_cast<KScreen::GetConfigOperation *>(op)->config();
+        if (!m_config) {
+            qDebug() << "PrepareUtil: Failed to get kscreen config, attempting again";
+            initKScreen(callback);
+            return;
+        }
+
+        KScreen::ConfigMonitor::instance()->addConfig(m_config);
+
+        int scaling = 100;
+
+        // To determine the scaling value:
+        // Try to take the primary display's scaling, otherwise use the scaling of any of the displays
+        int lowestPriority = std::numeric_limits<unsigned int>::max();
+        for (KScreen::OutputPtr output : m_config->outputs()) {
+            if (!output) {
+                continue;
+            }
+            if (output->priority() <= lowestPriority) {
+                lowestPriority = output->priority();
+                scaling = output->scale() * 100;
+                m_output = output->id();
+            }
+        }
+
+        m_scaling = scaling;
+        Q_EMIT scalingChanged();
+
+        callback();
+    });
+}
+
+int PrepareUtil::scaling() const
+{
+    return m_scaling;
+}
+
+void PrepareUtil::setScaling(int scaling)
+{
+    if (!m_config) {
+        initKScreen([this, scaling]() {
+            setScalingInternal(scaling);
+        });
+        return;
+    }
+
+    setScalingInternal(scaling);
+}
+
+void PrepareUtil::setScalingInternal(int scaling)
+{
+    const auto outputs = m_config->outputs();
+    qreal scalingNum = ((double)scaling) / 100;
+
+    for (KScreen::OutputPtr output : outputs) {
+        if (!output) {
+            continue;
+        }
+        if (output->id() == m_output) {
+            output->setScale(scalingNum);
+        }
+    }
+
+    auto setop = new KScreen::SetConfigOperation(m_config, this);
+    setop->exec();
+
+    m_scaling = scaling;
+    Q_EMIT scalingChanged();
+}
+
+QStringList PrepareUtil::scalingOptions()
+{
+    return {"50%", "75%", "100%", "125%", "150%", "175%", "200%", "225%", "250%", "275%", "300%"};
+}

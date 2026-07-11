@@ -1,0 +1,16 @@
+module plasma.applet.org.kde.plasma.mobile.homescreen.halcyon
+typeinfo org.kde.plasma.mobile.homescreen.halcyon.qmltypes
+prefer :/qt/qml/plasma/applet/org/kde/plasma/mobile/homescreen/halcyon/
+Clock 254.0 Clock.qml
+FavoritesAppDelegate 254.0 FavoritesAppDelegate.qml
+FavoritesGrid 254.0 FavoritesGrid.qml
+FavoritesView 254.0 FavoritesView.qml
+FolderGrid 254.0 FolderGrid.qml
+GridAppDelegate 254.0 GridAppDelegate.qml
+GridAppList 254.0 GridAppList.qml
+HomeScreen 254.0 HomeScreen.qml
+SearchWidget 254.0 SearchWidget.qml
+SettingsScreen 254.0 settings/SettingsScreen.qml
+ConfigGeneral 254.0 settings/ConfigGeneral.qml
+depends QtQuick
+

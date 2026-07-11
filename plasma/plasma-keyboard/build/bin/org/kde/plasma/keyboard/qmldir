@@ -1,0 +1,9 @@
+module org.kde.plasma.keyboard
+typeinfo plasma-keyboard.qmltypes
+depends QtQuick
+prefer :/qt/qml/org/kde/plasma/keyboard/
+LanguagePopup 254.0 LanguagePopup.qml
+LanguagePopupDelegate 254.0 LanguagePopupDelegate.qml
+DiacriticsOverlay 254.0 DiacriticsOverlay.qml
+OverlayWindow 254.0 OverlayWindow.qml
+

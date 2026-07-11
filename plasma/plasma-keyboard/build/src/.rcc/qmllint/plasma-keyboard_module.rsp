@@ -1,0 +1,16 @@
+-I
+/data/data/com.termux/files/usr/lib/qt6/qml
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/bin/org/kde/plasma/keyboard
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/bin
+-I
+/data/data/com.termux/files/usr/lib/qt6/qml
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/.qt/rcc/qmake_org_kde_plasma_keyboard.qrc
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/.qt/rcc/plasma-keyboard_raw_qml_0.qrc
+--module
+org.kde.plasma.keyboard

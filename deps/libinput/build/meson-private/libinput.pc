@@ -1,0 +1,12 @@
+prefix=/data/data/com.termux/files/usr
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+plugindir=${libdir}/libinput/plugins
+
+Name: Libinput
+Description: Input device library
+Version: 1.30.4
+Requires.private: libudev
+Libs: -L${libdir} -linput
+Cflags: -I${includedir}

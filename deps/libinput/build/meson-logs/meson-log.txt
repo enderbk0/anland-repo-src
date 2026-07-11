@@ -1,0 +1,1189 @@
+Build started at 2026-07-11T13:18:04.465229
+Main binary: /data/data/com.termux/files/usr/bin/python3.14
+Build Options: -Dprefix=/data/data/com.termux/files/usr -Dlibwacom=false -Dtests=false -Ddocumentation=false
+Python system: Android
+The Meson build system
+Version: 1.11.1
+Source dir: /data/data/com.termux/files/home/hyprland-deps/libinput
+Build dir: /data/data/com.termux/files/home/hyprland-deps/libinput/build
+Build type: native build
+Project name: libinput
+Project version: 1.30.4
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+clang version 21.1.8
+Target: aarch64-unknown-linux-android24
+Thread model: posix
+InstalledDir: /data/data/com.termux/files/usr/bin
+-----------
+Running command: -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+LLD 21.1.8 (compatible with GNU linkers)
+-----------
+-----------
+Detecting LLD linker via: `cc -Wl,-v` -> 1
+stdout:
+LLD 21.1.8 (compatible with GNU linkers)
+-----------
+stderr:
+ld.lld: error: undefined symbol: main
+>>> referenced by crtbegin.c
+>>>               /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o:(_start_main)
+>>> referenced by crtbegin.c
+>>>               /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o:(_start_main)
+cc: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+Sanity check compiler command line: cc -D_FILE_OFFSET_BITS=64 -o sanity_check_for_c.exe sanity_check_for_c.c -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for host machine c compiler
+ -- Running test binary command:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/sanity_check_for_c.exe
+-----------
+Sanity check: `/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/sanity_check_for_c.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C compiler for the host machine: cc (clang 21.1.8 "clang version 21.1.8")
+C linker for the host machine: cc ld.lld 21.1.8
+-----------
+Detecting archiver via: `llvm-ar-21 --version` -> [Errno 2] No such file or directory: 'llvm-ar-21'
+-----------
+Detecting archiver via: `llvm-ar --version` -> 0
+stdout:
+LLVM (http://llvm.org/):
+  LLVM version 21.1.8
+  Optimized build.
+-----------
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+clang version 21.1.8
+Target: aarch64-unknown-linux-android24
+Thread model: posix
+InstalledDir: /data/data/com.termux/files/usr/bin
+-----------
+Running command: -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+LLD 21.1.8 (compatible with GNU linkers)
+-----------
+-----------
+Detecting LLD linker via: `cc -Wl,-v` -> 1
+stdout:
+LLD 21.1.8 (compatible with GNU linkers)
+-----------
+stderr:
+ld.lld: error: undefined symbol: main
+>>> referenced by crtbegin.c
+>>>               /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o:(_start_main)
+>>> referenced by crtbegin.c
+>>>               /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o:(_start_main)
+cc: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+Sanity check compiler command line: cc -D_FILE_OFFSET_BITS=64 -o sanity_check_for_c.exe sanity_check_for_c.c -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for build machine c compiler
+ -- Running test binary command:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/sanity_check_for_c.exe
+-----------
+Sanity check: `/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/sanity_check_for_c.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C compiler for the build machine: cc (clang 21.1.8 "clang version 21.1.8")
+C linker for the build machine: cc ld.lld 21.1.8
+Build machine cpu family: aarch64
+Build machine cpu: aarch64
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Target machine cpu family: aarch64
+Target machine cpu: aarch64
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpv0knl7n_
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpv0knl7n_/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpv0knl7n_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Werror=deprecated-declarations -Wno-error=deprecated-declarations` -> 0
+Compiler for C supports arguments -Wno-error=deprecated-declarations: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp2l7ou01c
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp2l7ou01c/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp2l7ou01c/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wunused-parameter -Wno-unused-parameter` -> 0
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp9ybp8emt
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp9ybp8emt/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp9ybp8emt/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wmissing-prototypes` -> 0
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvhxmoz8j
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvhxmoz8j/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvhxmoz8j/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wstrict-prototypes` -> 0
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpe32a_tzt
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpe32a_tzt/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpe32a_tzt/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wundef` -> 0
+Compiler for C supports arguments -Wundef: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpkod8lert
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpkod8lert/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpkod8lert/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wlogical-op` -> 1
+stderr:
+error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+-----------
+Compiler for C supports arguments -Wlogical-op: NO 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmptjnmasif
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmptjnmasif/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmptjnmasif/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wpointer-arith` -> 0
+Compiler for C supports arguments -Wpointer-arith: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp4hi28qv5
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp4hi28qv5/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp4hi28qv5/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wuninitialized` -> 0
+Compiler for C supports arguments -Wuninitialized: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpbgq2vpf_
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpbgq2vpf_/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpbgq2vpf_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Winit-self` -> 0
+Compiler for C supports arguments -Winit-self: YES 
+Using cached compile:
+Cached command line:  cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvhxmoz8j/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvhxmoz8j/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wstrict-prototypes 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES (cached)
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpl3jn825l
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpl3jn825l/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpl3jn825l/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wimplicit-fallthrough` -> 0
+Compiler for C supports arguments -Wimplicit-fallthrough: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpxe4kjksl
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpxe4kjksl/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpxe4kjksl/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wredundant-decls` -> 0
+Compiler for C supports arguments -Wredundant-decls: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp5aui8s9n
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp5aui8s9n/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp5aui8s9n/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wincompatible-pointer-types` -> 0
+Compiler for C supports arguments -Wincompatible-pointer-types: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvv64z0_8
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvv64z0_8/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvv64z0_8/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wformat=2` -> 0
+Compiler for C supports arguments -Wformat=2: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpylcnxu24
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpylcnxu24/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpylcnxu24/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wmissing-field-initializers -Wno-missing-field-initializers` -> 0
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpz2ft3cji
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpz2ft3cji/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpz2ft3cji/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wmissing-declarations` -> 0
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp1x2ymgqx
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp1x2ymgqx/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp1x2ymgqx/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -fvisibility=hidden` -> 0
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/usr/tmp/tmpngyl26gl
+Code:
+
+        #define _GNU_SOURCE 1
+#include <assert.h>
+
+        #ifndef static_assert
+        # define static_assert "MESON_GET_DEFINE_UNDEFINED_SENTINEL"
+        #endif
+        "MESON_GET_DEFINE_DELIMITER_START"
+static_assert
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Command line: `cc /data/data/com.termux/files/usr/tmp/tmpngyl26gl/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -std=gnu99` -> 0
+stdout:
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc23-extensions"
+#pragma clang diagnostic pop
+int android_get_application_target_sdk_version() __attribute__((__availability__(android,strict,introduced=24 )));
+int __system_property_get(const char* _Nonnull __name, char* _Nonnull __value);
+int atoi(const char* _Nonnull __s) __attribute__((__pure__));
+static __inline__ int android_get_device_api_level() {
+  char value[92] = { 0 };
+  if (__system_property_get("ro.build.version.sdk", value) < 1) return -1;
+  int api_level = atoi(value);
+  return (api_level > 0) ? api_level : -1;
+}
+
+void __assert(const char* _Nonnull __file, int __line, const char* _Nonnull __msg) __attribute__((__noreturn__));
+void __assert2(const char* _Nonnull __file, int __line, const char* _Nonnull __function, const char* _Nonnull __msg) __attribute__((__noreturn__));
+ "MESON_GET_DEFINE_DELIMITER_START"
+"MESON_GET_DEFINE_UNDEFINED_SENTINEL"
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Fetching value of define "static_assert" : (undefined) 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp64j8mrjf
+Code:
+#define _GNU_SOURCE 1
+#include <assert.h>
+
+        #include <dirent.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef versionsort
+                versionsort;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp64j8mrjf/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp64j8mrjf/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 1
+stderr:
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp64j8mrjf/testfile.c:8:17: error: use of undeclared identifier 'versionsort'
+    8 |                 versionsort;
+      |                 ^~~~~~~~~~~
+1 error generated.
+-----------
+Header "dirent.h" has symbol "versionsort" : NO 
+Running compile:
+Working directory:  /data/data/com.termux/files/usr/tmp/tmpe_1_54rg
+Code:
+
+        #include <sys/syscall.h>
+        #ifndef SYS_pidfd_open
+        # define SYS_pidfd_open "MESON_GET_DEFINE_UNDEFINED_SENTINEL"
+        #endif
+        "MESON_GET_DEFINE_DELIMITER_START"
+SYS_pidfd_open
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Command line: `cc /data/data/com.termux/files/usr/tmp/tmpe_1_54rg/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -std=gnu99` -> 0
+stdout:
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc23-extensions"
+#pragma clang diagnostic pop
+int android_get_application_target_sdk_version() __attribute__((__availability__(android,strict,introduced=24 )));
+int __system_property_get(const char* _Nonnull __name, char* _Nonnull __value);
+int atoi(const char* _Nonnull __s) __attribute__((__pure__));
+static __inline__ int android_get_device_api_level() {
+  char value[92] = { 0 };
+  if (__system_property_get("ro.build.version.sdk", value) < 1) return -1;
+  int api_level = atoi(value);
+  return (api_level > 0) ? api_level : -1;
+}
+
+
+ "MESON_GET_DEFINE_DELIMITER_START"
+434
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Fetching value of define "SYS_pidfd_open" : 434 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvmh3aw_p
+Code:
+#define _GNU_SOURCE 1
+#include <string.h>
+#include <limits.h>
+
+        #if defined __stub_sigabbrev_np || defined __stub___sigabbrev_np
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &sigabbrev_np;
+            long long b = (long long) a;
+            return (int) b;
+        }
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvmh3aw_p/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvmh3aw_p/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -std=gnu99` -> 1
+stderr:
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpvmh3aw_p/testfile.c:10:32: error: use of undeclared identifier 'sigabbrev_np'
+   10 |             void *a = (void*) &sigabbrev_np;
+      |                                ^~~~~~~~~~~~
+1 error generated.
+-----------
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp5r272wo2
+Code:
+#define _GNU_SOURCE 1
+#include <string.h>
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !0 && !defined(sigabbrev_np) && !0
+            #error "No definition for __builtin_sigabbrev_np found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_sigabbrev_np)
+                #error "__builtin_sigabbrev_np not found"
+            #endif
+        #elif ! defined(sigabbrev_np)
+            __builtin_sigabbrev_np;
+        #endif
+        return 0;
+        }
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp5r272wo2/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp5r272wo2/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -std=gnu99` -> 1
+stderr:
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp5r272wo2/testfile.c:13:14: error: "No definition for __builtin_sigabbrev_np found in the prefix"
+   13 |             #error "No definition for __builtin_sigabbrev_np found in the prefix"
+      |              ^
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp5r272wo2/testfile.c:18:18: error: "__builtin_sigabbrev_np not found"
+   18 |                 #error "__builtin_sigabbrev_np not found"
+      |                  ^
+2 errors generated.
+-----------
+Checking for function "sigabbrev_np" : NO 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpffq2ef79
+Code:
+#define _GNU_SOURCE 1
+#include <assert.h>
+
+        #include <errno.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef program_invocation_short_name
+                program_invocation_short_name;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpffq2ef79/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpffq2ef79/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 1
+stderr:
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpffq2ef79/testfile.c:8:17: error: use of undeclared identifier 'program_invocation_short_name'
+    8 |                 program_invocation_short_name;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+-----------
+Header "errno.h" has symbol "program_invocation_short_name" : NO 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmplp_t1n2u
+Code:
+
+        #include <stdlib.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef getprogname
+                getprogname;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmplp_t1n2u/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmplp_t1n2u/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+stderr:
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmplp_t1n2u/testfile.c:6:17: warning: expression result unused [-Wunused-value]
+    6 |                 getprogname;
+      |                 ^~~~~~~~~~~
+1 warning generated.
+-----------
+Header "stdlib.h" has symbol "getprogname" : YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpzvmfnq9x
+Code:
+
+        #ifdef __has_include
+         #if !__has_include("xlocale.h")
+          #error "Header 'xlocale.h' could not be found"
+         #endif
+        #else
+         #include <xlocale.h>
+        #endif
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpzvmfnq9x/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -std=gnu99` -> 0
+Has header "xlocale.h" : YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpw3mxnexb
+Code:
+
+#include <time.h>
+
+void func() { auto foo = gmtime(NULL); foo->tm_sec = 0; }
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpw3mxnexb/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpw3mxnexb/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 1
+stderr:
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpw3mxnexb/testfile.c:4:20: error: type specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int [-Wimplicit-int]
+    4 | void func() { auto foo = gmtime(NULL); foo->tm_sec = 0; }
+      |               ~~~~ ^
+      |               int
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpw3mxnexb/testfile.c:4:20: error: incompatible pointer to integer conversion initializing 'int' with an expression of type 'struct tm * _Nullable' [-Wint-conversion]
+    4 | void func() { auto foo = gmtime(NULL); foo->tm_sec = 0; }
+      |                    ^     ~~~~~~~~~~~~
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpw3mxnexb/testfile.c:4:45: error: member reference type 'int' is not a pointer
+    4 | void func() { auto foo = gmtime(NULL); foo->tm_sec = 0; }
+      |                                        ~~~  ^
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpw3mxnexb/testfile.c:4:33: warning: null passed to a callee that requires a non-null argument [-Wnonnull]
+    4 | void func() { auto foo = gmtime(NULL); foo->tm_sec = 0; }
+      |                                 ^~~~
+/data/data/com.termux/files/usr/lib/clang/21/include/__stddef_null.h:26:14: note: expanded from macro 'NULL'
+   26 | #define NULL ((void*)0)
+      |              ^~~~~~~~~~
+1 warning and 3 errors generated.
+-----------
+Checking if "has C23 auto keyword" compiles: NO 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpp0sr4o_8
+Code:
+
+#include <locale.h>
+void main(void) { newlocale(LC_NUMERIC_MASK, "C", (locale_t)0); }
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpp0sr4o_8/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpp0sr4o_8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -std=gnu99` -> 0
+stderr:
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpp0sr4o_8/testfile.c:3:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+    3 | void main(void) { newlocale(LC_NUMERIC_MASK, "C", (locale_t)0); }
+      | ^
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpp0sr4o_8/testfile.c:3:1: note: change return type to 'int'
+    3 | void main(void) { newlocale(LC_NUMERIC_MASK, "C", (locale_t)0); }
+      | ^~~~
+      | int
+1 warning generated.
+-----------
+Checking if "locale.h" links: YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp6oc8nwc4
+Code:
+#define _GNU_SOURCE 1
+#include <assert.h>
+
+        #include <sys/ptrace.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef PTRACE_ATTACH
+                PTRACE_ATTACH;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp6oc8nwc4/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp6oc8nwc4/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Header "sys/ptrace.h" has symbol "PTRACE_ATTACH" : YES 
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/data/data/com.termux/files/usr/bin/pkg-config) 0.29.2
+Determining dependency 'libudev' with pkg-config executable '/data/data/com.termux/files/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --modversion libudev` -> 0
+stdout:
+251
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --cflags libudev` -> 0
+stdout:
+-I/data/data/com.termux/files/usr/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs libudev` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -ludev
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs libudev` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -ludev
+-----------
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpah15rdpp
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpah15rdpp/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpah15rdpp/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpotxm14_7
+Code:
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpotxm14_7/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpotxm14_7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs` -> 0
+stdout:
+programs: =/data/data/com.termux/files/usr/bin
+libraries: =/data/data/com.termux/files/usr/lib/clang/21:/data/data/com.termux/files/usr/bin/../../usr/lib:/system/lib64
+-----------
+Run-time dependency libudev found: YES 251
+Determining dependency 'libevdev' with pkg-config executable '/data/data/com.termux/files/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --modversion libevdev` -> 0
+stdout:
+1.13.6
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --cflags libevdev` -> 0
+stdout:
+-I/data/data/com.termux/files/usr/include/libevdev-1.0/
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs libevdev` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -levdev
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs libevdev` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -levdev
+-----------
+Run-time dependency libevdev found: YES 1.13.6
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpm58ivn3_
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpm58ivn3_/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpm58ivn3_/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -lm -Wl,--allow-shlib-undefined` -> 0
+Library m found: YES
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp0pcs2npo
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp0pcs2npo/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp0pcs2npo/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -lrt -Wl,--allow-shlib-undefined` -> 0
+Library rt found: YES
+Determining dependency 'lua-5.4' with pkg-config executable '/data/data/com.termux/files/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --modversion lua-5.4` -> 0
+stdout:
+5.4.8
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --cflags lua-5.4` -> 0
+stdout:
+-I/data/data/com.termux/files/usr/include/lua5.4
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs lua-5.4` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -llua5.4 -lm
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs lua-5.4` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -llua5.4 -lm
+-----------
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpdpfufhou
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpdpfufhou/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpdpfufhou/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -lm -Wl,--allow-shlib-undefined` -> 0
+Run-time dependency lua-5.4 found: YES 5.4.8
+Determining dependency 'mtdev' with pkg-config executable '/data/data/com.termux/files/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --modversion mtdev` -> 0
+stdout:
+1.1.7
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --cflags mtdev` -> 0
+stdout:
+-I/data/data/com.termux/files/usr/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs mtdev` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lmtdev
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs mtdev` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lmtdev
+-----------
+Run-time dependency mtdev found: YES 1.1.7
+Configuring 80-libinput-device-groups.rules using configuration
+Configuring 90-libinput-fuzz-override.rules using configuration
+Configuring 80-libinput-device-groups-litest.rules using configuration
+Configuring 90-libinput-fuzz-override-litest.rules using configuration
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpzvxrei9_
+Code:
+#define _GNU_SOURCE 1
+#include <assert.h>
+
+        #include <sys/epoll.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef epoll_create1
+                epoll_create1;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `cc /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpzvxrei9_/testfile.c -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpzvxrei9_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+stderr:
+/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpzvxrei9_/testfile.c:8:17: warning: expression result unused [-Wunused-value]
+    8 |                 epoll_create1;
+      |                 ^~~~~~~~~~~~~
+1 warning generated.
+-----------
+Header "sys/epoll.h" has symbol "epoll_create1" : YES 
+Configuring test-util-includes-util-backtrace.h.c using configuration
+Configuring test-util-includes-util-bits.h.c using configuration
+Configuring test-util-includes-util-input-event.h.c using configuration
+Configuring test-util-includes-util-list.h.c using configuration
+Configuring test-util-includes-util-files.h.c using configuration
+Configuring test-util-includes-util-macros.h.c using configuration
+Configuring test-util-includes-util-matrix.h.c using configuration
+Configuring test-util-includes-util-prop-parsers.h.c using configuration
+Configuring test-util-includes-util-ratelimit.h.c using configuration
+Configuring test-util-includes-util-stringbuf.h.c using configuration
+Configuring test-util-includes-util-strings.h.c using configuration
+Configuring test-util-includes-util-time.h.c using configuration
+Configuring libinput-version.h using configuration
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/data/data/com.termux/files/usr/bin/pkg-config) 0.29.2
+Adding test "validate-quirks"
+Program test/test_quirks_files.py found: YES (/data/data/com.termux/files/home/hyprland-deps/libinput/test/test_quirks_files.py)
+Adding test "validate-quirks-files"
+Adding test "list-devices"
+Determining dependency 'gtk4' with pkg-config executable '/data/data/com.termux/files/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --modversion gtk4` -> 0
+stdout:
+4.22.4
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --cflags gtk4` -> 0
+stdout:
+-pthread -I/data/data/com.termux/files/usr/include/gtk-4.0 -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/include/harfbuzz -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/include/fribidi -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/harfbuzz -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0 -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/freetype2 -I/data/data/com.termux/files/usr/include/libpng16 -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/pixman-1 -I/data/data/com.termux/files/usr/include/graphene-1.0 -I/data/data/com.termux/files/usr/lib/graphene-1.0/include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs gtk4` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lgtk-4 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -lgdk_pixbuf-2.0 -lcairo-gobject -lcairo -lgraphene-1.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs gtk4` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lgtk-4 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -lgdk_pixbuf-2.0 -lcairo-gobject -lcairo -lgraphene-1.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gtk4 found: YES 4.22.4
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --variable=targets gtk4` -> 0
+stdout:
+wayland x11
+-----------
+Got pkg-config variable targets : wayland x11
+Determining dependency 'cairo' with pkg-config executable '/data/data/com.termux/files/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --modversion cairo` -> 0
+stdout:
+1.18.4
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --cflags cairo` -> 0
+stdout:
+-I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/freetype2 -I/data/data/com.termux/files/usr/include/libpng16 -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/pixman-1
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs cairo` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lcairo
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs cairo` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lcairo
+-----------
+Run-time dependency cairo found: YES 1.18.4
+Determining dependency 'glib-2.0' with pkg-config executable '/data/data/com.termux/files/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --modversion glib-2.0` -> 0
+stdout:
+2.88.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --cflags glib-2.0` -> 0
+stdout:
+-I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lglib-2.0
+-----------
+Run-time dependency glib-2.0 found: YES 2.88.2
+Determining dependency 'x11' with pkg-config executable '/data/data/com.termux/files/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --modversion x11` -> 0
+stdout:
+1.8.13
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --cflags x11` -> 0
+stdout:
+-I/data/data/com.termux/files/usr/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs x11` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lX11
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs x11` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lX11
+-----------
+Run-time dependency x11 found: YES 1.8.13
+Determining dependency 'wayland-client' with pkg-config executable '/data/data/com.termux/files/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --modversion wayland-client` -> 0
+stdout:
+1.25.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --cflags wayland-client` -> 0
+stdout:
+-I/data/data/com.termux/files/usr/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs wayland-client` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lwayland-client -lm
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs wayland-client` -> 0
+stdout:
+-L/data/data/com.termux/files/usr/lib -lwayland-client -lm
+-----------
+Run-time dependency wayland-client found: YES 1.25.0
+Determining dependency 'wayland-protocols' with pkg-config executable '/data/data/com.termux/files/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --modversion wayland-protocols` -> 0
+stdout:
+1.49
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --cflags wayland-protocols` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs wayland-protocols` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --libs wayland-protocols` -> 0
+Run-time dependency wayland-protocols found: YES 1.49
+Program wayland-scanner found: YES (/data/data/com.termux/files/usr/bin/wayland-scanner)
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /data/data/com.termux/files/usr/bin/pkg-config
+-----------
+Called: `/data/data/com.termux/files/usr/bin/pkg-config --variable=pkgdatadir wayland-protocols` -> 0
+stdout:
+//data/data/com.termux/files/usr/share/wayland-protocols
+-----------
+Got pkg-config variable pkgdatadir : //data/data/com.termux/files/usr/share/wayland-protocols
+Configuring test_tool_option_parsing.py using configuration
+DEPRECATION: Variable substitution with boolean value 'MESON_ENABLED_DEBUG_GUI' is deprecated.
+Adding test "tool-option-parsing"
+Adding test "tools-builddir-lookup"
+Program test/helper-copy-and-exec-from-tmp.sh found: YES (/data/data/com.termux/files/home/hyprland-deps/libinput/test/helper-copy-and-exec-from-tmp.sh)
+Adding test "tools-builddir-lookup-installed"
+Program test/symbols-leak-test found: YES (/data/data/com.termux/files/home/hyprland-deps/libinput/test/symbols-leak-test)
+Adding test "symbols-leak-test"
+-----------
+Detecting compiler via: `c++ --version` -> 0
+stdout:
+clang version 21.1.8
+Target: aarch64-unknown-linux-android24
+Thread model: posix
+InstalledDir: /data/data/com.termux/files/usr/bin
+-----------
+Running command: -x c++ -E -dM -
+-----
+-----------
+Detecting linker via: `c++ -Wl,--version` -> 0
+stdout:
+LLD 21.1.8 (compatible with GNU linkers)
+-----------
+-----------
+Detecting LLD linker via: `c++ -Wl,-v` -> 1
+stdout:
+LLD 21.1.8 (compatible with GNU linkers)
+-----------
+stderr:
+ld.lld: error: undefined symbol: main
+>>> referenced by crtbegin.c
+>>>               /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o:(_start_main)
+>>> referenced by crtbegin.c
+>>>               /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o:(_start_main)
+c++: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+Sanity check compiler command line: c++ -D_FILE_OFFSET_BITS=64 -o sanity_check_for_cpp.exe sanity_check_for_cpp.cpp -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for host machine cpp compiler
+ -- Running test binary command:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/sanity_check_for_cpp.exe
+-----------
+Sanity check: `/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/sanity_check_for_cpp.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C++ compiler for the host machine: c++ (clang 21.1.8 "clang version 21.1.8")
+C++ linker for the host machine: c++ ld.lld 21.1.8
+Configuring libinput-debug-gui.1 using configuration
+Configuring libinput.1 using configuration
+Configuring libinput-analyze.1 using configuration
+Configuring libinput-analyze-buttons.1 using configuration
+Configuring libinput-analyze-per-slot-delta.1 using configuration
+Configuring libinput-analyze-recording.1 using configuration
+Configuring libinput-analyze-touch-down-state.1 using configuration
+Configuring libinput-debug-events.1 using configuration
+Configuring libinput-debug-tablet.1 using configuration
+Configuring libinput-debug-tablet-pad.1 using configuration
+Configuring libinput-list-devices.1 using configuration
+Configuring libinput-list-kernel-devices.1 using configuration
+Configuring libinput-measure.1 using configuration
+Configuring libinput-measure-fuzz.1 using configuration
+Configuring libinput-measure-touchpad-size.1 using configuration
+Configuring libinput-measure-touchpad-tap.1 using configuration
+Configuring libinput-measure-touchpad-pressure.1 using configuration
+Configuring libinput-measure-touch-size.1 using configuration
+Configuring libinput-quirks.1 using configuration
+Configuring libinput-record.1 using configuration
+Configuring libinput-replay.1 using configuration
+Configuring libinput-test.1 using configuration
+Configuring libinput-quirks-list.1 using configuration
+Configuring libinput-quirks-validate.1 using configuration
+Configuring config.h using configuration
+Build targets in project: 50
+
+libinput 1.30.4
+
+  Plugins
+    Plugins enabled   : YES
+    Autoload plugins  : NO
+    Lua Plugin support: YES
+
+  User defined options
+    documentation     : false
+    libwacom          : false
+    prefix            : /data/data/com.termux/files/usr
+    tests             : false
+
+Found ninja-1.13.2 at /data/data/com.termux/files/usr/bin/ninja
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp2vh5bndi
+Code:
+
+        #ifdef __has_include
+         #if !__has_include("version")
+          #error "Header 'version' could not be found"
+         #endif
+        #else
+         #include <version>
+        #endif
+-----------
+Command line: `c++ /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmp2vh5bndi/testfile.cpp -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -U_FORTIFY_SOURCE -fpermissive -Werror=implicit-function-declaration` -> 0
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpbw6hdfpj
+Code:
+
+        #include <version>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef _LIBCPP_VERSION
+                _LIBCPP_VERSION;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `c++ /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpbw6hdfpj/testfile.cpp -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpbw6hdfpj/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpiptbxun1
+Code:
+
+-----------
+Command line: `c++ /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpiptbxun1/testfile.cpp -o /data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/tmpiptbxun1/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs` -> 0
+stdout:
+programs: =/data/data/com.termux/files/usr/bin
+libraries: =/data/data/com.termux/files/usr/lib/clang/21:/data/data/com.termux/files/usr/bin/../../usr/lib:/system/lib64
+-----------
+Failed to guess install tag for /data/data/com.termux/files/usr/etc/libinput
+Failed to guess install tag for /data/data/com.termux/files/usr/lib/udev/rules.d/80-libinput-device-groups.rules
+Failed to guess install tag for /data/data/com.termux/files/usr/lib/udev/rules.d/90-libinput-fuzz-override.rules
+Failed to guess install tag for /data/data/com.termux/files/usr/share/zsh/site-functions/_libinput
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-analyze-buttons
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-analyze-per-slot-delta
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-analyze-recording
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-analyze-touch-down-state
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-list-kernel-devices
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-measure-fuzz
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-measure-touchpad-size
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-measure-touchpad-tap
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-measure-touchpad-pressure
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-measure-touch-size
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-replay
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-debug-gui.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-analyze.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-analyze-buttons.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-analyze-per-slot-delta.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-analyze-recording.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-analyze-touch-down-state.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-debug-events.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-debug-tablet.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-debug-tablet-pad.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-list-devices.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-list-kernel-devices.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure-fuzz.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure-touchpad-size.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure-touchpad-tap.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure-touchpad-pressure.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure-touch-size.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-quirks.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-record.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-replay.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-test.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-quirks-list.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-quirks-validate.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/libinput/dummy
+Failed to guess install tag for /data/data/com.termux/files/usr/etc/libinput
+Failed to guess install tag for /data/data/com.termux/files/usr/lib/udev/rules.d/80-libinput-device-groups.rules
+Failed to guess install tag for /data/data/com.termux/files/usr/lib/udev/rules.d/90-libinput-fuzz-override.rules
+Failed to guess install tag for /data/data/com.termux/files/usr/share/zsh/site-functions/_libinput
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-analyze-buttons
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-analyze-per-slot-delta
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-analyze-recording
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-analyze-touch-down-state
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-list-kernel-devices
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-measure-fuzz
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-measure-touchpad-size
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-measure-touchpad-tap
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-measure-touchpad-pressure
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-measure-touch-size
+Failed to guess install tag for /data/data/com.termux/files/usr/libexec/libinput/libinput-replay
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-debug-gui.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-analyze.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-analyze-buttons.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-analyze-per-slot-delta.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-analyze-recording.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-analyze-touch-down-state.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-debug-events.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-debug-tablet.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-debug-tablet-pad.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-list-devices.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-list-kernel-devices.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure-fuzz.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure-touchpad-size.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure-touchpad-tap.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure-touchpad-pressure.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-measure-touch-size.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-quirks.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-record.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-replay.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-test.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-quirks-list.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/man/man1/libinput-quirks-validate.1
+Failed to guess install tag for /data/data/com.termux/files/usr/share/libinput/dummy

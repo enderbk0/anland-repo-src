@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "org_kde_plasma_private_mobileshell_hapticspluginPlugin",
+            "lineNumber": 11,
+            "object": true,
+            "qualifiedClassName": "org_kde_plasma_private_mobileshell_hapticspluginPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQmlEngineExtensionPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "hapticsplugin_org_kde_plasma_private_mobileshell_hapticspluginPlugin.cpp",
+    "outputRevision": 69
+}

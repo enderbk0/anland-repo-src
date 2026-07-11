@@ -1,0 +1,34 @@
+{
+    "classes": [
+        {
+            "className": "QuickSettingsConfig",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "QuickSettingsConfig",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 52,
+                    "name": "enabledQuickSettingsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 53,
+                    "name": "disabledQuickSettingsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "quicksettingsconfig.h",
+    "outputRevision": 69
+}

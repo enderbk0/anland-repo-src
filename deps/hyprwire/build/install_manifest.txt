@@ -1,0 +1,17 @@
+/data/data/com.termux/files/usr/bin/hyprwire-scanner
+/data/data/com.termux/files/usr/lib/pkgconfig/hyprwire-scanner.pc
+/data/data/com.termux/files/usr/lib/cmake/hyprwire-scanner/hyprwire-scanner-config.cmake
+/data/data/com.termux/files/usr/lib/cmake/hyprwire-scanner/hyprwire-scanner-config-version.cmake
+/data/data/com.termux/files/usr/lib/libhyprwire.so.0.3.1
+/data/data/com.termux/files/usr/lib/libhyprwire.so.3
+/data/data/com.termux/files/usr/lib/libhyprwire.so
+/data/data/com.termux/files/usr/include/hyprwire/core/ClientSocket.hpp
+/data/data/com.termux/files/usr/include/hyprwire/core/ServerSocket.hpp
+/data/data/com.termux/files/usr/include/hyprwire/core/implementation/ClientImpl.hpp
+/data/data/com.termux/files/usr/include/hyprwire/core/implementation/Object.hpp
+/data/data/com.termux/files/usr/include/hyprwire/core/implementation/ServerImpl.hpp
+/data/data/com.termux/files/usr/include/hyprwire/core/implementation/Spec.hpp
+/data/data/com.termux/files/usr/include/hyprwire/core/implementation/Types.hpp
+/data/data/com.termux/files/usr/include/hyprwire/core/types/MessageMagic.hpp
+/data/data/com.termux/files/usr/include/hyprwire/hyprwire.hpp
+/data/data/com.termux/files/usr/lib/pkgconfig/hyprwire.pc

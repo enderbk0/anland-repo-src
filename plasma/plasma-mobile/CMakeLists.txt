@@ -1,0 +1,193 @@
+# SPDX-FileCopyrightText: 2014-2020 Marco Martin <mart@kde.org>
+# SPDX-FileCopyrightText: 2017-2021 Bhushan Shah <bshah@kde.org>
+# SPDX-FileCopyrightText: 2019-2021 Nicolas Fella <nicolas.fella@kde.org>
+# SPDX-FileCopyrightText: 2022 Devin Lin <devin@kde.org>
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+cmake_minimum_required(VERSION 3.24)
+
+project(plasma-mobile)
+set(PROJECT_VERSION "6.7.80")
+
+set(ANDROID OFF CACHE BOOL "Disable Android build type for Termux" FORCE)
+
+if (NOT COMMAND qt6_android_apply_arch_suffix)
+    macro(qt6_android_apply_arch_suffix target)
+        # Dummy macro to bypass Android-specific config on Termux
+    endmacro()
+endif()
+
+if (NOT COMMAND _qt_internal_collect_qml_root_paths)
+    macro(_qt_internal_collect_qml_root_paths target)
+        # Dummy macro to bypass Android-specific config on Termux
+    endmacro()
+endif()
+
+set(PROJECT_DEP_VERSION "6.6.90")
+set(QT_MIN_VERSION "6.10.0")
+set(KF6_MIN_VERSION "6.26.0")
+set(KDE_COMPILERSETTINGS_LEVEL "5.82")
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+option(INSTALL_SYSTEMD_SERVICE "Install a systemd service file to start the session" OFF)
+
+find_package(ECM ${KF6_MIN_VERSION} REQUIRED NO_MODULE)
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
+
+set(KF_IGNORE_PLATFORM_CHECK ON CACHE BOOL "Don't check platform that is being built on")
+
+include(KDEInstallDirs)
+include(KDECMakeSettings)
+include(KDECompilerSettings NO_POLICY_SCOPE)
+include(ECMOptionalAddSubdirectory)
+include(ECMInstallIcons)
+include(ECMSetupVersion)
+include(ECMMarkNonGuiExecutable)
+include(ECMGenerateHeaders)
+include(ECMFindQmlModule)
+include(ECMConfiguredInstall)
+include(ECMFindQmlModule)
+include(ECMQtDeclareLoggingCategory)
+include(GenerateExportHeader)
+include(KDEGitCommitHooks)
+include(KDEClangFormat)
+include(FeatureSummary)
+
+add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
+
+ecm_setup_version(${PROJECT_VERSION}
+    VARIABLE_PREFIX PLASMA_MOBILE
+    VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/version.h
+)
+
+find_package(Qt6 ${QT_MIN_VERSION} CONFIG REQUIRED
+    Core
+    Qml
+    Quick
+    Gui
+    WaylandClient
+    QmlPrivate
+)
+
+if(Qt6WaylandClient_VERSION VERSION_GREATER_EQUAL "6.10.0")
+    find_package(Qt6 REQUIRED COMPONENTS WaylandClientPrivate)
+endif()
+
+find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS
+    I18n
+    GlobalAccel
+    KIO
+    Config
+    DBusAddons
+    ItemModels
+    Service
+    Notifications
+    KCMUtils
+    Package
+    JobWidgets
+    WindowSystem
+)
+
+find_package(KF6ModemManagerQt ${KF6_MIN_VERSION} CONFIG)
+find_package(KF6NetworkManagerQt ${KF6_MIN_VERSION} CONFIG)
+
+find_package(Plasma CONFIG REQUIRED)
+find_package(PlasmaQuick CONFIG REQUIRED)
+find_package(PlasmaActivities CONFIG REQUIRED)
+find_package(KF6Screen CONFIG REQUIRED)
+find_package(KWayland CONFIG REQUIRED)
+find_package(KPipeWire ${PROJECT_DEP_VERSION} REQUIRED)
+
+find_package(PkgConfig REQUIRED)
+
+find_package(QCoro6 REQUIRED COMPONENTS DBus Qml)
+qcoro_enable_coroutines()
+kde_enable_exceptions()
+
+find_package(KF6KirigamiAddons 0.6 REQUIRED)
+find_package(epoxy REQUIRED)
+find_package(XCB REQUIRED COMPONENTS XCB)
+find_package(KWin ${PROJECT_DEP_VERSION} REQUIRED COMPONENTS
+    kwin
+)
+
+find_package(LayerShellQt REQUIRED)
+find_package(Wayland REQUIRED)
+find_package(PlasmaWaylandProtocols 1.8 CONFIG)
+set_package_properties(PlasmaWaylandProtocols PROPERTIES
+    TYPE REQUIRED
+    PURPOSE "Collection of Plasma-specific Wayland protocols"
+    URL "https://invent.kde.org/libraries/plasma-wayland-protocols/"
+)
+
+
+find_package(LibKWorkspace CONFIG REQUIRED)
+find_package(Libudev)
+
+find_package(KWinDBusInterface)
+set_package_properties(KWinDBusInterface PROPERTIES DESCRIPTION "KWin DBus interface"
+    TYPE REQUIRED
+    PURPOSE "Needed for virtual keyboard toggle button"
+)
+
+find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS Auth)
+set_package_properties(KF6::AuthCore PROPERTIES
+    TYPE REQUIRED
+    PURPOSE "Allows Plasma Mobile to configure Waydroid"
+)
+
+include(CheckIncludeFiles)
+
+ecm_find_qmlmodule(org.kde.pipewire 0.1)
+ecm_find_qmlmodule(org.kde.plasma.networkmanagement 6.0)
+
+plasma_install_package(lookandfeel org.kde.breeze.mobile look-and-feel lookandfeel)
+plasma_install_package(shell org.kde.plasma.mobileshell shells)
+
+add_subdirectory(bin)
+add_subdirectory(components)
+add_subdirectory(containments)
+add_subdirectory(devices)
+add_subdirectory(quicksettings)
+add_subdirectory(kcms)
+add_subdirectory(kded)
+add_subdirectory(kwin)
+add_subdirectory(envmanager)
+add_subdirectory(initialstart)
+add_subdirectory(layout-templates)
+if(BUILD_TESTING)
+    add_subdirectory(tests)
+endif()
+
+install(FILES org.kde.plasma.mobileshell.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+
+find_program(PlasmaOpenSettings plasma-open-settings)
+set_package_properties(PlasmaOpenSettings PROPERTIES
+                                          URL https://invent.kde.org/plasma/kde-cli-tools/
+                                          DESCRIPTION "Opens KCMs properly"
+                                          TYPE RUNTIME
+                                          PURPOSE "Used on the top panel")
+
+feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
+# add clang-format target for all our real source files
+file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)
+kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
+kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
+
+ki18n_install(po)
+
+if (INSTALL_SYSTEMD_SERVICE)
+    install(FILES
+        ${CMAKE_CURRENT_SOURCE_DIR}/plasma-mobile.service
+        DESTINATION ${KDE_INSTALL_SYSTEMDUNITDIR}/system
+    )
+endif()
+
+ecm_qt_install_logging_categories(
+    EXPORT PLASMA_MOBILE
+    FILE plasmamobile.categories
+    DESTINATION ${KDE_INSTALL_LOGGINGCATEGORIESDIR}
+)

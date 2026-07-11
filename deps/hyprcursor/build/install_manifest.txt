@@ -1,0 +1,9 @@
+/data/data/com.termux/files/usr/lib/libhyprcursor.so.0.1.13
+/data/data/com.termux/files/usr/lib/libhyprcursor.so.0
+/data/data/com.termux/files/usr/lib/libhyprcursor.so
+/data/data/com.termux/files/usr/include/hyprcursor.hpp
+/data/data/com.termux/files/usr/bin/hyprcursor-util
+/data/data/com.termux/files/usr/include/hyprcursor/hyprcursor.h
+/data/data/com.termux/files/usr/include/hyprcursor/hyprcursor.hpp
+/data/data/com.termux/files/usr/include/hyprcursor/shared.h
+/data/data/com.termux/files/usr/lib/pkgconfig/hyprcursor.pc

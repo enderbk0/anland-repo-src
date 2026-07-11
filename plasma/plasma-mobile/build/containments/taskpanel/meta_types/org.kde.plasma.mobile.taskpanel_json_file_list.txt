@@ -1,0 +1,2 @@
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/taskpanel/org.kde.plasma.mobile.taskpanel_autogen/include/../EWIEGA46WW/moc_taskpanel.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/taskpanel/org.kde.plasma.mobile.taskpanel_autogen/include/taskpanel.moc.json

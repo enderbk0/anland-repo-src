@@ -1,0 +1,13 @@
+/data/data/com.termux/files/usr/lib/libhyprgraphics.so.0.5.1
+/data/data/com.termux/files/usr/lib/libhyprgraphics.so.4
+/data/data/com.termux/files/usr/lib/libhyprgraphics.so
+/data/data/com.termux/files/usr/include/hyprgraphics/cairo/CairoSurface.hpp
+/data/data/com.termux/files/usr/include/hyprgraphics/color/Color.hpp
+/data/data/com.termux/files/usr/include/hyprgraphics/egl/Egl.hpp
+/data/data/com.termux/files/usr/include/hyprgraphics/image/Image.hpp
+/data/data/com.termux/files/usr/include/hyprgraphics/resource/AsyncResourceGatherer.hpp
+/data/data/com.termux/files/usr/include/hyprgraphics/resource/resources/AsyncResource.hpp
+/data/data/com.termux/files/usr/include/hyprgraphics/resource/resources/ImageResource.hpp
+/data/data/com.termux/files/usr/include/hyprgraphics/resource/resources/StaticImageResource.hpp
+/data/data/com.termux/files/usr/include/hyprgraphics/resource/resources/TextResource.hpp
+/data/data/com.termux/files/usr/lib/pkgconfig/hyprgraphics.pc

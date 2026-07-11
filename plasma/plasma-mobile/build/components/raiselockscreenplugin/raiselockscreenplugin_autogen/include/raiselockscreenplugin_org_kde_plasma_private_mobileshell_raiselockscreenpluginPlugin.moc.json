@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "org_kde_plasma_private_mobileshell_raiselockscreenpluginPlugin",
+            "lineNumber": 11,
+            "object": true,
+            "qualifiedClassName": "org_kde_plasma_private_mobileshell_raiselockscreenpluginPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQmlEngineExtensionPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "raiselockscreenplugin_org_kde_plasma_private_mobileshell_raiselockscreenpluginPlugin.cpp",
+    "outputRevision": 69
+}

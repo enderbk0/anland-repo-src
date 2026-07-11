@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "org_kde_plasma_private_mobileshell_shellsettingspluginPlugin",
+            "lineNumber": 11,
+            "object": true,
+            "qualifiedClassName": "org_kde_plasma_private_mobileshell_shellsettingspluginPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQmlEngineExtensionPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "shellsettingsplugin_org_kde_plasma_private_mobileshell_shellsettingspluginPlugin.cpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,10 @@
+prefix=/data/data/com.termux/files/usr
+includedir=/data/data/com.termux/files/usr/include
+libdir=/data/data/com.termux/files/usr/lib
+
+Name: aquamarine
+URL: https://github.com/hyprwm/aquamarine
+Description: A very light linux rendering backend library
+Version: 0.12.1
+Cflags: -I${includedir}
+Libs: -L${libdir} -laquamarine

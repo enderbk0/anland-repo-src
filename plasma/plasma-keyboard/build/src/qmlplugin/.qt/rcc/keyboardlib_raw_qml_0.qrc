@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/org/kde/plasma/keyboard/lib/">
+    <file alias="BreezeKeyPanel.qml">/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/src/qmlplugin/BreezeKeyPanel.qml</file>
+    <file alias="BreezeConstants.qml">/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/src/qmlplugin/BreezeConstants.qml</file>
+    <file alias="BreezePopup.qml">/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/src/qmlplugin/BreezePopup.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/qt/qml/plasma/applet/org/kde/plasma/mobile/homescreen/folio/">
+    <file alias="private/ConfirmDeleteFolderDialogLoader.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/private/ConfirmDeleteFolderDialogLoader.qml</file>
+    <file alias="private/ContextMenuLoader.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/private/ContextMenuLoader.qml</file>
+    <file alias="private/DarkenEffect.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/private/DarkenEffect.qml</file>
+    <file alias="private/Orientation.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/private/Orientation.qml</file>
+    <file alias="private/WidgetHandlePosition.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/private/WidgetHandlePosition.qml</file>
+    <file alias="private/WidgetResizeHandle.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/private/WidgetResizeHandle.qml</file>
+    <file alias="private/WidgetResizeHandleFrame.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/private/WidgetResizeHandleFrame.qml</file>
+  </qresource>
+</RCC>
+

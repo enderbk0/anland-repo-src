@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprlang/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRLANG_INTERNAL -Dhyprlang_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprlang/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprlang/./src -O3 -DNDEBUG -std=gnu++23 -fPIC -O3 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/hyprlang.dir/src/common.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprlang/src/common.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprlang/src/common.cpp",
+  "output": "CMakeFiles/hyprlang.dir/src/common.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprlang/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRLANG_INTERNAL -Dhyprlang_EXPORTS -I/data/data/com.termux/files/home/hyprland-deps/hyprlang/./include -I/data/data/com.termux/files/home/hyprland-deps/hyprlang/./src -O3 -DNDEBUG -std=gnu++23 -fPIC -O3 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/hyprlang.dir/src/config.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprlang/src/config.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprlang/src/config.cpp",
+  "output": "CMakeFiles/hyprlang.dir/src/config.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprlang/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRLANG_INTERNAL -I/data/data/com.termux/files/home/hyprland-deps/hyprlang/./include -O3 -DNDEBUG -std=gnu++23 -O3 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/hyprlang_test.dir/tests/parse/main.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprlang/tests/parse/main.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprlang/tests/parse/main.cpp",
+  "output": "CMakeFiles/hyprlang_test.dir/tests/parse/main.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/hyprland-deps/hyprlang/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DHYPRLANG_INTERNAL -I/data/data/com.termux/files/home/hyprland-deps/hyprlang/./include -O3 -DNDEBUG -std=gnu++23 -O3 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/hyprlang_fuzz.dir/tests/fuzz/main.cpp.o -c /data/data/com.termux/files/home/hyprland-deps/hyprlang/tests/fuzz/main.cpp",
+  "file": "/data/data/com.termux/files/home/hyprland-deps/hyprlang/tests/fuzz/main.cpp",
+  "output": "CMakeFiles/hyprlang_fuzz.dir/tests/fuzz/main.cpp.o"
+}
+]

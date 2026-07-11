@@ -1,0 +1,94 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="org.kde.plasmashell">
+    <signal name="doNotDisturbChanged">
+    </signal>
+    <signal name="isActionDrawerOpenChanged">
+    </signal>
+    <signal name="isVolumeOSDOpenChanged">
+    </signal>
+    <signal name="isNotificationPopupDrawerOpenChanged">
+    </signal>
+    <signal name="panelStateChanged">
+    </signal>
+    <signal name="isTaskSwitcherVisibleChanged">
+    </signal>
+    <signal name="openActionDrawerRequested">
+    </signal>
+    <signal name="closeActionDrawerRequested">
+    </signal>
+    <signal name="appLaunchMaximizePanelAnimationTriggered">
+      <arg name="screen" type="i" direction="out"/>
+      <arg name="color" type="s" direction="out"/>
+    </signal>
+    <signal name="openHomeScreenRequested">
+    </signal>
+    <signal name="resetHomeScreenPositionRequested">
+    </signal>
+    <signal name="showVolumeOSDRequested">
+    </signal>
+    <signal name="openLockScreenKeypadRequested">
+    </signal>
+    <method name="doNotDisturb">
+      <arg type="b" direction="out"/>
+    </method>
+    <method name="setDoNotDisturb">
+      <arg name="value" type="b" direction="in"/>
+    </method>
+    <method name="isActionDrawerOpen">
+      <arg type="b" direction="out"/>
+    </method>
+    <method name="setIsActionDrawerOpen">
+      <arg name="value" type="b" direction="in"/>
+    </method>
+    <method name="isVolumeOSDOpen">
+      <arg type="b" direction="out"/>
+    </method>
+    <method name="setIsVolumeOSDOpen">
+      <arg name="value" type="b" direction="in"/>
+    </method>
+    <method name="isNotificationPopupDrawerOpen">
+      <arg type="b" direction="out"/>
+    </method>
+    <method name="setIsNotificationPopupDrawerOpen">
+      <arg name="value" type="b" direction="in"/>
+    </method>
+    <method name="panelState">
+      <arg type="s" direction="out"/>
+    </method>
+    <method name="setPanelState">
+      <arg name="state" type="s" direction="in"/>
+    </method>
+    <method name="isTaskSwitcherVisible">
+      <arg type="b" direction="out"/>
+    </method>
+    <method name="setIsTaskSwitcherVisible">
+      <arg name="value" type="b" direction="in"/>
+    </method>
+    <method name="openActionDrawer">
+    </method>
+    <method name="closeActionDrawer">
+    </method>
+    <method name="openAppLaunchAnimationWithPosition">
+      <arg name="screen" type="i" direction="in"/>
+      <arg name="splashIcon" type="s" direction="in"/>
+      <arg name="title" type="s" direction="in"/>
+      <arg name="storageId" type="s" direction="in"/>
+      <arg name="x" type="d" direction="in"/>
+      <arg name="y" type="d" direction="in"/>
+      <arg name="sourceIconSize" type="d" direction="in"/>
+    </method>
+    <method name="triggerAppLaunchMaximizePanelAnimation">
+      <arg name="screen" type="i" direction="in"/>
+      <arg name="color" type="s" direction="in"/>
+    </method>
+    <method name="openHomeScreen">
+    </method>
+    <method name="resetHomeScreenPosition">
+    </method>
+    <method name="showVolumeOSD">
+    </method>
+    <method name="openLockScreenKeypad">
+    </method>
+  </interface>
+</node>

@@ -1,0 +1,148 @@
+[
+  {
+    "cmd": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-quirks",
+      "validate",
+      "--data-dir=/data/data/com.termux/files/home/hyprland-deps/libinput/quirks"
+    ],
+    "env": {
+      "LD_LIBRARY_PATH": "/data/data/com.termux/files/home/hyprland-deps/libinput/build/"
+    },
+    "name": "validate-quirks",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "libinput:all"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "libinput-quirks@exe"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/test/test_quirks_files.py"
+    ],
+    "env": {
+      "MESON_SOURCE_ROOT": "/data/data/com.termux/files/home/hyprland-deps/libinput"
+    },
+    "name": "validate-quirks-files",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "libinput:all"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-list-devices"
+    ],
+    "env": {
+      "LD_LIBRARY_PATH": "/data/data/com.termux/files/home/hyprland-deps/libinput/build/"
+    },
+    "name": "list-devices",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "libinput:all",
+      "libinput:root",
+      "libinput:hardware"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "libinput-list-devices@exe"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test_tool_option_parsing.py",
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test_tool_option_parsing.py"
+    ],
+    "env": {},
+    "name": "tool-option-parsing",
+    "workdir": null,
+    "timeout": 240,
+    "suite": [
+      "libinput:all",
+      "libinput:root"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-builddir-lookup",
+      "--builddir-is-set"
+    ],
+    "env": {
+      "LD_LIBRARY_PATH": "/data/data/com.termux/files/home/hyprland-deps/libinput/build/"
+    },
+    "name": "tools-builddir-lookup",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "libinput:all"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "test-builddir-lookup@exe"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/test/helper-copy-and-exec-from-tmp.sh",
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-builddir-lookup",
+      "--builddir-is-null"
+    ],
+    "env": {
+      "LD_LIBRARY_PATH": "/data/data/com.termux/files/home/hyprland-deps/libinput/build"
+    },
+    "name": "tools-builddir-lookup-installed",
+    "workdir": "/tmp",
+    "timeout": 30,
+    "suite": [
+      "libinput:all"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/test/symbols-leak-test",
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput.sym",
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/src"
+    ],
+    "env": {},
+    "name": "symbols-leak-test",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "libinput:all"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  }
+]

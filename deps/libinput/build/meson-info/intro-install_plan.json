@@ -1,0 +1,348 @@
+{
+  "targets": {
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-device-group": {
+      "destination": "{prefix}/lib/udev/libinput-device-group",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-fuzz-extract": {
+      "destination": "{prefix}/lib/udev/libinput-fuzz-extract",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-fuzz-to-zero": {
+      "destination": "{prefix}/lib/udev/libinput-fuzz-to-zero",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput.so": {
+      "destination": "{libdir_shared}/libinput.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-events": {
+      "destination": "{prefix}/libexec/libinput/libinput-debug-events",
+      "tag": "bin",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/"
+      ]
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-tablet": {
+      "destination": "{prefix}/libexec/libinput/libinput-debug-tablet",
+      "tag": "bin",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/"
+      ]
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-tablet-pad": {
+      "destination": "{prefix}/libexec/libinput/libinput-debug-tablet-pad",
+      "tag": "bin",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/"
+      ]
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-quirks": {
+      "destination": "{prefix}/libexec/libinput/libinput-quirks",
+      "tag": "bin",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/"
+      ]
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-list-devices": {
+      "destination": "{prefix}/libexec/libinput/libinput-list-devices",
+      "tag": "bin",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/"
+      ]
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure": {
+      "destination": "{prefix}/libexec/libinput/libinput-measure",
+      "tag": "bin",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/"
+      ]
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze": {
+      "destination": "{prefix}/libexec/libinput/libinput-analyze",
+      "tag": "bin",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/"
+      ]
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-record": {
+      "destination": "{prefix}/libexec/libinput/libinput-record",
+      "tag": "bin",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/"
+      ]
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-gui": {
+      "destination": "{prefix}/libexec/libinput/libinput-debug-gui",
+      "tag": "bin",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/"
+      ]
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput": {
+      "destination": "{bindir}/libinput",
+      "tag": "bin",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/"
+      ]
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-test": {
+      "destination": "{prefix}/libexec/libinput/libinput-test",
+      "tag": "tests",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/"
+      ]
+    }
+  },
+  "configure": {
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/80-libinput-device-groups.rules": {
+      "destination": "{prefix}/lib/udev/rules.d/80-libinput-device-groups.rules",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/90-libinput-fuzz-override.rules": {
+      "destination": "{prefix}/lib/udev/rules.d/90-libinput-fuzz-override.rules",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze-buttons": {
+      "destination": "{prefix}/libexec/libinput/libinput-analyze-buttons",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze-per-slot-delta": {
+      "destination": "{prefix}/libexec/libinput/libinput-analyze-per-slot-delta",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze-recording": {
+      "destination": "{prefix}/libexec/libinput/libinput-analyze-recording",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze-touch-down-state": {
+      "destination": "{prefix}/libexec/libinput/libinput-analyze-touch-down-state",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-list-kernel-devices": {
+      "destination": "{prefix}/libexec/libinput/libinput-list-kernel-devices",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure-fuzz": {
+      "destination": "{prefix}/libexec/libinput/libinput-measure-fuzz",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure-touchpad-size": {
+      "destination": "{prefix}/libexec/libinput/libinput-measure-touchpad-size",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure-touchpad-tap": {
+      "destination": "{prefix}/libexec/libinput/libinput-measure-touchpad-tap",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure-touchpad-pressure": {
+      "destination": "{prefix}/libexec/libinput/libinput-measure-touchpad-pressure",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure-touch-size": {
+      "destination": "{prefix}/libexec/libinput/libinput-measure-touch-size",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-replay": {
+      "destination": "{prefix}/libexec/libinput/libinput-replay",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-gui.1": {
+      "destination": "{prefix}/share/man/man1/libinput-debug-gui.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput.1": {
+      "destination": "{prefix}/share/man/man1/libinput.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze.1": {
+      "destination": "{prefix}/share/man/man1/libinput-analyze.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze-buttons.1": {
+      "destination": "{prefix}/share/man/man1/libinput-analyze-buttons.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze-per-slot-delta.1": {
+      "destination": "{prefix}/share/man/man1/libinput-analyze-per-slot-delta.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze-recording.1": {
+      "destination": "{prefix}/share/man/man1/libinput-analyze-recording.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze-touch-down-state.1": {
+      "destination": "{prefix}/share/man/man1/libinput-analyze-touch-down-state.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-events.1": {
+      "destination": "{prefix}/share/man/man1/libinput-debug-events.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-tablet.1": {
+      "destination": "{prefix}/share/man/man1/libinput-debug-tablet.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-tablet-pad.1": {
+      "destination": "{prefix}/share/man/man1/libinput-debug-tablet-pad.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-list-devices.1": {
+      "destination": "{prefix}/share/man/man1/libinput-list-devices.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-list-kernel-devices.1": {
+      "destination": "{prefix}/share/man/man1/libinput-list-kernel-devices.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure.1": {
+      "destination": "{prefix}/share/man/man1/libinput-measure.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure-fuzz.1": {
+      "destination": "{prefix}/share/man/man1/libinput-measure-fuzz.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure-touchpad-size.1": {
+      "destination": "{prefix}/share/man/man1/libinput-measure-touchpad-size.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure-touchpad-tap.1": {
+      "destination": "{prefix}/share/man/man1/libinput-measure-touchpad-tap.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure-touchpad-pressure.1": {
+      "destination": "{prefix}/share/man/man1/libinput-measure-touchpad-pressure.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure-touch-size.1": {
+      "destination": "{prefix}/share/man/man1/libinput-measure-touch-size.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-quirks.1": {
+      "destination": "{prefix}/share/man/man1/libinput-quirks.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-record.1": {
+      "destination": "{prefix}/share/man/man1/libinput-record.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-replay.1": {
+      "destination": "{prefix}/share/man/man1/libinput-replay.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-test.1": {
+      "destination": "{prefix}/share/man/man1/libinput-test.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-quirks-list.1": {
+      "destination": "{prefix}/share/man/man1/libinput-quirks-list.1",
+      "tag": null,
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-quirks-validate.1": {
+      "destination": "{prefix}/share/man/man1/libinput-quirks-validate.1",
+      "tag": null,
+      "subproject": null
+    }
+  },
+  "data": {
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/build/meson-private/libinput.pc": {
+      "destination": "{libdir}/pkgconfig/libinput.pc",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/completion/zsh/_libinput": {
+      "destination": "{datadir}/zsh/site-functions/_libinput",
+      "tag": null,
+      "subproject": null
+    }
+  },
+  "headers": {
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput.h": {
+      "destination": "{includedir}/libinput.h",
+      "tag": "devel",
+      "subproject": null
+    }
+  },
+  "install_subdirs": {
+    "/data/data/com.termux/files/home/hyprland-deps/libinput/quirks": {
+      "destination": "{prefix}/share/libinput",
+      "tag": null,
+      "subproject": null,
+      "exclude_dirs": [],
+      "exclude_files": [
+        "README.md"
+      ]
+    }
+  }
+}

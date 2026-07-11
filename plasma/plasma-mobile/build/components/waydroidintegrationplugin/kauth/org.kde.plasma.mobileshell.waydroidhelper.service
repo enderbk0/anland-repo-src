@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.kde.plasma.mobileshell.waydroidhelper
+Exec=/data/data/com.termux/files/usr/lib/libexec/kf6/kauth/waydroidhelper
+User=root

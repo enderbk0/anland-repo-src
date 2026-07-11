@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "org_kde_plasma_quicksetting_nightcolorPlugin",
+            "lineNumber": 11,
+            "object": true,
+            "qualifiedClassName": "org_kde_plasma_quicksetting_nightcolorPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQmlEngineExtensionPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "nightcolorplugin_org_kde_plasma_quicksetting_nightcolorPlugin.cpp",
+    "outputRevision": 69
+}

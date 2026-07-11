@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -O3 -DNDEBUG -Wl,--export-dynamic -Xlinker --dependency-file=CMakeFiles/start-hyprland.dir/link.d "CMakeFiles/start-hyprland.dir/src/core/Instance.cpp.o" "CMakeFiles/start-hyprland.dir/src/helpers/Nix.cpp.o" "CMakeFiles/start-hyprland.dir/src/main.cpp.o" -o start-hyprland  /data/data/com.termux/files/usr/lib/libhyprutils.so

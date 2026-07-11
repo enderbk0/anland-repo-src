@@ -1,0 +1,7 @@
+-I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/kcms/time
+-I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/time
+-D_LARGEFILE64_SOURCE
+-DQT_NO_URL_CAST_FROM_STRING
+-o
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/time/moc_timedated_interface.cpp
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kcms/time/timedated_interface.h

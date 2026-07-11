@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/org/kde/plasma/private/mobileshell/taskswitcherplugin">
+    <file alias="qmldir">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/kwin/mobiletaskswitcher/plugin/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,47 @@
+{
+    "classes": [
+        {
+            "className": "ModulesProxyModel",
+            "lineNumber": 14,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 17,
+                    "name": "filterString",
+                    "notify": "filterStringChanged",
+                    "override": false,
+                    "read": "filterString",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFilterString"
+                }
+            ],
+            "qualifiedClassName": "ModulesProxyModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 37,
+                    "name": "filterStringChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "KCategorizedSortFilterProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "modulesproxymodel.h",
+    "outputRevision": 69
+}

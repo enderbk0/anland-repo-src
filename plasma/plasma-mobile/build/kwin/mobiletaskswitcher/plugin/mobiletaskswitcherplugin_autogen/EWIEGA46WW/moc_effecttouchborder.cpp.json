@@ -1,0 +1,58 @@
+{
+    "classes": [
+        {
+            "className": "EffectTouchBorderState",
+            "lineNumber": 13,
+            "object": true,
+            "qualifiedClassName": "KWin::EffectTouchBorderState",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 29,
+                    "name": "inProgressChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "EffectTouchBorder",
+            "lineNumber": 37,
+            "object": true,
+            "qualifiedClassName": "KWin::EffectTouchBorder",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "primaryPosition",
+                            "type": "qreal"
+                        },
+                        {
+                            "name": "orthogonalPosition",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 48,
+                    "name": "touchPositionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "effecttouchborder.h",
+    "outputRevision": 69
+}

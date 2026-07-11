@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "Settings",
+            "lineNumber": 8,
+            "object": true,
+            "qualifiedClassName": "Settings",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "settings.h",
+    "outputRevision": 69
+}

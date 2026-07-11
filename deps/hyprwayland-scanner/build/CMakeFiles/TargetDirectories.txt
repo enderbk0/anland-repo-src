@@ -1,0 +1,7 @@
+/data/data/com.termux/files/home/hyprland-deps/hyprwayland-scanner/build/CMakeFiles/hyprwayland-scanner.dir
+/data/data/com.termux/files/home/hyprland-deps/hyprwayland-scanner/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/hyprland-deps/hyprwayland-scanner/build/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/hyprland-deps/hyprwayland-scanner/build/CMakeFiles/list_install_components.dir
+/data/data/com.termux/files/home/hyprland-deps/hyprwayland-scanner/build/CMakeFiles/install.dir
+/data/data/com.termux/files/home/hyprland-deps/hyprwayland-scanner/build/CMakeFiles/install/local.dir
+/data/data/com.termux/files/home/hyprland-deps/hyprwayland-scanner/build/CMakeFiles/install/strip.dir

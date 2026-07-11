@@ -1,0 +1,295 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Singleton",
+                        "value": "true"
+                    }
+                ],
+                "className": "WindowUtil",
+                "lineNumber": 30,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "storageId",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 12,
+                        "lineNumber": 70,
+                        "name": "activateWindowByStorageId",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 13,
+                        "lineNumber": 75,
+                        "name": "closeActiveWindow",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "showingDesktop",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 82,
+                        "name": "requestShowingDesktop",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 15,
+                        "lineNumber": 87,
+                        "name": "minimizeAll",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "parent",
+                                "type": "QQuickItem*"
+                            }
+                        ],
+                        "index": 16,
+                        "lineNumber": 94,
+                        "name": "unsetAllMinimizedGeometries",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 36,
+                        "name": "isShowingDesktop",
+                        "notify": "showingDesktopChanged",
+                        "override": false,
+                        "read": "isShowingDesktop",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false,
+                        "write": "requestShowingDesktop"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 37,
+                        "name": "hasCloseableActiveWindow",
+                        "notify": "hasCloseableActiveWindowChanged",
+                        "override": false,
+                        "read": "hasCloseableActiveWindow",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 38,
+                        "name": "activeWindowIsShell",
+                        "notify": "activeWindowIsShellChanged",
+                        "override": false,
+                        "read": "activeWindowIsShell",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "WindowUtil",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "window",
+                                "type": "KWayland::Client::PlasmaWindow*"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 98,
+                        "name": "windowCreated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "showingDesktop",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 99,
+                        "name": "showingDesktopChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 100,
+                        "name": "hasCloseableActiveWindowChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 101,
+                        "name": "activeWindowChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 102,
+                        "name": "activeWindowIsShellChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "storageId",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 5,
+                        "lineNumber": 105,
+                        "name": "windowChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "appId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "iconName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 108,
+                        "name": "appActivationStarted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "appId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "iconName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 7,
+                        "lineNumber": 111,
+                        "name": "appActivationFinished",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 8,
+                        "lineNumber": 114,
+                        "name": "updateActiveWindowIsShell",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 9,
+                        "lineNumber": 115,
+                        "name": "forgetActiveWindow",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "showing",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 10,
+                        "lineNumber": 116,
+                        "name": "updateShowingDesktop",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "window",
+                                "type": "KWayland::Client::PlasmaWindow*"
+                            }
+                        ],
+                        "index": 11,
+                        "lineNumber": 117,
+                        "name": "windowCreatedSlot",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "windowutil.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "org_kde_plasma_private_mobileshell_windowpluginPlugin",
+                "lineNumber": 11,
+                "object": true,
+                "qualifiedClassName": "org_kde_plasma_private_mobileshell_windowpluginPlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQmlEngineExtensionPlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "windowplugin_org_kde_plasma_private_mobileshell_windowpluginPlugin.cpp",
+        "outputRevision": 69
+    }
+]

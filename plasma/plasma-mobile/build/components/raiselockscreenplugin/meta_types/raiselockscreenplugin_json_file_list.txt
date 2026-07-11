@@ -1,0 +1,2 @@
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/raiselockscreenplugin/raiselockscreenplugin_autogen/include/../EWIEGA46WW/moc_raiselockscreen.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/raiselockscreenplugin/raiselockscreenplugin_autogen/include/raiselockscreenplugin_org_kde_plasma_private_mobileshell_raiselockscreenpluginPlugin.moc.json

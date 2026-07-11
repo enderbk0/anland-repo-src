@@ -1,0 +1,2 @@
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/windowplugin/windowplugin_autogen/include/../EWIEGA46WW/moc_windowutil.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/windowplugin/windowplugin_autogen/include/windowplugin_org_kde_plasma_private_mobileshell_windowpluginPlugin.moc.json

@@ -1,0 +1,482 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": ""
+                }
+            ],
+            "className": "DelegateDragPosition",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 32,
+                    "name": "Location",
+                    "values": [
+                        "Pages",
+                        "Favourites",
+                        "AppDrawer",
+                        "Folder",
+                        "WidgetList"
+                    ]
+                }
+            ],
+            "lineNumber": 17,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 23,
+                    "name": "location",
+                    "notify": "locationChanged",
+                    "override": false,
+                    "read": "location",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "DelegateDragPosition::Location",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 24,
+                    "name": "page",
+                    "notify": "pageChanged",
+                    "override": false,
+                    "read": "page",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 25,
+                    "name": "pageRow",
+                    "notify": "pageRowChanged",
+                    "override": false,
+                    "read": "pageRow",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 26,
+                    "name": "pageColumn",
+                    "notify": "pageColumnChanged",
+                    "override": false,
+                    "read": "pageColumn",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 27,
+                    "name": "favouritesPosition",
+                    "notify": "favouritesPositionChanged",
+                    "override": false,
+                    "read": "favouritesPosition",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 28,
+                    "name": "folderPosition",
+                    "notify": "folderPositionChanged",
+                    "override": false,
+                    "read": "folderPosition",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 29,
+                    "name": "folder",
+                    "notify": "folderChanged",
+                    "override": false,
+                    "read": "folderRaw",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FolioApplicationFolder*",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "DelegateDragPosition",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 64,
+                    "name": "locationChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 65,
+                    "name": "pageChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 66,
+                    "name": "pageRowChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 67,
+                    "name": "pageColumnChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 68,
+                    "name": "favouritesPositionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 69,
+                    "name": "folderPositionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 70,
+                    "name": "folderChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "DragState",
+            "lineNumber": 84,
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 87,
+                    "name": "candidateDropPosition",
+                    "override": false,
+                    "read": "candidateDropPosition",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "DelegateDragPosition*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 88,
+                    "name": "startPosition",
+                    "override": false,
+                    "read": "startPosition",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "DelegateDragPosition*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 89,
+                    "name": "dropDelegate",
+                    "notify": "dropDelegateChanged",
+                    "override": false,
+                    "read": "dropDelegateRaw",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FolioDelegate*",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "DragState",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 102,
+                    "name": "dropDelegateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 103,
+                    "name": "delegateDroppedAndPlaced",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 106,
+                    "name": "newDelegateDropAbandoned",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 3,
+                    "lineNumber": 109,
+                    "name": "onDelegateDragPositionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 4,
+                    "lineNumber": 110,
+                    "name": "onDelegateDragPositionOverFolderViewChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "lineNumber": 111,
+                    "name": "onDelegateDragPositionOverFavouritesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 6,
+                    "lineNumber": 112,
+                    "name": "onDelegateDragPositionOverPageViewChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 7,
+                    "lineNumber": 114,
+                    "name": "onDelegateDraggingStarted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "page",
+                            "type": "int"
+                        },
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 115,
+                    "name": "onDelegateDragFromPageStarted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "position",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 116,
+                    "name": "onDelegateDragFromFavouritesStarted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "storageId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 117,
+                    "name": "onDelegateDragFromAppDrawerStarted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "folder",
+                            "type": "FolioApplicationFolder*"
+                        },
+                        {
+                            "name": "position",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 11,
+                    "lineNumber": 118,
+                    "name": "onDelegateDragFromFolderStarted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "appletPluginId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 119,
+                    "name": "onDelegateDragFromWidgetListStarted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 13,
+                    "lineNumber": 120,
+                    "name": "onDelegateDropped",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 14,
+                    "lineNumber": 121,
+                    "name": "onDelegateDraggingCancelled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 15,
+                    "lineNumber": 123,
+                    "name": "onLeaveCurrentFolder",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 16,
+                    "lineNumber": 125,
+                    "name": "onChangePageTimerFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 17,
+                    "lineNumber": 126,
+                    "name": "onOpenFolderTimerFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 18,
+                    "lineNumber": 127,
+                    "name": "onLeaveFolderTimerFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 19,
+                    "lineNumber": 128,
+                    "name": "onChangeFolderPageTimerFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 20,
+                    "lineNumber": 129,
+                    "name": "onFolderInsertBetweenTimerFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 21,
+                    "lineNumber": 130,
+                    "name": "onFavouritesInsertBetweenTimerFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "dragstate.h",
+    "outputRevision": 69
+}

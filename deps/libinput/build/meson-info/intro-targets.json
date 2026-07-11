@@ -1,0 +1,3737 @@
+[
+  {
+    "name": "libinput-device-group",
+    "id": "libinput-device-group@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-device-group"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-device-group.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/udev/libinput-device-group.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libudev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libudev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/lib/udev/libinput-device-group"
+    ]
+  },
+  {
+    "name": "libinput-fuzz-extract",
+    "id": "libinput-fuzz-extract@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-fuzz-extract"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-fuzz-extract.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/udev/libinput-fuzz-extract.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/util-strings.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/util-prop-parsers.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libudev",
+      "libevdev",
+      "m"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/lib/udev/libinput-fuzz-extract"
+    ]
+  },
+  {
+    "name": "libinput-fuzz-to-zero",
+    "id": "libinput-fuzz-to-zero@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-fuzz-to-zero"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-fuzz-to-zero.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/udev/libinput-fuzz-to-zero.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libudev",
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/lib/udev/libinput-fuzz-to-zero"
+    ]
+  },
+  {
+    "name": "test-build-util-backtrace.h",
+    "id": "test-build-util-backtrace.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-backtrace.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-backtrace.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-backtrace.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-util-bits.h",
+    "id": "test-build-util-bits.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-bits.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-bits.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-bits.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-util-input-event.h",
+    "id": "test-build-util-input-event.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-input-event.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-input-event.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-input-event.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-util-list.h",
+    "id": "test-build-util-list.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-list.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-list.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-list.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-util-files.h",
+    "id": "test-build-util-files.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-files.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-files.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-files.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-util-macros.h",
+    "id": "test-build-util-macros.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-macros.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-macros.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-macros.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-util-matrix.h",
+    "id": "test-build-util-matrix.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-matrix.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-matrix.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-matrix.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-util-prop-parsers.h",
+    "id": "test-build-util-prop-parsers.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-prop-parsers.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-prop-parsers.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-prop-parsers.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-util-ratelimit.h",
+    "id": "test-build-util-ratelimit.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-ratelimit.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-ratelimit.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-ratelimit.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-util-stringbuf.h",
+    "id": "test-build-util-stringbuf.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-stringbuf.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-stringbuf.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-stringbuf.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-util-strings.h",
+    "id": "test-build-util-strings.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-strings.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-strings.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-strings.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-util-time.h",
+    "id": "test-build-util-time.h@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-time.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-util-time.h.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-util-includes-util-time.h.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libevdev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "libinput-util",
+    "id": "libinput-util@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/liblibinput-util.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/liblibinput-util.a.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIC"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/util-files.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/util-list.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/util-ratelimit.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/util-strings.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/util-prop-parsers.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libudev",
+      "libevdev"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "filter",
+    "id": "filter@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libfilter.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libfilter.a.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIC"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-custom.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-flat.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-low-dpi.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-mouse.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-touchpad.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-touchpad-flat.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-touchpad-x230.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-tablet.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-trackpoint.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-trackpoint-flat.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libudev",
+      "libevdev"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "quirks",
+    "id": "quirks@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libquirks.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libquirks.a.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIC"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/quirks.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libudev"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "input",
+    "id": "input@sha",
+    "type": "shared library",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput.so"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput.so.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIC"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-custom.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-flat.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-low-dpi.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-mouse.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-touchpad.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-touchpad-flat.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-touchpad-x230.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-tablet.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-trackpoint.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/filter-trackpoint-flat.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-plugin.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-plugin-button-debounce.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-plugin-mouse-wheel.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-plugin-mouse-wheel-lowres.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-plugin-tablet-double-tool.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-plugin-tablet-eraser-button.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-plugin-tablet-forced-tool.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-plugin-tablet-proximity-timer.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-private-config.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-fallback.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-plugin.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-totem.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-middle-button.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-mt-touchpad.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-mt-touchpad-tap.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-mt-touchpad-thumb.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-mt-touchpad-buttons.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-mt-touchpad-edge-scroll.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-mt-touchpad-gestures.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-tablet.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-tablet-pad.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/evdev-tablet-pad-leds.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/path-seat.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/udev-seat.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/timer.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/util-libinput.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-plugin-mtdev.c",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-plugin-lua.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-shared",
+          "-fPIC",
+          "-Wl,-soname,libinput.so",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "-Wl,--version-script,/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput.sym",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/lib/libinput.so"
+    ]
+  },
+  {
+    "name": "libinput-git-version.h",
+    "id": "libinput-git-version.h@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-git-version.h"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/meson",
+          "--internal",
+          "vcstagger",
+          "@INPUT0@",
+          "@OUTPUT0@",
+          "unknown",
+          "/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "@VCS_TAG@",
+          "(.*)",
+          "/data/data/com.termux/files/usr/bin/git",
+          "describe"
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/libinput-git-version.h.in"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "10-example.lua",
+    "id": "92cd10e@@10-example.lua@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/plugins/10-example.lua"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/meson",
+          "--internal",
+          "copy",
+          "@INPUT@",
+          "@OUTPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/10-example.lua"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "10-dwt.lua",
+    "id": "92cd10e@@10-dwt.lua@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/plugins/10-dwt.lua"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/meson",
+          "--internal",
+          "copy",
+          "@INPUT@",
+          "@OUTPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/10-dwt.lua"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "10-logitech-mx-master-horiz-scroll.lua",
+    "id": "92cd10e@@10-logitech-mx-master-horiz-scroll.lua@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/plugins/10-logitech-mx-master-horiz-scroll.lua"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/meson",
+          "--internal",
+          "copy",
+          "@INPUT@",
+          "@OUTPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/10-logitech-mx-master-horiz-scroll.lua"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "10-pointer-go-faster.lua",
+    "id": "92cd10e@@10-pointer-go-faster.lua@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/plugins/10-pointer-go-faster.lua"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/meson",
+          "--internal",
+          "copy",
+          "@INPUT@",
+          "@OUTPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/10-pointer-go-faster.lua"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "10-pointer-go-slower.lua",
+    "id": "92cd10e@@10-pointer-go-slower.lua@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/plugins/10-pointer-go-slower.lua"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/meson",
+          "--internal",
+          "copy",
+          "@INPUT@",
+          "@OUTPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/10-pointer-go-slower.lua"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "10-delay-motion.lua",
+    "id": "92cd10e@@10-delay-motion.lua@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/plugins/10-delay-motion.lua"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/meson",
+          "--internal",
+          "copy",
+          "@INPUT@",
+          "@OUTPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/10-delay-motion.lua"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "10-disable-feature.lua",
+    "id": "92cd10e@@10-disable-feature.lua@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/plugins/10-disable-feature.lua"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/meson",
+          "--internal",
+          "copy",
+          "@INPUT@",
+          "@OUTPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/10-disable-feature.lua"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "10-copilot-key-override.lua",
+    "id": "92cd10e@@10-copilot-key-override.lua@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/plugins/10-copilot-key-override.lua"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/meson",
+          "--internal",
+          "copy",
+          "@INPUT@",
+          "@OUTPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/10-copilot-key-override.lua"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "10-wheel-to-button.lua",
+    "id": "92cd10e@@10-wheel-to-button.lua@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/plugins/10-wheel-to-button.lua"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/meson",
+          "--internal",
+          "copy",
+          "@INPUT@",
+          "@OUTPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/plugins/10-wheel-to-button.lua"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "libinput-util-libinput",
+    "id": "libinput-util-libinput@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/liblibinput-util-libinput.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/liblibinput-util-libinput.a.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIC"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/src/util-libinput.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libevdev",
+      "mtdev",
+      "libudev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "tools_shared",
+    "id": "tools_shared@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libtools_shared.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libtools_shared.a.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIC"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/shared.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "libinput-debug-events",
+    "id": "libinput-debug-events@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-events"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-events.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/libinput-debug-events.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/libexec/libinput/libinput-debug-events"
+    ]
+  },
+  {
+    "name": "libinput-debug-tablet",
+    "id": "libinput-debug-tablet@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-tablet"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-tablet.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/libinput-debug-tablet.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/libexec/libinput/libinput-debug-tablet"
+    ]
+  },
+  {
+    "name": "libinput-debug-tablet-pad",
+    "id": "libinput-debug-tablet-pad@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-tablet-pad"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-tablet-pad.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/libinput-debug-tablet-pad.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/libexec/libinput/libinput-debug-tablet-pad"
+    ]
+  },
+  {
+    "name": "libinput-quirks",
+    "id": "libinput-quirks@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-quirks"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-quirks.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/libinput-quirks.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libquirks.a",
+          "liblibinput-util.a",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/libexec/libinput/libinput-quirks"
+    ]
+  },
+  {
+    "name": "libinput-list-devices",
+    "id": "libinput-list-devices@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-list-devices"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-list-devices.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/libinput-list-devices.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/libexec/libinput/libinput-list-devices"
+    ]
+  },
+  {
+    "name": "libinput-measure",
+    "id": "libinput-measure@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-measure.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/libinput-measure.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/libexec/libinput/libinput-measure"
+    ]
+  },
+  {
+    "name": "libinput-analyze",
+    "id": "libinput-analyze@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-analyze.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/libinput-analyze.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/libexec/libinput/libinput-analyze"
+    ]
+  },
+  {
+    "name": "libinput-record",
+    "id": "libinput-record@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-record"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-record.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/libinput-record.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/libexec/libinput/libinput-record"
+    ]
+  },
+  {
+    "name": "pointer-constraints-unstable-v1 client header",
+    "id": "pointer-constraints-unstable-v1 client header@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/pointer-constraints-unstable-v1-client-protocol.h"
+    ],
+    "build_by_default": false,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/wayland-scanner",
+          "client-header",
+          "@INPUT@",
+          "@OUTPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "//data/data/com.termux/files/usr/share/wayland-protocols/unstable/pointer-constraints/pointer-constraints-unstable-v1.xml"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "pointer-constraints-unstable-v1 source",
+    "id": "pointer-constraints-unstable-v1 source@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/pointer-constraints-unstable-v1-protocol.c"
+    ],
+    "build_by_default": false,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/data/data/com.termux/files/usr/bin/wayland-scanner",
+          "private-code",
+          "@INPUT@",
+          "@OUTPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "//data/data/com.termux/files/usr/share/wayland-protocols/unstable/pointer-constraints/pointer-constraints-unstable-v1.xml"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "libinput-debug-gui",
+    "id": "libinput-debug-gui@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-gui"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-debug-gui.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include/gtk-4.0",
+          "-I/data/data/com.termux/files/usr/include/pango-1.0",
+          "-I/data/data/com.termux/files/usr/include/harfbuzz",
+          "-I/data/data/com.termux/files/usr/include/fribidi",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0",
+          "-I/data/data/com.termux/files/usr/include/cairo",
+          "-I/data/data/com.termux/files/usr/include/freetype2",
+          "-I/data/data/com.termux/files/usr/include/libpng16",
+          "-I/data/data/com.termux/files/usr/include/pixman-1",
+          "-I/data/data/com.termux/files/usr/include/graphene-1.0",
+          "-I/data/data/com.termux/files/usr/lib/graphene-1.0/include",
+          "-I/data/data/com.termux/files/usr/include/glib-2.0",
+          "-I/data/data/com.termux/files/usr/lib/glib-2.0/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE",
+          "-pthread"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/libinput-debug-gui.c"
+        ],
+        "generated_sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/build/pointer-constraints-unstable-v1-protocol.c"
+        ],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libgtk-4.so",
+          "/data/data/com.termux/files/usr/lib/libpangocairo-1.0.so",
+          "/data/data/com.termux/files/usr/lib/libpango-1.0.so",
+          "/data/data/com.termux/files/usr/lib/libharfbuzz.so",
+          "/data/data/com.termux/files/usr/lib/libgdk_pixbuf-2.0.so",
+          "/data/data/com.termux/files/usr/lib/libcairo-gobject.so",
+          "/data/data/com.termux/files/usr/lib/libcairo.so",
+          "/data/data/com.termux/files/usr/lib/libgraphene-1.0.so",
+          "/data/data/com.termux/files/usr/lib/libgio-2.0.so",
+          "/data/data/com.termux/files/usr/lib/libgobject-2.0.so",
+          "/data/data/com.termux/files/usr/lib/libglib-2.0.so",
+          "/data/data/com.termux/files/usr/lib/libwayland-client.so",
+          "-lm",
+          "/data/data/com.termux/files/usr/lib/libX11.so",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "gtk4",
+      "cairo",
+      "glib-2.0",
+      "wayland-client",
+      "wayland-protocols",
+      "x11",
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/libexec/libinput/libinput-debug-gui"
+    ]
+  },
+  {
+    "name": "libinput",
+    "id": "libinput@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/libinput-tool.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/bin/libinput"
+    ]
+  },
+  {
+    "name": "ptraccel-debug",
+    "id": "ptraccel-debug@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/ptraccel-debug"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/ptraccel-debug.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/ptraccel-debug.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libfilter.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-builddir-lookup",
+    "id": "test-builddir-lookup@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-builddir-lookup"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-builddir-lookup.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/test/test-builddir-lookup.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-pedantic",
+    "id": "test-build-pedantic@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-pedantic"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-pedantic.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE",
+          "-std=c99",
+          "-pedantic",
+          "-Werror"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/test/build-pedantic.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libudev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libudev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-std-gnuc90",
+    "id": "test-build-std-gnuc90@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-std-gnuc90"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-std-gnuc90.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE",
+          "-std=gnu89",
+          "-Werror"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/test/build-pedantic.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libudev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libudev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-linker",
+    "id": "test-build-linker@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-linker"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-linker.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/test/build-pedantic.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "test-build-cxx",
+    "id": "test-build-cxx@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-cxx"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/test-build-cxx.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-O0",
+          "-g",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/test/build-cxx.cc"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "c++"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "/data/data/com.termux/files/usr/lib/libudev.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libudev"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "libinput-test",
+    "id": "libinput-test@exe",
+    "type": "executable",
+    "defined_in": "/data/data/com.termux/files/home/hyprland-deps/libinput/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-test"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build/libinput-test.p",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/src",
+          "-I/data/data/com.termux/files/home/hyprland-deps/libinput/include",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libevdev-1.0",
+          "-I/data/data/com.termux/files/usr/include/lua5.4",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=gnu99",
+          "-O0",
+          "-g",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-unused-parameter",
+          "-Wmissing-prototypes",
+          "-Wstrict-prototypes",
+          "-Wundef",
+          "-Wpointer-arith",
+          "-Wuninitialized",
+          "-Winit-self",
+          "-Wstrict-prototypes",
+          "-Wimplicit-fallthrough",
+          "-Wredundant-decls",
+          "-Wincompatible-pointer-types",
+          "-Wformat=2",
+          "-Wno-missing-field-initializers",
+          "-Wmissing-declarations",
+          "-fvisibility=hidden",
+          "-fPIE"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/hyprland-deps/libinput/tools/libinput-test.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-pie",
+          "-Wl,-rpath,$ORIGIN/",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "libtools_shared.a",
+          "libinput.so",
+          "liblibinput-util.a",
+          "libquirks.a",
+          "liblibinput-util-libinput.a",
+          "/data/data/com.termux/files/usr/lib/libmtdev.so",
+          "/data/data/com.termux/files/usr/lib/libudev.so",
+          "/data/data/com.termux/files/usr/lib/libevdev.so",
+          "-lm",
+          "-lrt",
+          "/data/data/com.termux/files/usr/lib/liblua5.4.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "mtdev",
+      "libudev",
+      "libevdev",
+      "m",
+      "rt",
+      "lua-5.4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/libexec/libinput/libinput-test"
+    ]
+  }
+]

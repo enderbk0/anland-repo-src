@@ -1,0 +1,269 @@
+{
+    "classes": [
+        {
+            "className": "StartupFeedback",
+            "lineNumber": 14,
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 17,
+                    "name": "iconName",
+                    "override": false,
+                    "read": "iconName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 18,
+                    "name": "title",
+                    "override": false,
+                    "read": "title",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 19,
+                    "name": "storageId",
+                    "override": false,
+                    "read": "storageId",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 20,
+                    "name": "iconStartX",
+                    "override": false,
+                    "read": "iconStartX",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 21,
+                    "name": "iconStartY",
+                    "override": false,
+                    "read": "iconStartY",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 22,
+                    "name": "iconSize",
+                    "override": false,
+                    "read": "iconSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 23,
+                    "name": "screen",
+                    "override": false,
+                    "read": "screen",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "StartupFeedback",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 54,
+                    "name": "timeout",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "StartupFeedbackModel",
+            "lineNumber": 69,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 72,
+                    "name": "activeWindowIsStartupFeedback",
+                    "notify": "activeWindowIsStartupFeedbackChanged",
+                    "override": false,
+                    "read": "activeWindowIsStartupFeedback",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "StartupFeedbackModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 91,
+                    "name": "activeWindowIsStartupFeedbackChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "window",
+                            "type": "KWayland::Client::PlasmaWindow*"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 94,
+                    "name": "onWindowOpened",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "window",
+                            "type": "KWayland::Client::PlasmaWindow*"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 95,
+                    "name": "onPlasmaWindowOpened",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "activeWindow",
+                            "type": "KWayland::Client::PlasmaWindow*"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 96,
+                    "name": "onActiveWindowChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        },
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "StartupFeedbackFilterModel",
+            "lineNumber": 106,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 110,
+                    "name": "startupFeedbackModel",
+                    "notify": "startupFeedbackModelChanged",
+                    "override": false,
+                    "read": "startupFeedbackModel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "StartupFeedbackModel*",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setStartupFeedbackModel"
+                }
+            ],
+            "qualifiedClassName": "StartupFeedbackFilterModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 119,
+                    "name": "startupFeedbackModelChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSortFilterProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "startupfeedbackmodel.h",
+    "outputRevision": 69
+}

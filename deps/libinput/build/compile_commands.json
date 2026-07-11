@@ -1,0 +1,572 @@
+[
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-device-group.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-device-group.p/udev_libinput-device-group.c.o -MF libinput-device-group.p/udev_libinput-device-group.c.o.d -o libinput-device-group.p/udev_libinput-device-group.c.o -c ../udev/libinput-device-group.c",
+    "file": "../udev/libinput-device-group.c",
+    "output": "libinput-device-group.p/udev_libinput-device-group.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-fuzz-extract.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-fuzz-extract.p/udev_libinput-fuzz-extract.c.o -MF libinput-fuzz-extract.p/udev_libinput-fuzz-extract.c.o.d -o libinput-fuzz-extract.p/udev_libinput-fuzz-extract.c.o -c ../udev/libinput-fuzz-extract.c",
+    "file": "../udev/libinput-fuzz-extract.c",
+    "output": "libinput-fuzz-extract.p/udev_libinput-fuzz-extract.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-fuzz-extract.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-fuzz-extract.p/src_util-strings.c.o -MF libinput-fuzz-extract.p/src_util-strings.c.o.d -o libinput-fuzz-extract.p/src_util-strings.c.o -c ../src/util-strings.c",
+    "file": "../src/util-strings.c",
+    "output": "libinput-fuzz-extract.p/src_util-strings.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-fuzz-extract.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-fuzz-extract.p/src_util-prop-parsers.c.o -MF libinput-fuzz-extract.p/src_util-prop-parsers.c.o.d -o libinput-fuzz-extract.p/src_util-prop-parsers.c.o -c ../src/util-prop-parsers.c",
+    "file": "../src/util-prop-parsers.c",
+    "output": "libinput-fuzz-extract.p/src_util-prop-parsers.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-fuzz-to-zero.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-fuzz-to-zero.p/udev_libinput-fuzz-to-zero.c.o -MF libinput-fuzz-to-zero.p/udev_libinput-fuzz-to-zero.c.o.d -o libinput-fuzz-to-zero.p/udev_libinput-fuzz-to-zero.c.o -c ../udev/libinput-fuzz-to-zero.c",
+    "file": "../udev/libinput-fuzz-to-zero.c",
+    "output": "libinput-fuzz-to-zero.p/udev_libinput-fuzz-to-zero.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-backtrace.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-backtrace.h.p/meson-generated_.._test-util-includes-util-backtrace.h.c.o -MF test-build-util-backtrace.h.p/meson-generated_.._test-util-includes-util-backtrace.h.c.o.d -o test-build-util-backtrace.h.p/meson-generated_.._test-util-includes-util-backtrace.h.c.o -c test-util-includes-util-backtrace.h.c",
+    "file": "test-util-includes-util-backtrace.h.c",
+    "output": "test-build-util-backtrace.h.p/meson-generated_.._test-util-includes-util-backtrace.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-bits.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-bits.h.p/meson-generated_.._test-util-includes-util-bits.h.c.o -MF test-build-util-bits.h.p/meson-generated_.._test-util-includes-util-bits.h.c.o.d -o test-build-util-bits.h.p/meson-generated_.._test-util-includes-util-bits.h.c.o -c test-util-includes-util-bits.h.c",
+    "file": "test-util-includes-util-bits.h.c",
+    "output": "test-build-util-bits.h.p/meson-generated_.._test-util-includes-util-bits.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-input-event.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-input-event.h.p/meson-generated_.._test-util-includes-util-input-event.h.c.o -MF test-build-util-input-event.h.p/meson-generated_.._test-util-includes-util-input-event.h.c.o.d -o test-build-util-input-event.h.p/meson-generated_.._test-util-includes-util-input-event.h.c.o -c test-util-includes-util-input-event.h.c",
+    "file": "test-util-includes-util-input-event.h.c",
+    "output": "test-build-util-input-event.h.p/meson-generated_.._test-util-includes-util-input-event.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-list.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-list.h.p/meson-generated_.._test-util-includes-util-list.h.c.o -MF test-build-util-list.h.p/meson-generated_.._test-util-includes-util-list.h.c.o.d -o test-build-util-list.h.p/meson-generated_.._test-util-includes-util-list.h.c.o -c test-util-includes-util-list.h.c",
+    "file": "test-util-includes-util-list.h.c",
+    "output": "test-build-util-list.h.p/meson-generated_.._test-util-includes-util-list.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-files.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-files.h.p/meson-generated_.._test-util-includes-util-files.h.c.o -MF test-build-util-files.h.p/meson-generated_.._test-util-includes-util-files.h.c.o.d -o test-build-util-files.h.p/meson-generated_.._test-util-includes-util-files.h.c.o -c test-util-includes-util-files.h.c",
+    "file": "test-util-includes-util-files.h.c",
+    "output": "test-build-util-files.h.p/meson-generated_.._test-util-includes-util-files.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-macros.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-macros.h.p/meson-generated_.._test-util-includes-util-macros.h.c.o -MF test-build-util-macros.h.p/meson-generated_.._test-util-includes-util-macros.h.c.o.d -o test-build-util-macros.h.p/meson-generated_.._test-util-includes-util-macros.h.c.o -c test-util-includes-util-macros.h.c",
+    "file": "test-util-includes-util-macros.h.c",
+    "output": "test-build-util-macros.h.p/meson-generated_.._test-util-includes-util-macros.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-matrix.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-matrix.h.p/meson-generated_.._test-util-includes-util-matrix.h.c.o -MF test-build-util-matrix.h.p/meson-generated_.._test-util-includes-util-matrix.h.c.o.d -o test-build-util-matrix.h.p/meson-generated_.._test-util-includes-util-matrix.h.c.o -c test-util-includes-util-matrix.h.c",
+    "file": "test-util-includes-util-matrix.h.c",
+    "output": "test-build-util-matrix.h.p/meson-generated_.._test-util-includes-util-matrix.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-prop-parsers.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-prop-parsers.h.p/meson-generated_.._test-util-includes-util-prop-parsers.h.c.o -MF test-build-util-prop-parsers.h.p/meson-generated_.._test-util-includes-util-prop-parsers.h.c.o.d -o test-build-util-prop-parsers.h.p/meson-generated_.._test-util-includes-util-prop-parsers.h.c.o -c test-util-includes-util-prop-parsers.h.c",
+    "file": "test-util-includes-util-prop-parsers.h.c",
+    "output": "test-build-util-prop-parsers.h.p/meson-generated_.._test-util-includes-util-prop-parsers.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-ratelimit.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-ratelimit.h.p/meson-generated_.._test-util-includes-util-ratelimit.h.c.o -MF test-build-util-ratelimit.h.p/meson-generated_.._test-util-includes-util-ratelimit.h.c.o.d -o test-build-util-ratelimit.h.p/meson-generated_.._test-util-includes-util-ratelimit.h.c.o -c test-util-includes-util-ratelimit.h.c",
+    "file": "test-util-includes-util-ratelimit.h.c",
+    "output": "test-build-util-ratelimit.h.p/meson-generated_.._test-util-includes-util-ratelimit.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-stringbuf.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-stringbuf.h.p/meson-generated_.._test-util-includes-util-stringbuf.h.c.o -MF test-build-util-stringbuf.h.p/meson-generated_.._test-util-includes-util-stringbuf.h.c.o.d -o test-build-util-stringbuf.h.p/meson-generated_.._test-util-includes-util-stringbuf.h.c.o -c test-util-includes-util-stringbuf.h.c",
+    "file": "test-util-includes-util-stringbuf.h.c",
+    "output": "test-build-util-stringbuf.h.p/meson-generated_.._test-util-includes-util-stringbuf.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-strings.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-strings.h.p/meson-generated_.._test-util-includes-util-strings.h.c.o -MF test-build-util-strings.h.p/meson-generated_.._test-util-includes-util-strings.h.c.o.d -o test-build-util-strings.h.p/meson-generated_.._test-util-includes-util-strings.h.c.o -c test-util-includes-util-strings.h.c",
+    "file": "test-util-includes-util-strings.h.c",
+    "output": "test-build-util-strings.h.p/meson-generated_.._test-util-includes-util-strings.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-util-time.h.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-util-time.h.p/meson-generated_.._test-util-includes-util-time.h.c.o -MF test-build-util-time.h.p/meson-generated_.._test-util-includes-util-time.h.c.o.d -o test-build-util-time.h.p/meson-generated_.._test-util-includes-util-time.h.c.o -c test-util-includes-util-time.h.c",
+    "file": "test-util-includes-util-time.h.c",
+    "output": "test-build-util-time.h.p/meson-generated_.._test-util-includes-util-time.h.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Iliblibinput-util.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ liblibinput-util.a.p/src_util-files.c.o -MF liblibinput-util.a.p/src_util-files.c.o.d -o liblibinput-util.a.p/src_util-files.c.o -c ../src/util-files.c",
+    "file": "../src/util-files.c",
+    "output": "liblibinput-util.a.p/src_util-files.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Iliblibinput-util.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ liblibinput-util.a.p/src_util-list.c.o -MF liblibinput-util.a.p/src_util-list.c.o.d -o liblibinput-util.a.p/src_util-list.c.o -c ../src/util-list.c",
+    "file": "../src/util-list.c",
+    "output": "liblibinput-util.a.p/src_util-list.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Iliblibinput-util.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ liblibinput-util.a.p/src_util-ratelimit.c.o -MF liblibinput-util.a.p/src_util-ratelimit.c.o.d -o liblibinput-util.a.p/src_util-ratelimit.c.o -c ../src/util-ratelimit.c",
+    "file": "../src/util-ratelimit.c",
+    "output": "liblibinput-util.a.p/src_util-ratelimit.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Iliblibinput-util.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ liblibinput-util.a.p/src_util-strings.c.o -MF liblibinput-util.a.p/src_util-strings.c.o.d -o liblibinput-util.a.p/src_util-strings.c.o -c ../src/util-strings.c",
+    "file": "../src/util-strings.c",
+    "output": "liblibinput-util.a.p/src_util-strings.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Iliblibinput-util.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ liblibinput-util.a.p/src_util-prop-parsers.c.o -MF liblibinput-util.a.p/src_util-prop-parsers.c.o.d -o liblibinput-util.a.p/src_util-prop-parsers.c.o -c ../src/util-prop-parsers.c",
+    "file": "../src/util-prop-parsers.c",
+    "output": "liblibinput-util.a.p/src_util-prop-parsers.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibfilter.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libfilter.a.p/src_filter.c.o -MF libfilter.a.p/src_filter.c.o.d -o libfilter.a.p/src_filter.c.o -c ../src/filter.c",
+    "file": "../src/filter.c",
+    "output": "libfilter.a.p/src_filter.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibfilter.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libfilter.a.p/src_filter-custom.c.o -MF libfilter.a.p/src_filter-custom.c.o.d -o libfilter.a.p/src_filter-custom.c.o -c ../src/filter-custom.c",
+    "file": "../src/filter-custom.c",
+    "output": "libfilter.a.p/src_filter-custom.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibfilter.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libfilter.a.p/src_filter-flat.c.o -MF libfilter.a.p/src_filter-flat.c.o.d -o libfilter.a.p/src_filter-flat.c.o -c ../src/filter-flat.c",
+    "file": "../src/filter-flat.c",
+    "output": "libfilter.a.p/src_filter-flat.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibfilter.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libfilter.a.p/src_filter-low-dpi.c.o -MF libfilter.a.p/src_filter-low-dpi.c.o.d -o libfilter.a.p/src_filter-low-dpi.c.o -c ../src/filter-low-dpi.c",
+    "file": "../src/filter-low-dpi.c",
+    "output": "libfilter.a.p/src_filter-low-dpi.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibfilter.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libfilter.a.p/src_filter-mouse.c.o -MF libfilter.a.p/src_filter-mouse.c.o.d -o libfilter.a.p/src_filter-mouse.c.o -c ../src/filter-mouse.c",
+    "file": "../src/filter-mouse.c",
+    "output": "libfilter.a.p/src_filter-mouse.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibfilter.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libfilter.a.p/src_filter-touchpad.c.o -MF libfilter.a.p/src_filter-touchpad.c.o.d -o libfilter.a.p/src_filter-touchpad.c.o -c ../src/filter-touchpad.c",
+    "file": "../src/filter-touchpad.c",
+    "output": "libfilter.a.p/src_filter-touchpad.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibfilter.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libfilter.a.p/src_filter-touchpad-flat.c.o -MF libfilter.a.p/src_filter-touchpad-flat.c.o.d -o libfilter.a.p/src_filter-touchpad-flat.c.o -c ../src/filter-touchpad-flat.c",
+    "file": "../src/filter-touchpad-flat.c",
+    "output": "libfilter.a.p/src_filter-touchpad-flat.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibfilter.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libfilter.a.p/src_filter-touchpad-x230.c.o -MF libfilter.a.p/src_filter-touchpad-x230.c.o.d -o libfilter.a.p/src_filter-touchpad-x230.c.o -c ../src/filter-touchpad-x230.c",
+    "file": "../src/filter-touchpad-x230.c",
+    "output": "libfilter.a.p/src_filter-touchpad-x230.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibfilter.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libfilter.a.p/src_filter-tablet.c.o -MF libfilter.a.p/src_filter-tablet.c.o.d -o libfilter.a.p/src_filter-tablet.c.o -c ../src/filter-tablet.c",
+    "file": "../src/filter-tablet.c",
+    "output": "libfilter.a.p/src_filter-tablet.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibfilter.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libfilter.a.p/src_filter-trackpoint.c.o -MF libfilter.a.p/src_filter-trackpoint.c.o.d -o libfilter.a.p/src_filter-trackpoint.c.o -c ../src/filter-trackpoint.c",
+    "file": "../src/filter-trackpoint.c",
+    "output": "libfilter.a.p/src_filter-trackpoint.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibfilter.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libfilter.a.p/src_filter-trackpoint-flat.c.o -MF libfilter.a.p/src_filter-trackpoint-flat.c.o.d -o libfilter.a.p/src_filter-trackpoint-flat.c.o -c ../src/filter-trackpoint-flat.c",
+    "file": "../src/filter-trackpoint-flat.c",
+    "output": "libfilter.a.p/src_filter-trackpoint-flat.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibquirks.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libquirks.a.p/src_quirks.c.o -MF libquirks.a.p/src_quirks.c.o.d -o libquirks.a.p/src_quirks.c.o -c ../src/quirks.c",
+    "file": "../src/quirks.c",
+    "output": "libquirks.a.p/src_quirks.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_filter.c.o -MF libinput.so.p/src_filter.c.o.d -o libinput.so.p/src_filter.c.o -c ../src/filter.c",
+    "file": "../src/filter.c",
+    "output": "libinput.so.p/src_filter.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_filter-custom.c.o -MF libinput.so.p/src_filter-custom.c.o.d -o libinput.so.p/src_filter-custom.c.o -c ../src/filter-custom.c",
+    "file": "../src/filter-custom.c",
+    "output": "libinput.so.p/src_filter-custom.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_filter-flat.c.o -MF libinput.so.p/src_filter-flat.c.o.d -o libinput.so.p/src_filter-flat.c.o -c ../src/filter-flat.c",
+    "file": "../src/filter-flat.c",
+    "output": "libinput.so.p/src_filter-flat.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_filter-low-dpi.c.o -MF libinput.so.p/src_filter-low-dpi.c.o.d -o libinput.so.p/src_filter-low-dpi.c.o -c ../src/filter-low-dpi.c",
+    "file": "../src/filter-low-dpi.c",
+    "output": "libinput.so.p/src_filter-low-dpi.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_filter-mouse.c.o -MF libinput.so.p/src_filter-mouse.c.o.d -o libinput.so.p/src_filter-mouse.c.o -c ../src/filter-mouse.c",
+    "file": "../src/filter-mouse.c",
+    "output": "libinput.so.p/src_filter-mouse.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_filter-touchpad.c.o -MF libinput.so.p/src_filter-touchpad.c.o.d -o libinput.so.p/src_filter-touchpad.c.o -c ../src/filter-touchpad.c",
+    "file": "../src/filter-touchpad.c",
+    "output": "libinput.so.p/src_filter-touchpad.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_filter-touchpad-flat.c.o -MF libinput.so.p/src_filter-touchpad-flat.c.o.d -o libinput.so.p/src_filter-touchpad-flat.c.o -c ../src/filter-touchpad-flat.c",
+    "file": "../src/filter-touchpad-flat.c",
+    "output": "libinput.so.p/src_filter-touchpad-flat.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_filter-touchpad-x230.c.o -MF libinput.so.p/src_filter-touchpad-x230.c.o.d -o libinput.so.p/src_filter-touchpad-x230.c.o -c ../src/filter-touchpad-x230.c",
+    "file": "../src/filter-touchpad-x230.c",
+    "output": "libinput.so.p/src_filter-touchpad-x230.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_filter-tablet.c.o -MF libinput.so.p/src_filter-tablet.c.o.d -o libinput.so.p/src_filter-tablet.c.o -c ../src/filter-tablet.c",
+    "file": "../src/filter-tablet.c",
+    "output": "libinput.so.p/src_filter-tablet.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_filter-trackpoint.c.o -MF libinput.so.p/src_filter-trackpoint.c.o.d -o libinput.so.p/src_filter-trackpoint.c.o -c ../src/filter-trackpoint.c",
+    "file": "../src/filter-trackpoint.c",
+    "output": "libinput.so.p/src_filter-trackpoint.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_filter-trackpoint-flat.c.o -MF libinput.so.p/src_filter-trackpoint-flat.c.o.d -o libinput.so.p/src_filter-trackpoint-flat.c.o -c ../src/filter-trackpoint-flat.c",
+    "file": "../src/filter-trackpoint-flat.c",
+    "output": "libinput.so.p/src_filter-trackpoint-flat.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput.c.o -MF libinput.so.p/src_libinput.c.o.d -o libinput.so.p/src_libinput.c.o -c ../src/libinput.c",
+    "file": "../src/libinput.c",
+    "output": "libinput.so.p/src_libinput.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput-plugin.c.o -MF libinput.so.p/src_libinput-plugin.c.o.d -o libinput.so.p/src_libinput-plugin.c.o -c ../src/libinput-plugin.c",
+    "file": "../src/libinput-plugin.c",
+    "output": "libinput.so.p/src_libinput-plugin.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput-plugin-button-debounce.c.o -MF libinput.so.p/src_libinput-plugin-button-debounce.c.o.d -o libinput.so.p/src_libinput-plugin-button-debounce.c.o -c ../src/libinput-plugin-button-debounce.c",
+    "file": "../src/libinput-plugin-button-debounce.c",
+    "output": "libinput.so.p/src_libinput-plugin-button-debounce.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput-plugin-mouse-wheel.c.o -MF libinput.so.p/src_libinput-plugin-mouse-wheel.c.o.d -o libinput.so.p/src_libinput-plugin-mouse-wheel.c.o -c ../src/libinput-plugin-mouse-wheel.c",
+    "file": "../src/libinput-plugin-mouse-wheel.c",
+    "output": "libinput.so.p/src_libinput-plugin-mouse-wheel.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput-plugin-mouse-wheel-lowres.c.o -MF libinput.so.p/src_libinput-plugin-mouse-wheel-lowres.c.o.d -o libinput.so.p/src_libinput-plugin-mouse-wheel-lowres.c.o -c ../src/libinput-plugin-mouse-wheel-lowres.c",
+    "file": "../src/libinput-plugin-mouse-wheel-lowres.c",
+    "output": "libinput.so.p/src_libinput-plugin-mouse-wheel-lowres.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput-plugin-tablet-double-tool.c.o -MF libinput.so.p/src_libinput-plugin-tablet-double-tool.c.o.d -o libinput.so.p/src_libinput-plugin-tablet-double-tool.c.o -c ../src/libinput-plugin-tablet-double-tool.c",
+    "file": "../src/libinput-plugin-tablet-double-tool.c",
+    "output": "libinput.so.p/src_libinput-plugin-tablet-double-tool.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput-plugin-tablet-eraser-button.c.o -MF libinput.so.p/src_libinput-plugin-tablet-eraser-button.c.o.d -o libinput.so.p/src_libinput-plugin-tablet-eraser-button.c.o -c ../src/libinput-plugin-tablet-eraser-button.c",
+    "file": "../src/libinput-plugin-tablet-eraser-button.c",
+    "output": "libinput.so.p/src_libinput-plugin-tablet-eraser-button.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput-plugin-tablet-forced-tool.c.o -MF libinput.so.p/src_libinput-plugin-tablet-forced-tool.c.o.d -o libinput.so.p/src_libinput-plugin-tablet-forced-tool.c.o -c ../src/libinput-plugin-tablet-forced-tool.c",
+    "file": "../src/libinput-plugin-tablet-forced-tool.c",
+    "output": "libinput.so.p/src_libinput-plugin-tablet-forced-tool.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput-plugin-tablet-proximity-timer.c.o -MF libinput.so.p/src_libinput-plugin-tablet-proximity-timer.c.o.d -o libinput.so.p/src_libinput-plugin-tablet-proximity-timer.c.o -c ../src/libinput-plugin-tablet-proximity-timer.c",
+    "file": "../src/libinput-plugin-tablet-proximity-timer.c",
+    "output": "libinput.so.p/src_libinput-plugin-tablet-proximity-timer.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput-private-config.c.o -MF libinput.so.p/src_libinput-private-config.c.o.d -o libinput.so.p/src_libinput-private-config.c.o -c ../src/libinput-private-config.c",
+    "file": "../src/libinput-private-config.c",
+    "output": "libinput.so.p/src_libinput-private-config.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev.c.o -MF libinput.so.p/src_evdev.c.o.d -o libinput.so.p/src_evdev.c.o -c ../src/evdev.c",
+    "file": "../src/evdev.c",
+    "output": "libinput.so.p/src_evdev.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-fallback.c.o -MF libinput.so.p/src_evdev-fallback.c.o.d -o libinput.so.p/src_evdev-fallback.c.o -c ../src/evdev-fallback.c",
+    "file": "../src/evdev-fallback.c",
+    "output": "libinput.so.p/src_evdev-fallback.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-plugin.c.o -MF libinput.so.p/src_evdev-plugin.c.o.d -o libinput.so.p/src_evdev-plugin.c.o -c ../src/evdev-plugin.c",
+    "file": "../src/evdev-plugin.c",
+    "output": "libinput.so.p/src_evdev-plugin.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-totem.c.o -MF libinput.so.p/src_evdev-totem.c.o.d -o libinput.so.p/src_evdev-totem.c.o -c ../src/evdev-totem.c",
+    "file": "../src/evdev-totem.c",
+    "output": "libinput.so.p/src_evdev-totem.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-middle-button.c.o -MF libinput.so.p/src_evdev-middle-button.c.o.d -o libinput.so.p/src_evdev-middle-button.c.o -c ../src/evdev-middle-button.c",
+    "file": "../src/evdev-middle-button.c",
+    "output": "libinput.so.p/src_evdev-middle-button.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-mt-touchpad.c.o -MF libinput.so.p/src_evdev-mt-touchpad.c.o.d -o libinput.so.p/src_evdev-mt-touchpad.c.o -c ../src/evdev-mt-touchpad.c",
+    "file": "../src/evdev-mt-touchpad.c",
+    "output": "libinput.so.p/src_evdev-mt-touchpad.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-mt-touchpad-tap.c.o -MF libinput.so.p/src_evdev-mt-touchpad-tap.c.o.d -o libinput.so.p/src_evdev-mt-touchpad-tap.c.o -c ../src/evdev-mt-touchpad-tap.c",
+    "file": "../src/evdev-mt-touchpad-tap.c",
+    "output": "libinput.so.p/src_evdev-mt-touchpad-tap.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-mt-touchpad-thumb.c.o -MF libinput.so.p/src_evdev-mt-touchpad-thumb.c.o.d -o libinput.so.p/src_evdev-mt-touchpad-thumb.c.o -c ../src/evdev-mt-touchpad-thumb.c",
+    "file": "../src/evdev-mt-touchpad-thumb.c",
+    "output": "libinput.so.p/src_evdev-mt-touchpad-thumb.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-mt-touchpad-buttons.c.o -MF libinput.so.p/src_evdev-mt-touchpad-buttons.c.o.d -o libinput.so.p/src_evdev-mt-touchpad-buttons.c.o -c ../src/evdev-mt-touchpad-buttons.c",
+    "file": "../src/evdev-mt-touchpad-buttons.c",
+    "output": "libinput.so.p/src_evdev-mt-touchpad-buttons.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-mt-touchpad-edge-scroll.c.o -MF libinput.so.p/src_evdev-mt-touchpad-edge-scroll.c.o.d -o libinput.so.p/src_evdev-mt-touchpad-edge-scroll.c.o -c ../src/evdev-mt-touchpad-edge-scroll.c",
+    "file": "../src/evdev-mt-touchpad-edge-scroll.c",
+    "output": "libinput.so.p/src_evdev-mt-touchpad-edge-scroll.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-mt-touchpad-gestures.c.o -MF libinput.so.p/src_evdev-mt-touchpad-gestures.c.o.d -o libinput.so.p/src_evdev-mt-touchpad-gestures.c.o -c ../src/evdev-mt-touchpad-gestures.c",
+    "file": "../src/evdev-mt-touchpad-gestures.c",
+    "output": "libinput.so.p/src_evdev-mt-touchpad-gestures.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-tablet.c.o -MF libinput.so.p/src_evdev-tablet.c.o.d -o libinput.so.p/src_evdev-tablet.c.o -c ../src/evdev-tablet.c",
+    "file": "../src/evdev-tablet.c",
+    "output": "libinput.so.p/src_evdev-tablet.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-tablet-pad.c.o -MF libinput.so.p/src_evdev-tablet-pad.c.o.d -o libinput.so.p/src_evdev-tablet-pad.c.o -c ../src/evdev-tablet-pad.c",
+    "file": "../src/evdev-tablet-pad.c",
+    "output": "libinput.so.p/src_evdev-tablet-pad.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_evdev-tablet-pad-leds.c.o -MF libinput.so.p/src_evdev-tablet-pad-leds.c.o.d -o libinput.so.p/src_evdev-tablet-pad-leds.c.o -c ../src/evdev-tablet-pad-leds.c",
+    "file": "../src/evdev-tablet-pad-leds.c",
+    "output": "libinput.so.p/src_evdev-tablet-pad-leds.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_path-seat.c.o -MF libinput.so.p/src_path-seat.c.o.d -o libinput.so.p/src_path-seat.c.o -c ../src/path-seat.c",
+    "file": "../src/path-seat.c",
+    "output": "libinput.so.p/src_path-seat.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_udev-seat.c.o -MF libinput.so.p/src_udev-seat.c.o.d -o libinput.so.p/src_udev-seat.c.o -c ../src/udev-seat.c",
+    "file": "../src/udev-seat.c",
+    "output": "libinput.so.p/src_udev-seat.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_timer.c.o -MF libinput.so.p/src_timer.c.o.d -o libinput.so.p/src_timer.c.o -c ../src/timer.c",
+    "file": "../src/timer.c",
+    "output": "libinput.so.p/src_timer.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_util-libinput.c.o -MF libinput.so.p/src_util-libinput.c.o.d -o libinput.so.p/src_util-libinput.c.o -c ../src/util-libinput.c",
+    "file": "../src/util-libinput.c",
+    "output": "libinput.so.p/src_util-libinput.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput-plugin-mtdev.c.o -MF libinput.so.p/src_libinput-plugin-mtdev.c.o.d -o libinput.so.p/src_libinput-plugin-mtdev.c.o -c ../src/libinput-plugin-mtdev.c",
+    "file": "../src/libinput-plugin-mtdev.c",
+    "output": "libinput.so.p/src_libinput-plugin-mtdev.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.so.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libinput.so.p/src_libinput-plugin-lua.c.o -MF libinput.so.p/src_libinput-plugin-lua.c.o.d -o libinput.so.p/src_libinput-plugin-lua.c.o -c ../src/libinput-plugin-lua.c",
+    "file": "../src/libinput-plugin-lua.c",
+    "output": "libinput.so.p/src_libinput-plugin-lua.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Iliblibinput-util-libinput.a.p -I. -I.. -I../include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ liblibinput-util-libinput.a.p/src_util-libinput.c.o -MF liblibinput-util-libinput.a.p/src_util-libinput.c.o.d -o liblibinput-util-libinput.a.p/src_util-libinput.c.o -c ../src/util-libinput.c",
+    "file": "../src/util-libinput.c",
+    "output": "liblibinput-util-libinput.a.p/src_util-libinput.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibtools_shared.a.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIC -MD -MQ libtools_shared.a.p/tools_shared.c.o -MF libtools_shared.a.p/tools_shared.c.o.d -o libtools_shared.a.p/tools_shared.c.o -c ../tools/shared.c",
+    "file": "../tools/shared.c",
+    "output": "libtools_shared.a.p/tools_shared.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-debug-events.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-debug-events.p/tools_libinput-debug-events.c.o -MF libinput-debug-events.p/tools_libinput-debug-events.c.o.d -o libinput-debug-events.p/tools_libinput-debug-events.c.o -c ../tools/libinput-debug-events.c",
+    "file": "../tools/libinput-debug-events.c",
+    "output": "libinput-debug-events.p/tools_libinput-debug-events.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-debug-tablet.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-debug-tablet.p/tools_libinput-debug-tablet.c.o -MF libinput-debug-tablet.p/tools_libinput-debug-tablet.c.o.d -o libinput-debug-tablet.p/tools_libinput-debug-tablet.c.o -c ../tools/libinput-debug-tablet.c",
+    "file": "../tools/libinput-debug-tablet.c",
+    "output": "libinput-debug-tablet.p/tools_libinput-debug-tablet.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-debug-tablet-pad.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-debug-tablet-pad.p/tools_libinput-debug-tablet-pad.c.o -MF libinput-debug-tablet-pad.p/tools_libinput-debug-tablet-pad.c.o.d -o libinput-debug-tablet-pad.p/tools_libinput-debug-tablet-pad.c.o -c ../tools/libinput-debug-tablet-pad.c",
+    "file": "../tools/libinput-debug-tablet-pad.c",
+    "output": "libinput-debug-tablet-pad.p/tools_libinput-debug-tablet-pad.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-quirks.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-quirks.p/tools_libinput-quirks.c.o -MF libinput-quirks.p/tools_libinput-quirks.c.o.d -o libinput-quirks.p/tools_libinput-quirks.c.o -c ../tools/libinput-quirks.c",
+    "file": "../tools/libinput-quirks.c",
+    "output": "libinput-quirks.p/tools_libinput-quirks.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-list-devices.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-list-devices.p/tools_libinput-list-devices.c.o -MF libinput-list-devices.p/tools_libinput-list-devices.c.o.d -o libinput-list-devices.p/tools_libinput-list-devices.c.o -c ../tools/libinput-list-devices.c",
+    "file": "../tools/libinput-list-devices.c",
+    "output": "libinput-list-devices.p/tools_libinput-list-devices.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-measure.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-measure.p/tools_libinput-measure.c.o -MF libinput-measure.p/tools_libinput-measure.c.o.d -o libinput-measure.p/tools_libinput-measure.c.o -c ../tools/libinput-measure.c",
+    "file": "../tools/libinput-measure.c",
+    "output": "libinput-measure.p/tools_libinput-measure.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-analyze.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-analyze.p/tools_libinput-analyze.c.o -MF libinput-analyze.p/tools_libinput-analyze.c.o.d -o libinput-analyze.p/tools_libinput-analyze.c.o -c ../tools/libinput-analyze.c",
+    "file": "../tools/libinput-analyze.c",
+    "output": "libinput-analyze.p/tools_libinput-analyze.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-record.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-record.p/tools_libinput-record.c.o -MF libinput-record.p/tools_libinput-record.c.o.d -o libinput-record.p/tools_libinput-record.c.o -c ../tools/libinput-record.c",
+    "file": "../tools/libinput-record.c",
+    "output": "libinput-record.p/tools_libinput-record.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-debug-gui.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/gtk-4.0 -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/include/harfbuzz -I/data/data/com.termux/files/usr/include/fribidi -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0 -I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include/freetype2 -I/data/data/com.termux/files/usr/include/libpng16 -I/data/data/com.termux/files/usr/include/pixman-1 -I/data/data/com.termux/files/usr/include/graphene-1.0 -I/data/data/com.termux/files/usr/lib/graphene-1.0/include -I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -pthread -MD -MQ libinput-debug-gui.p/meson-generated_.._pointer-constraints-unstable-v1-protocol.c.o -MF libinput-debug-gui.p/meson-generated_.._pointer-constraints-unstable-v1-protocol.c.o.d -o libinput-debug-gui.p/meson-generated_.._pointer-constraints-unstable-v1-protocol.c.o -c pointer-constraints-unstable-v1-protocol.c",
+    "file": "pointer-constraints-unstable-v1-protocol.c",
+    "output": "libinput-debug-gui.p/meson-generated_.._pointer-constraints-unstable-v1-protocol.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-debug-gui.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include/gtk-4.0 -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/include/harfbuzz -I/data/data/com.termux/files/usr/include/fribidi -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0 -I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include/freetype2 -I/data/data/com.termux/files/usr/include/libpng16 -I/data/data/com.termux/files/usr/include/pixman-1 -I/data/data/com.termux/files/usr/include/graphene-1.0 -I/data/data/com.termux/files/usr/lib/graphene-1.0/include -I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -pthread -MD -MQ libinput-debug-gui.p/tools_libinput-debug-gui.c.o -MF libinput-debug-gui.p/tools_libinput-debug-gui.c.o.d -o libinput-debug-gui.p/tools_libinput-debug-gui.c.o -c ../tools/libinput-debug-gui.c",
+    "file": "../tools/libinput-debug-gui.c",
+    "output": "libinput-debug-gui.p/tools_libinput-debug-gui.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput.p/tools_libinput-tool.c.o -MF libinput.p/tools_libinput-tool.c.o.d -o libinput.p/tools_libinput-tool.c.o -c ../tools/libinput-tool.c",
+    "file": "../tools/libinput-tool.c",
+    "output": "libinput.p/tools_libinput-tool.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Iptraccel-debug.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ ptraccel-debug.p/tools_ptraccel-debug.c.o -MF ptraccel-debug.p/tools_ptraccel-debug.c.o.d -o ptraccel-debug.p/tools_ptraccel-debug.c.o -c ../tools/ptraccel-debug.c",
+    "file": "../tools/ptraccel-debug.c",
+    "output": "ptraccel-debug.p/tools_ptraccel-debug.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-builddir-lookup.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-builddir-lookup.p/test_test-builddir-lookup.c.o -MF test-builddir-lookup.p/test_test-builddir-lookup.c.o.d -o test-builddir-lookup.p/test_test-builddir-lookup.c.o -c ../test/test-builddir-lookup.c",
+    "file": "../test/test-builddir-lookup.c",
+    "output": "test-builddir-lookup.p/test_test-builddir-lookup.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-pedantic.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -std=c99 -pedantic -Werror -MD -MQ test-build-pedantic.p/test_build-pedantic.c.o -MF test-build-pedantic.p/test_build-pedantic.c.o.d -o test-build-pedantic.p/test_build-pedantic.c.o -c ../test/build-pedantic.c",
+    "file": "../test/build-pedantic.c",
+    "output": "test-build-pedantic.p/test_build-pedantic.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-std-gnuc90.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -std=gnu89 -Werror -MD -MQ test-build-std-gnuc90.p/test_build-pedantic.c.o -MF test-build-std-gnuc90.p/test_build-pedantic.c.o.d -o test-build-std-gnuc90.p/test_build-pedantic.c.o -c ../test/build-pedantic.c",
+    "file": "../test/build-pedantic.c",
+    "output": "test-build-std-gnuc90.p/test_build-pedantic.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Itest-build-linker.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ test-build-linker.p/test_build-pedantic.c.o -MF test-build-linker.p/test_build-pedantic.c.o.d -o test-build-linker.p/test_build-pedantic.c.o -c ../test/build-pedantic.c",
+    "file": "../test/build-pedantic.c",
+    "output": "test-build-linker.p/test_build-pedantic.c.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "c++ -Itest-build-cxx.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -fdiagnostics-color=always -D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -O0 -g -fPIE -MD -MQ test-build-cxx.p/test_build-cxx.cc.o -MF test-build-cxx.p/test_build-cxx.cc.o.d -o test-build-cxx.p/test_build-cxx.cc.o -c ../test/build-cxx.cc",
+    "file": "../test/build-cxx.cc",
+    "output": "test-build-cxx.p/test_build-cxx.cc.o"
+  },
+  {
+    "directory": "/data/data/com.termux/files/home/hyprland-deps/libinput/build",
+    "command": "cc -Ilibinput-test.p -I. -I.. -I../src -I../include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libevdev-1.0/ -I/data/data/com.termux/files/usr/include/lua5.4 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O0 -g -Wno-error=deprecated-declarations -Wno-unused-parameter -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wpointer-arith -Wuninitialized -Winit-self -Wstrict-prototypes -Wimplicit-fallthrough -Wredundant-decls -Wincompatible-pointer-types -Wformat=2 -Wno-missing-field-initializers -Wmissing-declarations -fvisibility=hidden -fPIE -MD -MQ libinput-test.p/tools_libinput-test.c.o -MF libinput-test.p/tools_libinput-test.c.o.d -o libinput-test.p/tools_libinput-test.c.o -c ../tools/libinput-test.c",
+    "file": "../tools/libinput-test.c",
+    "output": "libinput-test.p/tools_libinput-test.c.o"
+  }
+]

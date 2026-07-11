@@ -1,0 +1,116 @@
+{
+	"BUILD_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/kauth/waydroidhelper_autogen",
+	"CMAKE_BINARY_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/kauth",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/components/waydroidintegrationplugin/kauth",
+	"CMAKE_EXECUTABLE" : "/data/data/com.termux/files/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/components/waydroidintegrationplugin/kauth/CMakeLists.txt",
+		"/data/data/com.termux/files/usr/lib/cmake/KF6Auth/KF6AuthConfigVersion.cmake",
+		"/data/data/com.termux/files/usr/lib/cmake/KF6Auth/KF6AuthConfig.cmake",
+		"/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake",
+		"/data/data/com.termux/files/usr/lib/cmake/KF6Auth/KF6AuthTargets.cmake",
+		"/data/data/com.termux/files/usr/lib/cmake/KF6Auth/KF6AuthMacros.cmake",
+		"/data/data/com.termux/files/usr/share/kf6/kauth/dbus_policy.stub",
+		"/data/data/com.termux/files/usr/share/kf6/kauth/dbus_service.stub",
+		"/data/data/com.termux/files/usr/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"/data/data/com.termux/files/usr/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/kauth/waydroidhelper_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "waydroidhelper_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/kauth/waydroidhelper_debug.h",
+			"Mu",
+			"EJRQKI7XPS/moc_waydroidhelper_debug.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/kauth/waydroidhelper_autogen/include",
+	"MOC_COMPILATION_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/kauth/waydroidhelper_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KCOREADDONS_LIB",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/kauth",
+		"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/components/waydroidintegrationplugin/kauth",
+		"/data/data/com.termux/files/usr/include/qt6/QtCore",
+		"/data/data/com.termux/files/usr/include/qt6",
+		"/data/data/com.termux/files/usr/lib/qt6/mkspecs/linux-clang",
+		"/data/data/com.termux/files/usr/include/KF6/KAuthCore",
+		"/data/data/com.termux/files/usr/include/KF6/KAuth",
+		"/data/data/com.termux/files/usr/include/KF6/KCoreAddons",
+		"/data/data/com.termux/files/usr/include/c++/v1",
+		"/data/data/com.termux/files/usr/lib/clang/21/include",
+		"/data/data/com.termux/files/usr/include/aarch64-linux-android",
+		"/data/data/com.termux/files/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_CLASS",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/data/data/com.termux/files/usr/bin/c++",
+		"-std=gnu++20",
+		"-w",
+		"-dM",
+		"-E",
+		"/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/kauth/waydroidhelper_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/kauth/CMakeFiles/waydroidhelper_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/data/data/com.termux/files/usr/lib/qt6/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 11,
+	"SETTINGS_FILE" : "/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/kauth/CMakeFiles/waydroidhelper_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/kauth/waydroidhelper_debug.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/data/data/com.termux/files/home/plasmamobile/plasma-mobile/components/waydroidintegrationplugin/kauth/waydroidhelper.cpp",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

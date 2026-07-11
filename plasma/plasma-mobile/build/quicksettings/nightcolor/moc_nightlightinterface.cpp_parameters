@@ -1,0 +1,7 @@
+-I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/quicksettings/nightcolor
+-I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/nightcolor
+-D_LARGEFILE64_SOURCE
+-DQT_NO_URL_CAST_FROM_STRING
+-o
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/nightcolor/moc_nightlightinterface.cpp
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/nightcolor/nightlightinterface.h

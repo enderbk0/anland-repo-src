@@ -1,0 +1,16 @@
+-I
+/data/data/com.termux/files/usr/lib/qt6/qml
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshell
+-I
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshell
+-I
+/data/data/com.termux/files/usr/lib/qt6/qml
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshell/.qt/rcc/qmake_org_kde_plasma_private_mobileshell.qrc
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshell/.qt/rcc/mobileshellplugin_raw_qml_0.qrc
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshell/.qt/rcc/mobileshellplugin_raw_qml_1.qrc
+--module
+org.kde.plasma.private.mobileshell

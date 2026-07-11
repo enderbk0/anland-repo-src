@@ -1,0 +1,4 @@
+/data/data/com.termux/files/usr/bin/hyprwayland-scanner
+/data/data/com.termux/files/usr/lib/pkgconfig/hyprwayland-scanner.pc
+/data/data/com.termux/files/usr/lib/cmake/hyprwayland-scanner/hyprwayland-scanner-config.cmake
+/data/data/com.termux/files/usr/lib/cmake/hyprwayland-scanner/hyprwayland-scanner-config-version.cmake

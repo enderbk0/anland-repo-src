@@ -1,0 +1,8 @@
+set(__QT_DEPLOY_TARGET_kcm_plasmakeyboard_FILE /data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/lib/plasma/kcms/systemsettings/libplugins_plasma_kcms_systemsettings_kcm_plasmakeyboard.so)
+set(__QT_DEPLOY_TARGET_kcm_plasmakeyboard_TYPE MODULE_LIBRARY)
+set(__QT_DEPLOY_TARGET_breezestyle_FILE /data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/bin/QtQuick/VirtualKeyboard/Styles/Breeze/libqml_QtQuick_VirtualKeyboard_Styles_Breeze_breezestyle.so)
+set(__QT_DEPLOY_TARGET_breezestyle_TYPE MODULE_LIBRARY)
+set(__QT_DEPLOY_TARGET_keyboardlib_FILE /data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/bin/org/kde/plasma/keyboard/lib/libqml_org_kde_plasma_keyboard_lib_keyboardlib.so)
+set(__QT_DEPLOY_TARGET_keyboardlib_TYPE MODULE_LIBRARY)
+set(__QT_DEPLOY_TARGET_plasma-keyboard_FILE /data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/bin/plasma-keyboard)
+set(__QT_DEPLOY_TARGET_plasma-keyboard_TYPE EXECUTABLE)

@@ -1,0 +1,8 @@
+[options]
+prefix = /data/data/com.termux/files/usr
+libwacom = false
+tests = false
+documentation = false
+
+[properties]
+

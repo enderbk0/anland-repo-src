@@ -1,0 +1,105 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="org.kde.plasmashell.Waydroid">
+    <signal name="statusChanged">
+    </signal>
+    <signal name="downloadStatusChanged">
+      <arg name="downloaded" type="d" direction="out"/>
+      <arg name="total" type="d" direction="out"/>
+      <arg name="speed" type="d" direction="out"/>
+    </signal>
+    <signal name="sessionStatusChanged">
+    </signal>
+    <signal name="systemTypeChanged">
+    </signal>
+    <signal name="ipAddressChanged">
+    </signal>
+    <signal name="androidIdChanged">
+    </signal>
+    <signal name="multiWindowsChanged">
+    </signal>
+    <signal name="suspendChanged">
+    </signal>
+    <signal name="ueventChanged">
+    </signal>
+    <signal name="applicationAdded">
+      <arg name="path" type="o" direction="out"/>
+    </signal>
+    <signal name="applicationRemoved">
+      <arg name="path" type="o" direction="out"/>
+    </signal>
+    <signal name="actionFinished">
+      <arg name="message" type="s" direction="out"/>
+    </signal>
+    <signal name="actionFailed">
+      <arg name="message" type="s" direction="out"/>
+    </signal>
+    <signal name="errorOccurred">
+      <arg name="title" type="s" direction="out"/>
+      <arg name="message" type="s" direction="out"/>
+    </signal>
+    <method name="status">
+      <arg type="i" direction="out"/>
+    </method>
+    <method name="sessionStatus">
+      <arg type="i" direction="out"/>
+    </method>
+    <method name="systemType">
+      <arg type="i" direction="out"/>
+    </method>
+    <method name="ipAddress">
+      <arg type="s" direction="out"/>
+    </method>
+    <method name="androidId">
+      <arg type="s" direction="out"/>
+    </method>
+    <method name="multiWindows">
+      <arg type="b" direction="out"/>
+    </method>
+    <method name="setMultiWindows">
+      <arg name="multiWindows" type="b" direction="in"/>
+    </method>
+    <method name="suspend">
+      <arg type="b" direction="out"/>
+    </method>
+    <method name="setSuspend">
+      <arg name="suspend" type="b" direction="in"/>
+    </method>
+    <method name="uevent">
+      <arg type="b" direction="out"/>
+    </method>
+    <method name="setUevent">
+      <arg name="uevent" type="b" direction="in"/>
+    </method>
+    <method name="applications">
+      <arg type="ao" direction="out"/>
+    </method>
+    <method name="initialize">
+      <arg name="systemType" type="i" direction="in"/>
+      <arg name="romType" type="i" direction="in"/>
+      <arg name="forced" type="b" direction="in"/>
+    </method>
+    <method name="initialize">
+      <arg name="systemType" type="i" direction="in"/>
+      <arg name="romType" type="i" direction="in"/>
+    </method>
+    <method name="startSession">
+    </method>
+    <method name="stopSession">
+    </method>
+    <method name="resetWaydroid">
+    </method>
+    <method name="installApk">
+      <arg name="apkFile" type="s" direction="in"/>
+    </method>
+    <method name="deleteApplication">
+      <arg name="appId" type="s" direction="in"/>
+    </method>
+    <method name="refreshSessionInfo">
+    </method>
+    <method name="refreshAndroidId">
+    </method>
+    <method name="refreshApplications">
+    </method>
+  </interface>
+</node>

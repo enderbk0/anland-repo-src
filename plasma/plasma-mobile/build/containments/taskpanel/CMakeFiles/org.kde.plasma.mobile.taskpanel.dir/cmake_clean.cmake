@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "../../bin/plasma/applet/org/kde/plasma/mobile/taskpanel/org.kde.plasma.mobile.taskpanel.qmltypes"
+  "../../lib/plasma/applets/org.kde.plasma.mobile.taskpanel.pdb"
+  "../../lib/plasma/applets/org.kde.plasma.mobile.taskpanel.so"
+  ".qt/rcc/qrc_org_kde_plasma_mobile_taskpanel_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_plasma_applet_org_kde_plasma_mobile_taskpanel.cpp"
+  ".rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qml/GesturePanelComponent_qml.cpp"
+  ".rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qml/NavigationPanelComponent_qml.cpp"
+  ".rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qml/main_qml.cpp"
+  ".rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qmlcache_loader.cpp"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel_autogen.dir/ParseCache.txt"
+  "org.kde.plasma.mobile.taskpanel_autogen"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.qt/rcc/qrc_org_kde_plasma_mobile_taskpanel_raw_qml_0.cpp.o"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.qt/rcc/qrc_org_kde_plasma_mobile_taskpanel_raw_qml_0.cpp.o.d"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.qt/rcc/qrc_qmake_plasma_applet_org_kde_plasma_mobile_taskpanel.cpp.o"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.qt/rcc/qrc_qmake_plasma_applet_org_kde_plasma_mobile_taskpanel.cpp.o.d"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qml/GesturePanelComponent_qml.cpp.o"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qml/GesturePanelComponent_qml.cpp.o.d"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qml/NavigationPanelComponent_qml.cpp.o"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qml/NavigationPanelComponent_qml.cpp.o.d"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qml/main_qml.cpp.o"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qml/main_qml.cpp.o.d"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qmlcache_loader.cpp.o"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/.rcc/qmlcache/org.kde.plasma.mobile.taskpanel_qmlcache_loader.cpp.o.d"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/org.kde.plasma.mobile.taskpanel_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/org.kde.plasma.mobile.taskpanel_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/org.kde.plasma.mobile.taskpanel_qmltyperegistrations.cpp.o"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/org.kde.plasma.mobile.taskpanel_qmltyperegistrations.cpp.o.d"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/taskpanel.cpp.o"
+  "CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/taskpanel.cpp.o.d"
+  "meta_types/org.kde.plasma.mobile.taskpanel_json_file_list.txt"
+  "meta_types/org.kde.plasma.mobile.taskpanel_json_file_list.txt.timestamp"
+  "meta_types/qt6org.kde.plasma.mobile.taskpanel_metatypes.json"
+  "meta_types/qt6org.kde.plasma.mobile.taskpanel_metatypes.json.gen"
+  "org.kde.plasma.mobile.taskpanel_qmltyperegistrations.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/org.kde.plasma.mobile.taskpanel.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,7 @@
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart/.qt/rcc/qmake_org_kde_plasma_mobileinitialstart_initialstart.qrc
+--resource
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart/.qt/rcc/plasma-mobile-initial-start_raw_qml_0.qrc
+/org/kde/plasma/mobileinitialstart/initialstart/qml/Main.qml
+/org/kde/plasma/mobileinitialstart/initialstart/qml/Wizard.qml
+/org/kde/plasma/mobileinitialstart/initialstart/qml/LandingComponent.qml

@@ -1,0 +1,2 @@
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/powermenu/powermenuplugin_autogen/include/../EWIEGA46WW/moc_powermenuutil.cpp.json
+/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/powermenu/powermenuplugin_autogen/include/powermenuplugin_org_kde_plasma_quicksetting_powermenuPlugin.moc.json

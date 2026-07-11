@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/org/kde/plasma/private/mobileshell/rotationplugin">
+    <file alias="qmldir">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/rotationplugin/qmldir</file>
+  </qresource>
+</RCC>
+

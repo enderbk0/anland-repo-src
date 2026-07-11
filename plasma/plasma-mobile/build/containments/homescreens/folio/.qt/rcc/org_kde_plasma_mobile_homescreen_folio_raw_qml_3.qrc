@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="/qt/qml/plasma/applet/org/kde/plasma/mobile/homescreen/folio/">
+    <file alias="settings/AppletListDelegate.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/settings/AppletListDelegate.qml</file>
+    <file alias="settings/AppletListViewer.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/settings/AppletListViewer.qml</file>
+    <file alias="settings/SettingsButton.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/settings/SettingsButton.qml</file>
+    <file alias="settings/SettingsComponent.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/settings/SettingsComponent.qml</file>
+    <file alias="settings/ConfigGeneral.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/homescreens/folio/qml/settings/ConfigGeneral.qml</file>
+  </qresource>
+</RCC>
+

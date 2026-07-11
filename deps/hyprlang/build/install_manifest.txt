@@ -1,0 +1,9 @@
+/data/data/com.termux/files/usr/lib/libhyprlang.so.0.6.8
+/data/data/com.termux/files/usr/lib/libhyprlang.so.2
+/data/data/com.termux/files/usr/lib/libhyprlang.so
+/data/data/com.termux/files/usr/include/hyprlang.hpp
+/data/data/com.termux/files/usr/lib/libhyprlang.so.0.6.8
+/data/data/com.termux/files/usr/lib/libhyprlang.so.2
+/data/data/com.termux/files/usr/lib/libhyprlang.so
+/data/data/com.termux/files/usr/include/hyprlang.hpp
+/data/data/com.termux/files/usr/lib/pkgconfig/hyprlang.pc

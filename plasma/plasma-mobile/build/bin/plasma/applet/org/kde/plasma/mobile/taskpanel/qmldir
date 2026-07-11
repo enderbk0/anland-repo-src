@@ -1,0 +1,7 @@
+module plasma.applet.org.kde.plasma.mobile.taskpanel
+typeinfo org.kde.plasma.mobile.taskpanel.qmltypes
+prefer :/qt/qml/plasma/applet/org/kde/plasma/mobile/taskpanel/
+NavigationPanelComponent 254.0 NavigationPanelComponent.qml
+GesturePanelComponent 254.0 GesturePanelComponent.qml
+depends QtQuick
+

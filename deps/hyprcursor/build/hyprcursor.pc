@@ -1,0 +1,10 @@
+prefix=/data/data/com.termux/files/usr
+includedir=/data/data/com.termux/files/usr/include
+libdir=/data/data/com.termux/files/usr/lib
+
+Name: hyprcursor
+URL: https://github.com/hyprwm/hyprcursor
+Description: A library and toolkit for the Hyprland cursor format
+Version: 0.1.13
+Cflags: -I${includedir}
+Libs: -L${libdir} -lhyprcursor
