@@ -1,34 +1,29 @@
 # Running with Anland
 
-**Anland** is a standalone Android display server required to run KDE Plasma Mobile on Termux.
+Anland is a standalone display server for Android required to display graphical sessions on non-rooted devices.
 
-## Step 1: Install Anland
+## 1. Install Anland
 
-You must install the Anland app on your Android device:
+Download and install the latest Anland APK on your device:
 
-👉 **[github.com/lfdevs/anland-termux/releases](https://github.com/lfdevs/anland-termux/releases)**
+👉 **[Anland Releases](https://github.com/lfdevs/anland-termux/releases)**
 
----
+## 2. Launch Plasma Mobile
 
-## Step 2: Launch Plasma Mobile
-
-Our patched `plasma-mobile` package includes an integrated `--anland` command-line handler that automatically sets up the environment variables, launches the `anland` display server in the background, and initializes the session inside a `dbus-run-session` wrapper.
-
-To start the session, simply run:
+Start the display server and launch the desktop session by executing:
 
 ```bash
 startplasmamobile --anland
 ```
 
-### Under the Hood
-This single command automatically handles:
-1. Creating the required runtime directories (`$TMPDIR/run`, `$TMPDIR/.X11-unix`).
-2. Launching `anland` in the background (if it is not already running).
-3. Exporting the surfaceless Mesa driver variables (Freedreno/Turnip for Adreno devices).
-4. Running the shell environment safely with `dbus-run-session` to avoid startup communication bugs.
+### Automation Details
+The `--anland` argument automates the startup logic:
+*   Initializes required directories (`$TMPDIR/run`, `$TMPDIR/.X11-unix`).
+*   Spawns `anland` daemon in the background if it is not already running.
+*   Sets environment overrides for GPU acceleration (`GBM_BACKEND=openpr`, `GALLIUM_DRIVER=freedreno` etc.).
+*   Wraps execution inside `dbus-run-session` to prevent service communication crashes.
 
----
+## 3. Launching Hyprland
 
-## Step 3: Launching Hyprland
-
-This one I didn't find out how to start it up on a new environment. Still working on it.
+> [!IMPORTANT]
+> Running Hyprland on a new environment is not yet resolved. Still working on it.
