@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/org/kde/plasma/private/mobileshell/waydroidintegrationplugin">
-    <file alias="qmldir">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/qmldir</file>
-  </qresource>
-</RCC>
-

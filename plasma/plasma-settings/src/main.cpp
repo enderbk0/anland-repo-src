@@ -25,6 +25,10 @@
 #include <QQmlContext>
 #include <QQuickStyle>
 #include <QTimer>
+#include <QDBusMetaType>
+#include <kglobalshortcutinfo.h>
+
+Q_DECLARE_METATYPE(QList<KGlobalShortcutInfo>)
 
 // Frameworks
 #include <KAboutData>
@@ -38,6 +42,11 @@ using namespace Qt::Literals::StringLiterals;
 int main(int argc, char **argv)
 {
     QApplication app(argc, argv);
+    qRegisterMetaType<KGlobalShortcutInfo>();
+    qDBusRegisterMetaType<KGlobalShortcutInfo>();
+    qRegisterMetaType<QList<KGlobalShortcutInfo>>();
+    qDBusRegisterMetaType<QList<KGlobalShortcutInfo>>();
+
     // Default to org.kde.desktop style unless the user forces another style
     if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
         QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));

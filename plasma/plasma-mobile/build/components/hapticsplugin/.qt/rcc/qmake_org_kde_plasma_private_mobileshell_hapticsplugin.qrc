@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/org/kde/plasma/private/mobileshell/hapticsplugin">
-    <file alias="qmldir">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/hapticsplugin/qmldir</file>
-  </qresource>
-</RCC>
-

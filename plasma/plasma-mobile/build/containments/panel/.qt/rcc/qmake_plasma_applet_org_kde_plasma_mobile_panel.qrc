@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/plasma/applet/org/kde/plasma/mobile/panel">
-    <file alias="qmldir">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/bin/plasma/applet/org/kde/plasma/mobile/panel/qmldir</file>
-  </qresource>
-</RCC>
-

@@ -1,7 +1,0 @@
--I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/components/screenbrightnessplugin
--I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/screenbrightnessplugin
--D_LARGEFILE64_SOURCE
--DQT_NO_URL_CAST_FROM_STRING
--o
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/screenbrightnessplugin/moc_brightnesscontrolinterface.cpp
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/screenbrightnessplugin/brightnesscontrolinterface.h

@@ -1,8 +1,0 @@
--I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/quicksettings/screenshot
--I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/screenshot
--D_LARGEFILE64_SOURCE
--DQT_NO_URL_CAST_FROM_STRING
--DTRANSLATION_DOMAIN="plasma_org.kde.plasma.quicksetting.screenshot"
--o
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/screenshot/moc_screenshot2interface.cpp
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/quicksettings/screenshot/screenshot2interface.h

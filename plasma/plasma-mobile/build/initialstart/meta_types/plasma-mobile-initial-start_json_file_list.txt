@@ -1,4 +1,0 @@
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart/plasma-mobile-initial-start_autogen/include/../EWIEGA46WW/moc_initialstartmodule.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart/plasma-mobile-initial-start_autogen/include/../EWIEGA46WW/moc_initialstartutil.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart/plasma-mobile-initial-start_autogen/include/../EWIEGA46WW/moc_settings.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/initialstart/plasma-mobile-initial-start_autogen/include/../EWIEGA46WW/moc_wizard.cpp.json

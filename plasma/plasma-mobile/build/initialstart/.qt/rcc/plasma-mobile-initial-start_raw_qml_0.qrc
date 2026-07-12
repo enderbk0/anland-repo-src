@@ -1,8 +1,0 @@
-<RCC>
-  <qresource prefix="/org/kde/plasma/mobileinitialstart/initialstart/">
-    <file alias="qml/Main.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/initialstart/qml/Main.qml</file>
-    <file alias="qml/Wizard.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/initialstart/qml/Wizard.qml</file>
-    <file alias="qml/LandingComponent.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/initialstart/qml/LandingComponent.qml</file>
-  </qresource>
-</RCC>
-

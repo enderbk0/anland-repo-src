@@ -1,4 +1,0 @@
-/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/src/plasma-settings_autogen/include/../EWIEGA46WW/moc_module.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/src/plasma-settings_autogen/include/../EWIEGA46WW/moc_modulesmodel.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/src/plasma-settings_autogen/include/../EWIEGA46WW/moc_modulesproxymodel.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/src/plasma-settings_autogen/include/../EWIEGA46WW/moc_settingsapp.cpp.json

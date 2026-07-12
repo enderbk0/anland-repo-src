@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/org/kde/plasma/settings">/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/bin/org/kde/plasma/settings</file>
-
-  </qresource>
-</RCC>

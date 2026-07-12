@@ -1,5 +1,0 @@
---resource
-/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/.qt/rcc/qmake_QtQuick_VirtualKeyboard_Styles_Breeze.qrc
---resource
-/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/src/styles/.qt/rcc/breezestyle_raw_qml_0.qrc
-/qt/qml/QtQuick/VirtualKeyboard/Styles/Breeze/style.qml

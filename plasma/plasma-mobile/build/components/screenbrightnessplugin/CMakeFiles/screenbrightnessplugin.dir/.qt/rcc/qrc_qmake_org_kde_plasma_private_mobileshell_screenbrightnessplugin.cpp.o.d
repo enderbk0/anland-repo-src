@@ -1,2 +1,0 @@
-components/screenbrightnessplugin/CMakeFiles/screenbrightnessplugin.dir/.qt/rcc/qrc_qmake_org_kde_plasma_private_mobileshell_screenbrightnessplugin.cpp.o: \
-  /data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/screenbrightnessplugin/.qt/rcc/qrc_qmake_org_kde_plasma_private_mobileshell_screenbrightnessplugin.cpp

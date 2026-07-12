@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/org/kde/plasma/private/mobileshell/wallpaperimageplugin/">
-    <file alias="WallpaperPluginConfigLoader.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/components/wallpaperimageplugin/qml/WallpaperPluginConfigLoader.qml</file>
-  </qresource>
-</RCC>
-

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/org/kde/plasma/private/mobileshell/screenbrightnessplugin">
-    <file alias="qmldir">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/screenbrightnessplugin/qmldir</file>
-  </qresource>
-</RCC>
-

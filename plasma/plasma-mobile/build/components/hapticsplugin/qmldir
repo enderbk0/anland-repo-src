@@ -1,7 +1,0 @@
-module org.kde.plasma.private.mobileshell.hapticsplugin
-linktarget hapticsplugin
-optional plugin qml_org_kde_plasma_private_mobileshell_hapticsplugin_hapticsplugin
-classname org_kde_plasma_private_mobileshell_hapticspluginPlugin
-typeinfo hapticsplugin.qmltypes
-prefer :/org/kde/plasma/private/mobileshell/hapticsplugin/
-

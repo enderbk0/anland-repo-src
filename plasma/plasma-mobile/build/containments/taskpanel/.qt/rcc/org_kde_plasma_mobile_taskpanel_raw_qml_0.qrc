@@ -1,8 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/plasma/applet/org/kde/plasma/mobile/taskpanel/">
-    <file alias="main.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/taskpanel/qml/main.qml</file>
-    <file alias="NavigationPanelComponent.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/taskpanel/qml/NavigationPanelComponent.qml</file>
-    <file alias="GesturePanelComponent.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/containments/taskpanel/qml/GesturePanelComponent.qml</file>
-  </qresource>
-</RCC>
-

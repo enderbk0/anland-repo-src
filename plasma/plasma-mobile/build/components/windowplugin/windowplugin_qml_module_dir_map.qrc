@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/org/kde/plasma/private/mobileshell/windowplugin">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/windowplugin</file>
-
-  </qresource>
-</RCC>

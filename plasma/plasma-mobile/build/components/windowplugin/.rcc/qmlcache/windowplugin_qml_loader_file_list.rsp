@@ -1,5 +1,0 @@
---resource
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/windowplugin/.qt/rcc/qmake_org_kde_plasma_private_mobileshell_windowplugin.qrc
---resource
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/windowplugin/.qt/rcc/windowplugin_raw_qml_0.qrc
-/org/kde/plasma/private/mobileshell/windowplugin/WindowMaximizedTracker.qml

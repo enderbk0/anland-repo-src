@@ -1,3 +1,0 @@
-[<SLASH>data<SLASH>data<SLASH>com.termux<SLASH>files<SLASH>home<SLASH>plasmamobile<SLASH>plasma-settings<SLASH>src]
-importPaths="/data/data/com.termux/files/usr/lib/qt6/qml:/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/src:/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/bin/org/kde/plasma/settings:/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/bin"
-resourceFiles="/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/src/.qt/rcc/qmake_org_kde_plasma_settings.qrc:/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/src/.qt/rcc/plasma-settings_raw_qml_0.qrc"

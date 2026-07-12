@@ -1,7 +1,0 @@
--I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/components/mobileshellstate
--I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate
--D_LARGEFILE64_SOURCE
--DQT_NO_URL_CAST_FROM_STRING
--o
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate/moc_plasmashellmobilepanelsinterface.cpp
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/mobileshellstate/plasmashellmobilepanelsinterface.h

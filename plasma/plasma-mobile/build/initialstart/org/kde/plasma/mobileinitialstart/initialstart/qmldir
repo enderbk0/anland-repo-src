@@ -1,8 +1,0 @@
-module org.kde.plasma.mobileinitialstart.initialstart
-typeinfo plasma-mobile-initial-start.qmltypes
-prefer :/org/kde/plasma/mobileinitialstart/initialstart/
-Main 1.0 qml/Main.qml
-Wizard 1.0 qml/Wizard.qml
-LandingComponent 1.0 qml/LandingComponent.qml
-depends QtQuick
-

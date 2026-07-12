@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/org/kde/plasma/private/mobileshell/windowplugin/">
-    <file alias="WindowMaximizedTracker.qml">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/components/windowplugin/qml/WindowMaximizedTracker.qml</file>
-  </qresource>
-</RCC>
-

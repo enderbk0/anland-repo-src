@@ -212,7 +212,11 @@ void NotificationFileMenu::open(int x, int y)
 
     menu->setAttribute(Qt::WA_TranslucentBackground);
     menu->winId();
-    menu->windowHandle()->setTransientParent(m_visualParent->window());
+    QWindow *menuWindow = menu->windowHandle();
+    if (menuWindow) {
+        menuWindow->setTransientParent(m_visualParent->window());
+        menu->setWindowFlags(menu->windowFlags() | Qt::CustomizeWindowHint);
+    }
     menu->popup(pos);
 
     m_visible = true;

@@ -1,0 +1,21 @@
+# Ignore build directories
+**/build/
+
+# Ignore swap and backup files
+*~
+*.swp
+*.swo
+
+# Ignore compiled objects and libraries
+*.o
+*.so
+*.a
+*.la
+*.lo
+*.d
+*.o.d
+moc_*.cpp
+*.moc
+qrc_*.cpp
+*.qmlc
+*.jsc

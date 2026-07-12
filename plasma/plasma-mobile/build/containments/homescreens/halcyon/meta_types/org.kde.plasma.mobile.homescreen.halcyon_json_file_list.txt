@@ -1,8 +1,0 @@
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/homescreens/halcyon/org.kde.plasma.mobile.homescreen.halcyon_autogen/include/../EWIEGA46WW/moc_application.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/homescreens/halcyon/org.kde.plasma.mobile.homescreen.halcyon_autogen/include/../EWIEGA46WW/moc_applicationfolder.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/homescreens/halcyon/org.kde.plasma.mobile.homescreen.halcyon_autogen/include/../EWIEGA46WW/moc_applicationlistmodel.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/homescreens/halcyon/org.kde.plasma.mobile.homescreen.halcyon_autogen/include/../EWIEGA46WW/moc_halcyonsettings.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/homescreens/halcyon/org.kde.plasma.mobile.homescreen.halcyon_autogen/include/../EWIEGA46WW/moc_homescreen.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/homescreens/halcyon/org.kde.plasma.mobile.homescreen.halcyon_autogen/include/../EWIEGA46WW/moc_pinnedmodel.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/homescreens/halcyon/org.kde.plasma.mobile.homescreen.halcyon_autogen/include/../EWIEGA46WW/moc_windowlistener.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/homescreens/halcyon/org.kde.plasma.mobile.homescreen.halcyon_autogen/include/homescreen.moc.json

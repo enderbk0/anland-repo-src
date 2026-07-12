@@ -55,6 +55,7 @@ find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS
     Service
     ItemViews
     ItemModels
+    GlobalAccel
 )
 
 ecm_set_disabled_deprecation_versions(QT 6.7.2  KF 6.5.0)

@@ -1,2 +1,0 @@
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/panel/org.kde.plasma.mobile.panel_autogen/include/../EWIEGA46WW/moc_phonepanel.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/containments/panel/org.kde.plasma.mobile.panel_autogen/include/phonepanel.moc.json

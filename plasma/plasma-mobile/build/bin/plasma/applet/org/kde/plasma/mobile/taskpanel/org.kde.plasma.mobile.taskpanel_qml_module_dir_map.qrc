@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/plasma/applet/org/kde/plasma/mobile/taskpanel">/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/bin/plasma/applet/org/kde/plasma/mobile/taskpanel</file>
-
-  </qresource>
-</RCC>

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/QtQuick/VirtualKeyboard/Styles/Breeze">/data/data/com.termux/files/home/plasmamobile/plasma-keyboard/build/bin/QtQuick/VirtualKeyboard/Styles/Breeze</file>
-
-  </qresource>
-</RCC>

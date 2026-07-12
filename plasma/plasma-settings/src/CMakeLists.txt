@@ -42,6 +42,7 @@ target_link_libraries(plasma-settings PRIVATE
     KF6::ItemViews
     KF6::ItemModels
     KF6::I18nQml
+    KF6::GlobalAccel
 )
 
 install(TARGETS plasma-settings ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

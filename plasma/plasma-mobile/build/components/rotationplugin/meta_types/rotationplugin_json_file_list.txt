@@ -1,3 +1,0 @@
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/rotationplugin/rotationplugin_autogen/include/../EWIEGA46WW/moc_rotationutil.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/rotationplugin/rotationplugin_autogen/include/../EWIEGA46WW/moc_sensorproxy.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/rotationplugin/rotationplugin_autogen/include/rotationplugin_org_kde_plasma_private_mobileshell_rotationpluginPlugin.moc.json

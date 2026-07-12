@@ -1,8 +1,0 @@
-module org.kde.plasma.quicksetting.powermenu
-linktarget powermenuplugin
-optional plugin qml_org_kde_plasma_quicksetting_powermenu_powermenuplugin
-classname org_kde_plasma_quicksetting_powermenuPlugin
-typeinfo powermenuplugin.qmltypes
-prefer :/org/kde/plasma/quicksetting/powermenu/
-depends QtQuick
-

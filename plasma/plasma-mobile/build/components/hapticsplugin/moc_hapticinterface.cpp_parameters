@@ -1,7 +1,0 @@
--I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/components/hapticsplugin
--I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/hapticsplugin
--D_LARGEFILE64_SOURCE
--DQT_NO_URL_CAST_FROM_STRING
--o
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/hapticsplugin/moc_hapticinterface.cpp
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/hapticsplugin/hapticinterface.h

@@ -1,7 +1,0 @@
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/quicksettingsplugin/quicksettingsplugin_autogen/include/../EWIEGA46WW/moc_paginatemodel.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/quicksettingsplugin/quicksettingsplugin_autogen/include/../EWIEGA46WW/moc_quicksetting.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/quicksettingsplugin/quicksettingsplugin_autogen/include/../EWIEGA46WW/moc_quicksettingsconfig.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/quicksettingsplugin/quicksettingsplugin_autogen/include/../EWIEGA46WW/moc_quicksettingsmodel.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/quicksettingsplugin/quicksettingsplugin_autogen/include/../EWIEGA46WW/moc_savedquicksettings.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/quicksettingsplugin/quicksettingsplugin_autogen/include/../EWIEGA46WW/moc_savedquicksettingsmodel.cpp.json
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/quicksettingsplugin/quicksettingsplugin_autogen/include/quicksettingsplugin_org_kde_plasma_private_mobileshell_quicksettingspluginPlugin.moc.json

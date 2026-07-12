@@ -1,7 +1,0 @@
--I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/components/waydroidintegrationplugin
--I/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin
--D_LARGEFILE64_SOURCE
--DQT_NO_URL_CAST_FROM_STRING
--o
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/moc_waydroidadaptor.cpp
-/data/data/com.termux/files/home/plasmamobile/plasma-mobile/build/components/waydroidintegrationplugin/waydroidadaptor.h

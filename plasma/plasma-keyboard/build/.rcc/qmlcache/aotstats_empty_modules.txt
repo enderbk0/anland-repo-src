@@ -1,3 +1,0 @@
-org.kde.plasma.keyboard(plasma-keyboard)
-QtQuick.VirtualKeyboard.Styles.Breeze(breezestyle)
-org.kde.plasma.keyboard.lib(keyboardlib)

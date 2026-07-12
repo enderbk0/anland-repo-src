@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/cmake_install.cmake",
-		"/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/categories/cmake_install.cmake",
-		"/data/data/com.termux/files/home/plasmamobile/plasma-settings/build/src/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

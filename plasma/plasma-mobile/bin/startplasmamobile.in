@@ -7,6 +7,45 @@
 
 [ -f /etc/profile ] && . /etc/profile
 
+# Check if --anland is passed
+IS_ANLAND=0
+for arg in "$@"; do
+    if [ "$arg" = "--anland" ]; then
+        IS_ANLAND=1
+        break
+    fi
+done
+
+if [ "$IS_ANLAND" -eq 1 ]; then
+    # Create required runtime directories
+    mkdir -p $TMPDIR/run
+    chown -R $(id -un):$(id -gn) $TMPDIR/run
+    chmod -R 700 $TMPDIR/run
+    mkdir -p $TMPDIR/.X11-unix
+    chmod 1777 $TMPDIR/.X11-unix
+
+    # Start anland display server if not already running
+    if ! pgrep -x anland > /dev/null; then
+        anland > /dev/null 2>&1 &
+        sleep 0.5
+    fi
+
+    # Set up environment variables for Surfcaless / Anland session
+    export XDG_RUNTIME_DIR=$TMPDIR/run
+    export QT_QPA_PLATFORM=wayland XDG_CURRENT_DESKTOP=KDE XDG_SESSION_DESKTOP=KDE
+    export ANLAND_SOCKET=$TMPDIR/anland/display_daemon.sock ANLAND=1 ANLAND_NO_DRM_DEVICE=1 EGL_PLATFORM=surfaceless
+    export MESA_LOADER_DRIVER_OVERRIDE=kgsl TURNIP_KMD=kgsl GALLIUM_DRIVER=freedreno FD_FORCE_KGSL=1 XWAYLAND_FORCE_KGSL_SURFACELESS=1
+    unset DISPLAY
+    unset PULSE_SERVER
+    rm -f $XDG_RUNTIME_DIR/wayland-* > /dev/null 2>&1
+
+    # Relaunch within dbus-run-session if no session bus is active
+    if [ -z "$DBUS_SESSION_BUS_ADDRESS" ]; then
+        exec dbus-run-session -- "$0" "$@"
+    fi
+fi
+
+
 export QT_QPA_PLATFORMTHEME=KDE
 export EGL_PLATFORM=wayland
 
@@ -22,7 +61,7 @@ export XDG_DATA_DIRS="@KDE_INSTALL_FULL_DATADIR@:/data/data/com.termux/files/usr
 export XDG_MENU_PREFIX="plasma-"
 
 # if coredumpd knows about the dumps, make sure drkonqi catches them
-if grep -q '/systemd-coredump' /proc/sys/kernel/core_pattern
+if [ -r /proc/sys/kernel/core_pattern ] && grep -q '/systemd-coredump' /proc/sys/kernel/core_pattern
 then
 	export KDE_COREDUMP_NOTIFY=1
 fi

@@ -1,8 +1,0 @@
-module org.kde.plasma.private.mobileshell.screenbrightnessplugin
-linktarget screenbrightnessplugin
-optional plugin qml_org_kde_plasma_private_mobileshell_screenbrightnessplugin_screenbrightnessplugin
-classname org_kde_plasma_private_mobileshell_screenbrightnesspluginPlugin
-typeinfo screenbrightnessplugin.qmltypes
-prefer :/org/kde/plasma/private/mobileshell/screenbrightnessplugin/
-depends QtQuick
-
