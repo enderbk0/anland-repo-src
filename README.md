@@ -25,6 +25,7 @@ anland-repo-src/
 │   ├── libxcb-errors/  # XCB error helper
 │   └── tomlplusplus/   # TOML config parser
 └── plasma/
+    ├── plasma-nano/     # KDE Plasma Nano shell (provides nanoshell module)
     ├── plasma-mobile/   # KDE Plasma Mobile shell
     ├── plasma-keyboard/ # Plasma virtual keyboard
     └── plasma-settings/ # Plasma settings app
@@ -59,6 +60,7 @@ All credit goes to the original upstream projects and their contributors:
 ### KDE Plasma Mobile
 | Project | Author / Org | License | Link |
 |---------|-------------|---------|------|
+| **plasma-nano** | KDE Community | LGPL-2.1+ | [invent.kde.org/plasma/plasma-nano](https://invent.kde.org/plasma/plasma-nano) |
 | **plasma-mobile** | KDE Community | LGPL-2.1+ | [invent.kde.org/plasma/plasma-mobile](https://invent.kde.org/plasma/plasma-mobile) |
 | **plasma-keyboard** | KDE Community | LGPL-2.1+ | [invent.kde.org/plasma/plasma-keyboard](https://invent.kde.org/plasma/plasma-keyboard) |
 | **plasma-settings** | KDE Community | LGPL-2.1+ | [invent.kde.org/plasma/plasma-settings](https://invent.kde.org/plasma/plasma-settings) |
